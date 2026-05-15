@@ -1,0 +1,69 @@
+{
+  "42": [
+    {
+      "condition": "baseline",
+      "question_id": "trivia_qa_104",
+      "question": "What was the name of the brothel in The Best Little Whorehouse in Texas?",
+      "ideal_answers": [
+        "Chicken Ranch",
+        "Chicken Ranch (disambiguation)",
+        "The Chicken Ranch",
+        "chicken ranch disambiguation",
+        "chicken ranch"
+      ],
+      "final_answer_text": "The brothel in \"The Best Little Whorehouse in Texas\" is named Miss Havisham's.",
+      "token_mean_entropy": 0.5894469233705052,
+      "token_max_entropy": 5.958863735198975,
+      "token_last_entropy": 0.0007879056502133608,
+      "num_generated_tokens": 23,
+      "semantic_entropy_uniform": 0.6931471805599453,
+      "semantic_entropy_weighted": 0.6746909615401739,
+      "semantic_clusters": 2,
+      "final_exact_match": false,
+      "final_contains_match": false,
+      "final_semantic_correct": false,
+      "matched_ideal_answer": "",
+      "elapsed_ms": 714,
+      "intervention_total_events": 0,
+      "intervention_steps_with_events": 0,
+      "intervention_per_site_counts": {}
+    },
+    {
+      "condition": "baseline",
+      "question_id": "trivia_qa_123",
+      "question": "Who's home runs record did Mark McGwire break in the 1998 season?",
+      "ideal_answers": [
+        "Roger Eugene Maras",
+        "Roger marris",
+        "Roger Eugene Maris",
+        "Roger Maris Museum",
+        "Roger Maris",
+        "Roger Maras",
+        "Roger Maris' 61 home run season",
+        "roger maris 61 home run season",
+        "roger eugene maras",
+        "roger eugene maris",
+        "roger maris",
+        "roger marris",
+        "roger maris museum",
+        "roger maras"
+      ],
+      "final_answer_text": "In the 1998 season, Mark McGwire broke Roger Maris's home run record of 61, setting a new record with 7",
+      "token_mean_entropy": 0.21134589489933853,
+      "token_max_entropy": 2.4399077892303467,
+      "token_last_entropy": 0.0008582115988247097,
+      "num_generated_tokens": 32,
+      "semantic_entropy_uniform": 0.0,
+      "semantic_entropy_weighted": 0.0,
+      "semantic_clusters": 1,
+      "final_exact_match": false,
+      "final_contains_match": true,
+      "final_semantic_correct": true,
+      "matched_ideal_answer": "Roger Maris",
+      "elapsed_ms": 452,
+      "intervention_total_events": 0,
+      "intervention_steps_with_events": 0,
+      "intervention_per_site_counts": {}
+    }
+  ]
+}

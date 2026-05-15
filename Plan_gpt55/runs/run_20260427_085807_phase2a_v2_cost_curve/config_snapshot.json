@@ -1,0 +1,21 @@
+{
+  "tag": "phase2a_v2_cost_curve",
+  "description": "Post-hoc cost curve for low-cost output-level reranking using existing Phase 2A sample sets.",
+  "phase2a_run_dir": "/zhutingqi/song/Plan_gpt55/runs/run_20260427_074132_phase2a_reranking",
+  "k_values": [
+    1,
+    2,
+    3,
+    4,
+    8
+  ],
+  "methods": [
+    "sample0",
+    "best_logprob",
+    "low_token_entropy",
+    "majority_logprob",
+    "majority_low_entropy",
+    "cautious_majority_logprob",
+    "oracle_strict"
+  ]
+}

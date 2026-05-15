@@ -1,0 +1,83 @@
+{
+  "tag": "anchor_vbpo_v2_triviaqa_gptoss_full500_clean",
+  "model_dir": "/zhutingqi/song/qwen_model/model",
+  "anchor_rows": "/zhutingqi/song/Plan_gpt55/cross_model_anchor/runs/run_20260513_012413_gptoss_anchor_triviaqa_full500_k4_tok256/qwen_candidate_anchor_rows_final_only.csv",
+  "output_root": "/zhutingqi/song/Plan_gpt55/cross_model_anchor/runs",
+  "system_prompt": "Answer the question briefly and factually.",
+  "seed": 42,
+  "split": {
+    "train_questions": 425,
+    "dev_questions": 75
+  },
+  "training": {
+    "max_steps": 100,
+    "batch_size": 4,
+    "learning_rate": 0.000001,
+    "beta": 0.12,
+    "grad_clip_norm": 1.0,
+    "bf16": true,
+    "save_every_steps": 25,
+    "eval_every_steps": 25,
+    "balanced_pair_batches": true,
+    "pair_type_order": [
+      "teacher_correct_anchor_rescue",
+      "anchor_rescue",
+      "anchor_damage_guard",
+      "anchor_correct_vs_qwen_only_stable_wrong",
+      "teacher_anchor_vs_student_only"
+    ]
+  },
+  "pair_building": {
+    "max_pairs_per_question": 5,
+    "min_teacher_support_mass": 0.1,
+    "min_teacher_similarity": 0.55,
+    "min_anchor_score_noleak": 0.15,
+    "allow_best_correct_fallback": false,
+    "use_teacher_answer_for_chosen": true,
+    "max_chosen_words": 24,
+    "max_rejected_words": 72,
+    "bad_completion_markers": ["analysis", "however", "let's", "we need", "assistant", "final", "not sure"],
+    "reject_unfinished_completions": true,
+    "max_sample0_rescues": 2,
+    "max_damage_guard_chosen": 1,
+    "max_damage_guard_rejected": 2,
+    "max_correct_chosen": 1,
+    "enable_teacher_anchor_pairs": true,
+    "teacher_anchor_pairs_require_strict": true,
+    "max_teacher_anchor_chosen": 1,
+    "max_teacher_anchor_rejected": 2,
+    "min_teacher_anchor_pair_score_gap": 0.35,
+    "enable_teacher_correct_rescue": true,
+    "max_teacher_correct_chosen": 2,
+    "max_teacher_correct_rejected": 3,
+    "max_teacher_rejected_similarity": 0.8,
+    "max_rejected_teacher_support_mass": 0.0,
+    "min_rejected_qwen_only_stable_mass": 0.1,
+    "chosen_support_alpha": 0.35,
+    "rejected_stability_alpha": 0.25,
+    "max_pair_weight": 2.5,
+    "pair_weights": {
+      "teacher_correct_anchor_rescue": 1.8,
+      "anchor_rescue": 1.9,
+      "anchor_damage_guard": 1.3,
+      "anchor_correct_vs_qwen_only_stable_wrong": 1.5,
+      "teacher_anchor_vs_student_only": 1.0
+    }
+  },
+  "anchor_scoring": {
+    "anchor_score_weight": 0.55,
+    "teacher_support_weight": 0.55,
+    "teacher_similarity_weight": 0.25,
+    "student_verifier_weight": 0.05,
+    "qwen_only_stable_weight": 0.6,
+    "student_cluster_mass_weight": 0.35,
+    "student_verifier_risk_weight": 0.1,
+    "unsupported_penalty_weight": 0.35
+  },
+  "lora": {
+    "r": 8,
+    "alpha": 16,
+    "dropout": 0.05,
+    "target_modules": ["q_proj", "k_proj", "v_proj", "o_proj", "up_proj", "down_proj"]
+  }
+}

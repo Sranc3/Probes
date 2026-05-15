@@ -1,0 +1,46 @@
+{
+  "split_sizes": {
+    "train": 425,
+    "dev": 75
+  },
+  "pair_counts": {
+    "train": 209,
+    "dev": 23
+  },
+  "questions_with_pairs": {
+    "train": 86,
+    "dev": 9
+  },
+  "pair_source_counts": {
+    "train": {
+      "student_pair": 175,
+      "teacher_rescue": 34
+    },
+    "dev": {
+      "teacher_rescue": 8,
+      "student_pair": 15
+    }
+  },
+  "mean_weight": {
+    "train": 1.8668992252201573,
+    "dev": 1.8542076253658366
+  },
+  "label_purity": {
+    "train": {
+      "chosen_strict_correct_rate": 1.0,
+      "rejected_strict_correct_rate": 0.0
+    },
+    "dev": {
+      "chosen_strict_correct_rate": 1.0,
+      "rejected_strict_correct_rate": 0.0
+    }
+  },
+  "chosen_text_word_counts": {
+    "train": 7.019138755980861,
+    "dev": 7.565217391304348
+  },
+  "rejected_text_word_counts": {
+    "train": 21.382775119617225,
+    "dev": 16.869565217391305
+  }
+}

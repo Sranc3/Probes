@@ -1,0 +1,805 @@
+{
+  "selection_label": "split:test[0:2]",
+  "candidates": [
+    {
+      "candidate": {
+        "name": "cand008_primary__always",
+        "site_keys": [
+          "mlp.output|layer_18",
+          "mlp.output|layer_24"
+        ],
+        "target_mode": "increase_semantic_high",
+        "alpha_scale": 0.005,
+        "site_weights": {
+          "mlp.output|layer_18": 1.0,
+          "mlp.output|layer_24": 1.0
+        },
+        "base_candidate_name": "cand008_primary",
+        "gate_name": "always",
+        "trigger_mode": "always",
+        "gate_entropy_quantile": null,
+        "asset_gate_entropy_quantile": 0.67
+      },
+      "overall_summary": {
+        "description": "Smoke test for Phase 1B gate ablation runner.",
+        "selection_label": "split:test[0:2]",
+        "question_pairs": 2,
+        "num_unique_questions": 2,
+        "num_seeds": 1,
+        "candidate": {
+          "name": "cand008_primary__always",
+          "site_keys": [
+            "mlp.output|layer_18",
+            "mlp.output|layer_24"
+          ],
+          "target_mode": "increase_semantic_high",
+          "alpha_scale": 0.005,
+          "site_weights": {
+            "mlp.output|layer_18": 1.0,
+            "mlp.output|layer_24": 1.0
+          },
+          "base_candidate_name": "cand008_primary",
+          "gate_name": "always",
+          "trigger_mode": "always",
+          "gate_entropy_quantile": null,
+          "asset_gate_entropy_quantile": 0.67
+        },
+        "gate_entropy_quantile": 0.67,
+        "gate_entropy_threshold": 0.1006811335682869,
+        "semantic_high_quantile": 0.67,
+        "semantic_high_threshold": 0.6654030680656433,
+        "delta_semantic_entropy_weighted_mean": -0.03471626903155084,
+        "delta_semantic_entropy_weighted_std": 0.04909621849941227,
+        "relative_semantic_entropy_weighted_pct": -10.29101351893053,
+        "delta_token_mean_entropy_mean": -0.0837233429592215,
+        "delta_token_mean_entropy_std": 0.11923179923513828,
+        "delta_token_max_entropy_mean": -1.084214687347412,
+        "delta_token_max_entropy_std": 1.5366619584148253,
+        "delta_elapsed_ms_mean": -249.0,
+        "delta_elapsed_ms_std": 271.5290039756342,
+        "delta_final_semantic_correct_rate": 0.0,
+        "delta_final_exact_match_rate": 0.0,
+        "mean_intervention_total_events": 53.0,
+        "mean_intervention_total_events_std": 15.556349186104045,
+        "semantic_nonpositive_rate": 1.0,
+        "token_mean_nonpositive_rate": 0.5,
+        "token_max_nonpositive_rate": 0.5,
+        "correct_nonnegative_rate": 1.0,
+        "elapsed_nonpositive_rate": 1.0,
+        "semantic_improved_count": 0,
+        "semantic_dropped_count": 0,
+        "semantic_unchanged_count": 2,
+        "exact_improved_count": 0,
+        "exact_dropped_count": 0,
+        "answer_changed_count": 1,
+        "base_candidate_name": "cand008_primary",
+        "gate_name": "always",
+        "trigger_mode": "always"
+      },
+      "seed_summaries": [
+        {
+          "seed": 42,
+          "question_count": 2,
+          "delta_semantic_entropy_weighted_mean": -0.03471626903155084,
+          "delta_token_mean_entropy_mean": -0.0837233429592215,
+          "delta_token_max_entropy_mean": -1.084214687347412,
+          "delta_elapsed_ms_mean": -249.0,
+          "delta_num_generated_tokens_mean": -1.0,
+          "delta_final_semantic_correct_rate": 0.0,
+          "delta_final_exact_match_rate": 0.0,
+          "baseline_final_semantic_correct_rate": 0.5,
+          "intervention_final_semantic_correct_rate": 0.5,
+          "baseline_final_exact_match_rate": 0.0,
+          "intervention_final_exact_match_rate": 0.0,
+          "mean_intervention_total_events": 53.0,
+          "mean_intervention_steps_with_events": 26.5,
+          "semantic_improved_count": 0,
+          "semantic_dropped_count": 0,
+          "exact_improved_count": 0,
+          "exact_dropped_count": 0,
+          "answer_changed_count": 1
+        }
+      ]
+    },
+    {
+      "candidate": {
+        "name": "cand008_primary__prev_entropy_q50",
+        "site_keys": [
+          "mlp.output|layer_18",
+          "mlp.output|layer_24"
+        ],
+        "target_mode": "increase_semantic_high",
+        "alpha_scale": 0.005,
+        "site_weights": {
+          "mlp.output|layer_18": 1.0,
+          "mlp.output|layer_24": 1.0
+        },
+        "base_candidate_name": "cand008_primary",
+        "gate_name": "prev_entropy_q50",
+        "trigger_mode": "prev_entropy_quantile",
+        "gate_entropy_quantile": 0.5,
+        "asset_gate_entropy_quantile": 0.5
+      },
+      "overall_summary": {
+        "description": "Smoke test for Phase 1B gate ablation runner.",
+        "selection_label": "split:test[0:2]",
+        "question_pairs": 2,
+        "num_unique_questions": 2,
+        "num_seeds": 1,
+        "candidate": {
+          "name": "cand008_primary__prev_entropy_q50",
+          "site_keys": [
+            "mlp.output|layer_18",
+            "mlp.output|layer_24"
+          ],
+          "target_mode": "increase_semantic_high",
+          "alpha_scale": 0.005,
+          "site_weights": {
+            "mlp.output|layer_18": 1.0,
+            "mlp.output|layer_24": 1.0
+          },
+          "base_candidate_name": "cand008_primary",
+          "gate_name": "prev_entropy_q50",
+          "trigger_mode": "prev_entropy_quantile",
+          "gate_entropy_quantile": 0.5,
+          "asset_gate_entropy_quantile": 0.5
+        },
+        "gate_entropy_quantile": 0.5,
+        "gate_entropy_threshold": 0.006117689423263073,
+        "semantic_high_quantile": 0.67,
+        "semantic_high_threshold": 0.6654030680656433,
+        "delta_semantic_entropy_weighted_mean": -0.03472110364429948,
+        "delta_semantic_entropy_weighted_std": 0.049103055674330216,
+        "relative_semantic_entropy_weighted_pct": -10.292446652920527,
+        "delta_token_mean_entropy_mean": -0.08387300590828788,
+        "delta_token_mean_entropy_std": 0.1186935990524745,
+        "delta_token_max_entropy_mean": -1.084214687347412,
+        "delta_token_max_entropy_std": 1.5366619584148253,
+        "delta_elapsed_ms_mean": -260.5,
+        "delta_elapsed_ms_std": 280.72139213105936,
+        "delta_final_semantic_correct_rate": 0.0,
+        "delta_final_exact_match_rate": 0.0,
+        "mean_intervention_total_events": 23.0,
+        "mean_intervention_total_events_std": 7.0710678118654755,
+        "semantic_nonpositive_rate": 1.0,
+        "token_mean_nonpositive_rate": 0.5,
+        "token_max_nonpositive_rate": 0.5,
+        "correct_nonnegative_rate": 1.0,
+        "elapsed_nonpositive_rate": 1.0,
+        "semantic_improved_count": 0,
+        "semantic_dropped_count": 0,
+        "semantic_unchanged_count": 2,
+        "exact_improved_count": 0,
+        "exact_dropped_count": 0,
+        "answer_changed_count": 1,
+        "base_candidate_name": "cand008_primary",
+        "gate_name": "prev_entropy_q50",
+        "trigger_mode": "prev_entropy_quantile"
+      },
+      "seed_summaries": [
+        {
+          "seed": 42,
+          "question_count": 2,
+          "delta_semantic_entropy_weighted_mean": -0.03472110364429948,
+          "delta_token_mean_entropy_mean": -0.08387300590828788,
+          "delta_token_max_entropy_mean": -1.084214687347412,
+          "delta_elapsed_ms_mean": -260.5,
+          "delta_num_generated_tokens_mean": -1.0,
+          "delta_final_semantic_correct_rate": 0.0,
+          "delta_final_exact_match_rate": 0.0,
+          "baseline_final_semantic_correct_rate": 0.5,
+          "intervention_final_semantic_correct_rate": 0.5,
+          "baseline_final_exact_match_rate": 0.0,
+          "intervention_final_exact_match_rate": 0.0,
+          "mean_intervention_total_events": 23.0,
+          "mean_intervention_steps_with_events": 11.5,
+          "semantic_improved_count": 0,
+          "semantic_dropped_count": 0,
+          "exact_improved_count": 0,
+          "exact_dropped_count": 0,
+          "answer_changed_count": 1
+        }
+      ]
+    },
+    {
+      "candidate": {
+        "name": "cand008_primary__prev_entropy_q67",
+        "site_keys": [
+          "mlp.output|layer_18",
+          "mlp.output|layer_24"
+        ],
+        "target_mode": "increase_semantic_high",
+        "alpha_scale": 0.005,
+        "site_weights": {
+          "mlp.output|layer_18": 1.0,
+          "mlp.output|layer_24": 1.0
+        },
+        "base_candidate_name": "cand008_primary",
+        "gate_name": "prev_entropy_q67",
+        "trigger_mode": "prev_entropy_quantile",
+        "gate_entropy_quantile": 0.67,
+        "asset_gate_entropy_quantile": 0.67
+      },
+      "overall_summary": {
+        "description": "Smoke test for Phase 1B gate ablation runner.",
+        "selection_label": "split:test[0:2]",
+        "question_pairs": 2,
+        "num_unique_questions": 2,
+        "num_seeds": 1,
+        "candidate": {
+          "name": "cand008_primary__prev_entropy_q67",
+          "site_keys": [
+            "mlp.output|layer_18",
+            "mlp.output|layer_24"
+          ],
+          "target_mode": "increase_semantic_high",
+          "alpha_scale": 0.005,
+          "site_weights": {
+            "mlp.output|layer_18": 1.0,
+            "mlp.output|layer_24": 1.0
+          },
+          "base_candidate_name": "cand008_primary",
+          "gate_name": "prev_entropy_q67",
+          "trigger_mode": "prev_entropy_quantile",
+          "gate_entropy_quantile": 0.67,
+          "asset_gate_entropy_quantile": 0.67
+        },
+        "gate_entropy_quantile": 0.67,
+        "gate_entropy_threshold": 0.1006811335682869,
+        "semantic_high_quantile": 0.67,
+        "semantic_high_threshold": 0.6654030680656433,
+        "delta_semantic_entropy_weighted_mean": -0.034721118330440226,
+        "delta_semantic_entropy_weighted_std": 0.049103076443669645,
+        "relative_semantic_entropy_weighted_pct": -10.292451006362795,
+        "delta_token_mean_entropy_mean": -0.08389287564225258,
+        "delta_token_mean_entropy_std": 0.1186697210038849,
+        "delta_token_max_entropy_mean": -1.0853993892669678,
+        "delta_token_max_entropy_std": 1.5349865368928202,
+        "delta_elapsed_ms_mean": -262.0,
+        "delta_elapsed_ms_std": 277.18585822512665,
+        "delta_final_semantic_correct_rate": 0.0,
+        "delta_final_exact_match_rate": 0.0,
+        "mean_intervention_total_events": 13.0,
+        "mean_intervention_total_events_std": 1.4142135623730951,
+        "semantic_nonpositive_rate": 1.0,
+        "token_mean_nonpositive_rate": 0.5,
+        "token_max_nonpositive_rate": 1.0,
+        "correct_nonnegative_rate": 1.0,
+        "elapsed_nonpositive_rate": 1.0,
+        "semantic_improved_count": 0,
+        "semantic_dropped_count": 0,
+        "semantic_unchanged_count": 2,
+        "exact_improved_count": 0,
+        "exact_dropped_count": 0,
+        "answer_changed_count": 1,
+        "base_candidate_name": "cand008_primary",
+        "gate_name": "prev_entropy_q67",
+        "trigger_mode": "prev_entropy_quantile"
+      },
+      "seed_summaries": [
+        {
+          "seed": 42,
+          "question_count": 2,
+          "delta_semantic_entropy_weighted_mean": -0.034721118330440226,
+          "delta_token_mean_entropy_mean": -0.08389287564225258,
+          "delta_token_max_entropy_mean": -1.0853993892669678,
+          "delta_elapsed_ms_mean": -262.0,
+          "delta_num_generated_tokens_mean": -1.0,
+          "delta_final_semantic_correct_rate": 0.0,
+          "delta_final_exact_match_rate": 0.0,
+          "baseline_final_semantic_correct_rate": 0.5,
+          "intervention_final_semantic_correct_rate": 0.5,
+          "baseline_final_exact_match_rate": 0.0,
+          "intervention_final_exact_match_rate": 0.0,
+          "mean_intervention_total_events": 13.0,
+          "mean_intervention_steps_with_events": 6.5,
+          "semantic_improved_count": 0,
+          "semantic_dropped_count": 0,
+          "exact_improved_count": 0,
+          "exact_dropped_count": 0,
+          "answer_changed_count": 1
+        }
+      ]
+    },
+    {
+      "candidate": {
+        "name": "cand008_primary__prev_entropy_q80",
+        "site_keys": [
+          "mlp.output|layer_18",
+          "mlp.output|layer_24"
+        ],
+        "target_mode": "increase_semantic_high",
+        "alpha_scale": 0.005,
+        "site_weights": {
+          "mlp.output|layer_18": 1.0,
+          "mlp.output|layer_24": 1.0
+        },
+        "base_candidate_name": "cand008_primary",
+        "gate_name": "prev_entropy_q80",
+        "trigger_mode": "prev_entropy_quantile",
+        "gate_entropy_quantile": 0.8,
+        "asset_gate_entropy_quantile": 0.8
+      },
+      "overall_summary": {
+        "description": "Smoke test for Phase 1B gate ablation runner.",
+        "selection_label": "split:test[0:2]",
+        "question_pairs": 2,
+        "num_unique_questions": 2,
+        "num_seeds": 1,
+        "candidate": {
+          "name": "cand008_primary__prev_entropy_q80",
+          "site_keys": [
+            "mlp.output|layer_18",
+            "mlp.output|layer_24"
+          ],
+          "target_mode": "increase_semantic_high",
+          "alpha_scale": 0.005,
+          "site_weights": {
+            "mlp.output|layer_18": 1.0,
+            "mlp.output|layer_24": 1.0
+          },
+          "base_candidate_name": "cand008_primary",
+          "gate_name": "prev_entropy_q80",
+          "trigger_mode": "prev_entropy_quantile",
+          "gate_entropy_quantile": 0.8,
+          "asset_gate_entropy_quantile": 0.8
+        },
+        "gate_entropy_quantile": 0.8,
+        "gate_entropy_threshold": 0.46585848927497864,
+        "semantic_high_quantile": 0.67,
+        "semantic_high_threshold": 0.6654030680656433,
+        "delta_semantic_entropy_weighted_mean": -0.03466999089108158,
+        "delta_semantic_entropy_weighted_std": 0.04903077132551924,
+        "relative_semantic_entropy_weighted_pct": -10.277295196585253,
+        "delta_token_mean_entropy_mean": -0.08389421141194765,
+        "delta_token_mean_entropy_std": 0.11866789582888872,
+        "delta_token_max_entropy_mean": -1.0853993892669678,
+        "delta_token_max_entropy_std": 1.5349865368928202,
+        "delta_elapsed_ms_mean": -266.0,
+        "delta_elapsed_ms_std": 275.77164466275354,
+        "delta_final_semantic_correct_rate": 0.0,
+        "delta_final_exact_match_rate": 0.0,
+        "mean_intervention_total_events": 9.0,
+        "mean_intervention_total_events_std": 1.4142135623730951,
+        "semantic_nonpositive_rate": 1.0,
+        "token_mean_nonpositive_rate": 0.5,
+        "token_max_nonpositive_rate": 1.0,
+        "correct_nonnegative_rate": 1.0,
+        "elapsed_nonpositive_rate": 1.0,
+        "semantic_improved_count": 0,
+        "semantic_dropped_count": 0,
+        "semantic_unchanged_count": 2,
+        "exact_improved_count": 0,
+        "exact_dropped_count": 0,
+        "answer_changed_count": 1,
+        "base_candidate_name": "cand008_primary",
+        "gate_name": "prev_entropy_q80",
+        "trigger_mode": "prev_entropy_quantile"
+      },
+      "seed_summaries": [
+        {
+          "seed": 42,
+          "question_count": 2,
+          "delta_semantic_entropy_weighted_mean": -0.03466999089108158,
+          "delta_token_mean_entropy_mean": -0.08389421141194765,
+          "delta_token_max_entropy_mean": -1.0853993892669678,
+          "delta_elapsed_ms_mean": -266.0,
+          "delta_num_generated_tokens_mean": -1.0,
+          "delta_final_semantic_correct_rate": 0.0,
+          "delta_final_exact_match_rate": 0.0,
+          "baseline_final_semantic_correct_rate": 0.5,
+          "intervention_final_semantic_correct_rate": 0.5,
+          "baseline_final_exact_match_rate": 0.0,
+          "intervention_final_exact_match_rate": 0.0,
+          "mean_intervention_total_events": 9.0,
+          "mean_intervention_steps_with_events": 4.5,
+          "semantic_improved_count": 0,
+          "semantic_dropped_count": 0,
+          "exact_improved_count": 0,
+          "exact_dropped_count": 0,
+          "answer_changed_count": 1
+        }
+      ]
+    },
+    {
+      "candidate": {
+        "name": "ind0067_safety_pareto__always",
+        "site_keys": [
+          "mlp.output|layer_18",
+          "mlp.output|layer_24"
+        ],
+        "target_mode": "reduce_semantic_high",
+        "alpha_scale": 0.007029674339123061,
+        "site_weights": {
+          "mlp.output|layer_18": 0.9163404703140259,
+          "mlp.output|layer_24": 1.0427833795547485
+        },
+        "base_candidate_name": "ind0067_safety_pareto",
+        "gate_name": "always",
+        "trigger_mode": "always",
+        "gate_entropy_quantile": null,
+        "asset_gate_entropy_quantile": 0.67
+      },
+      "overall_summary": {
+        "description": "Smoke test for Phase 1B gate ablation runner.",
+        "selection_label": "split:test[0:2]",
+        "question_pairs": 2,
+        "num_unique_questions": 2,
+        "num_seeds": 1,
+        "candidate": {
+          "name": "ind0067_safety_pareto__always",
+          "site_keys": [
+            "mlp.output|layer_18",
+            "mlp.output|layer_24"
+          ],
+          "target_mode": "reduce_semantic_high",
+          "alpha_scale": 0.007029674339123061,
+          "site_weights": {
+            "mlp.output|layer_18": 0.9163404703140259,
+            "mlp.output|layer_24": 1.0427833795547485
+          },
+          "base_candidate_name": "ind0067_safety_pareto",
+          "gate_name": "always",
+          "trigger_mode": "always",
+          "gate_entropy_quantile": null,
+          "asset_gate_entropy_quantile": 0.67
+        },
+        "gate_entropy_quantile": 0.67,
+        "gate_entropy_threshold": 0.1006811335682869,
+        "semantic_high_quantile": 0.67,
+        "semantic_high_threshold": 0.6654030680656433,
+        "delta_semantic_entropy_weighted_mean": -4.9557657121668264e-05,
+        "delta_semantic_entropy_weighted_std": 7.008511082089886e-05,
+        "relative_semantic_entropy_weighted_pct": -0.014690476068788242,
+        "delta_token_mean_entropy_mean": -0.012729244879562354,
+        "delta_token_mean_entropy_std": 0.01569365323820285,
+        "delta_token_max_entropy_mean": -0.010145425796508789,
+        "delta_token_max_entropy_std": 0.01195250906290146,
+        "delta_elapsed_ms_mean": -253.5,
+        "delta_elapsed_ms_std": 282.13560569343247,
+        "delta_final_semantic_correct_rate": 0.0,
+        "delta_final_exact_match_rate": 0.0,
+        "mean_intervention_total_events": 53.0,
+        "mean_intervention_total_events_std": 15.556349186104045,
+        "semantic_nonpositive_rate": 1.0,
+        "token_mean_nonpositive_rate": 1.0,
+        "token_max_nonpositive_rate": 1.0,
+        "correct_nonnegative_rate": 1.0,
+        "elapsed_nonpositive_rate": 1.0,
+        "semantic_improved_count": 0,
+        "semantic_dropped_count": 0,
+        "semantic_unchanged_count": 2,
+        "exact_improved_count": 0,
+        "exact_dropped_count": 0,
+        "answer_changed_count": 1,
+        "base_candidate_name": "ind0067_safety_pareto",
+        "gate_name": "always",
+        "trigger_mode": "always"
+      },
+      "seed_summaries": [
+        {
+          "seed": 42,
+          "question_count": 2,
+          "delta_semantic_entropy_weighted_mean": -4.9557657121668264e-05,
+          "delta_token_mean_entropy_mean": -0.012729244879562354,
+          "delta_token_max_entropy_mean": -0.010145425796508789,
+          "delta_elapsed_ms_mean": -253.5,
+          "delta_num_generated_tokens_mean": -1.0,
+          "delta_final_semantic_correct_rate": 0.0,
+          "delta_final_exact_match_rate": 0.0,
+          "baseline_final_semantic_correct_rate": 0.5,
+          "intervention_final_semantic_correct_rate": 0.5,
+          "baseline_final_exact_match_rate": 0.0,
+          "intervention_final_exact_match_rate": 0.0,
+          "mean_intervention_total_events": 53.0,
+          "mean_intervention_steps_with_events": 26.5,
+          "semantic_improved_count": 0,
+          "semantic_dropped_count": 0,
+          "exact_improved_count": 0,
+          "exact_dropped_count": 0,
+          "answer_changed_count": 1
+        }
+      ]
+    },
+    {
+      "candidate": {
+        "name": "ind0067_safety_pareto__prev_entropy_q50",
+        "site_keys": [
+          "mlp.output|layer_18",
+          "mlp.output|layer_24"
+        ],
+        "target_mode": "reduce_semantic_high",
+        "alpha_scale": 0.007029674339123061,
+        "site_weights": {
+          "mlp.output|layer_18": 0.9163404703140259,
+          "mlp.output|layer_24": 1.0427833795547485
+        },
+        "base_candidate_name": "ind0067_safety_pareto",
+        "gate_name": "prev_entropy_q50",
+        "trigger_mode": "prev_entropy_quantile",
+        "gate_entropy_quantile": 0.5,
+        "asset_gate_entropy_quantile": 0.5
+      },
+      "overall_summary": {
+        "description": "Smoke test for Phase 1B gate ablation runner.",
+        "selection_label": "split:test[0:2]",
+        "question_pairs": 2,
+        "num_unique_questions": 2,
+        "num_seeds": 1,
+        "candidate": {
+          "name": "ind0067_safety_pareto__prev_entropy_q50",
+          "site_keys": [
+            "mlp.output|layer_18",
+            "mlp.output|layer_24"
+          ],
+          "target_mode": "reduce_semantic_high",
+          "alpha_scale": 0.007029674339123061,
+          "site_weights": {
+            "mlp.output|layer_18": 0.9163404703140259,
+            "mlp.output|layer_24": 1.0427833795547485
+          },
+          "base_candidate_name": "ind0067_safety_pareto",
+          "gate_name": "prev_entropy_q50",
+          "trigger_mode": "prev_entropy_quantile",
+          "gate_entropy_quantile": 0.5,
+          "asset_gate_entropy_quantile": 0.5
+        },
+        "gate_entropy_quantile": 0.5,
+        "gate_entropy_threshold": 0.006117689423263073,
+        "semantic_high_quantile": 0.67,
+        "semantic_high_threshold": 0.6654030680656433,
+        "delta_semantic_entropy_weighted_mean": -4.6853836762950074e-05,
+        "delta_semantic_entropy_weighted_std": 6.626133139937911e-05,
+        "relative_semantic_entropy_weighted_pct": -0.013888977156591181,
+        "delta_token_mean_entropy_mean": -0.012324484483377238,
+        "delta_token_mean_entropy_std": 0.01595874890120407,
+        "delta_token_max_entropy_mean": -0.010145425796508789,
+        "delta_token_max_entropy_std": 0.01195250906290146,
+        "delta_elapsed_ms_mean": -88.0,
+        "delta_elapsed_ms_std": 36.76955262170047,
+        "delta_final_semantic_correct_rate": 0.0,
+        "delta_final_exact_match_rate": 0.0,
+        "mean_intervention_total_events": 24.0,
+        "mean_intervention_total_events_std": 5.656854249492381,
+        "semantic_nonpositive_rate": 1.0,
+        "token_mean_nonpositive_rate": 1.0,
+        "token_max_nonpositive_rate": 1.0,
+        "correct_nonnegative_rate": 1.0,
+        "elapsed_nonpositive_rate": 1.0,
+        "semantic_improved_count": 0,
+        "semantic_dropped_count": 0,
+        "semantic_unchanged_count": 2,
+        "exact_improved_count": 0,
+        "exact_dropped_count": 0,
+        "answer_changed_count": 1,
+        "base_candidate_name": "ind0067_safety_pareto",
+        "gate_name": "prev_entropy_q50",
+        "trigger_mode": "prev_entropy_quantile"
+      },
+      "seed_summaries": [
+        {
+          "seed": 42,
+          "question_count": 2,
+          "delta_semantic_entropy_weighted_mean": -4.6853836762950074e-05,
+          "delta_token_mean_entropy_mean": -0.012324484483377238,
+          "delta_token_max_entropy_mean": -0.010145425796508789,
+          "delta_elapsed_ms_mean": -88.0,
+          "delta_num_generated_tokens_mean": -1.0,
+          "delta_final_semantic_correct_rate": 0.0,
+          "delta_final_exact_match_rate": 0.0,
+          "baseline_final_semantic_correct_rate": 0.5,
+          "intervention_final_semantic_correct_rate": 0.5,
+          "baseline_final_exact_match_rate": 0.0,
+          "intervention_final_exact_match_rate": 0.0,
+          "mean_intervention_total_events": 24.0,
+          "mean_intervention_steps_with_events": 12.0,
+          "semantic_improved_count": 0,
+          "semantic_dropped_count": 0,
+          "exact_improved_count": 0,
+          "exact_dropped_count": 0,
+          "answer_changed_count": 1
+        }
+      ]
+    },
+    {
+      "candidate": {
+        "name": "ind0067_safety_pareto__prev_entropy_q67",
+        "site_keys": [
+          "mlp.output|layer_18",
+          "mlp.output|layer_24"
+        ],
+        "target_mode": "reduce_semantic_high",
+        "alpha_scale": 0.007029674339123061,
+        "site_weights": {
+          "mlp.output|layer_18": 0.9163404703140259,
+          "mlp.output|layer_24": 1.0427833795547485
+        },
+        "base_candidate_name": "ind0067_safety_pareto",
+        "gate_name": "prev_entropy_q67",
+        "trigger_mode": "prev_entropy_quantile",
+        "gate_entropy_quantile": 0.67,
+        "asset_gate_entropy_quantile": 0.67
+      },
+      "overall_summary": {
+        "description": "Smoke test for Phase 1B gate ablation runner.",
+        "selection_label": "split:test[0:2]",
+        "question_pairs": 2,
+        "num_unique_questions": 2,
+        "num_seeds": 1,
+        "candidate": {
+          "name": "ind0067_safety_pareto__prev_entropy_q67",
+          "site_keys": [
+            "mlp.output|layer_18",
+            "mlp.output|layer_24"
+          ],
+          "target_mode": "reduce_semantic_high",
+          "alpha_scale": 0.007029674339123061,
+          "site_weights": {
+            "mlp.output|layer_18": 0.9163404703140259,
+            "mlp.output|layer_24": 1.0427833795547485
+          },
+          "base_candidate_name": "ind0067_safety_pareto",
+          "gate_name": "prev_entropy_q67",
+          "trigger_mode": "prev_entropy_quantile",
+          "gate_entropy_quantile": 0.67,
+          "asset_gate_entropy_quantile": 0.67
+        },
+        "gate_entropy_quantile": 0.67,
+        "gate_entropy_threshold": 0.1006811335682869,
+        "semantic_high_quantile": 0.67,
+        "semantic_high_threshold": 0.6654030680656433,
+        "delta_semantic_entropy_weighted_mean": -4.6851666195613095e-05,
+        "delta_semantic_entropy_weighted_std": 6.62582617536131e-05,
+        "relative_semantic_entropy_weighted_pct": -0.013888333730945748,
+        "delta_token_mean_entropy_mean": -0.01155017008911323,
+        "delta_token_mean_entropy_std": 0.016351198719494486,
+        "delta_token_max_entropy_mean": -0.00084686279296875,
+        "delta_token_max_entropy_std": 0.0011976448472855647,
+        "delta_elapsed_ms_mean": -264.5,
+        "delta_elapsed_ms_std": 276.4787514439401,
+        "delta_final_semantic_correct_rate": 0.0,
+        "delta_final_exact_match_rate": 0.0,
+        "mean_intervention_total_events": 15.0,
+        "mean_intervention_total_events_std": 1.4142135623730951,
+        "semantic_nonpositive_rate": 1.0,
+        "token_mean_nonpositive_rate": 0.5,
+        "token_max_nonpositive_rate": 1.0,
+        "correct_nonnegative_rate": 1.0,
+        "elapsed_nonpositive_rate": 1.0,
+        "semantic_improved_count": 0,
+        "semantic_dropped_count": 0,
+        "semantic_unchanged_count": 2,
+        "exact_improved_count": 0,
+        "exact_dropped_count": 0,
+        "answer_changed_count": 1,
+        "base_candidate_name": "ind0067_safety_pareto",
+        "gate_name": "prev_entropy_q67",
+        "trigger_mode": "prev_entropy_quantile"
+      },
+      "seed_summaries": [
+        {
+          "seed": 42,
+          "question_count": 2,
+          "delta_semantic_entropy_weighted_mean": -4.6851666195613095e-05,
+          "delta_token_mean_entropy_mean": -0.01155017008911323,
+          "delta_token_max_entropy_mean": -0.00084686279296875,
+          "delta_elapsed_ms_mean": -264.5,
+          "delta_num_generated_tokens_mean": -1.0,
+          "delta_final_semantic_correct_rate": 0.0,
+          "delta_final_exact_match_rate": 0.0,
+          "baseline_final_semantic_correct_rate": 0.5,
+          "intervention_final_semantic_correct_rate": 0.5,
+          "baseline_final_exact_match_rate": 0.0,
+          "intervention_final_exact_match_rate": 0.0,
+          "mean_intervention_total_events": 15.0,
+          "mean_intervention_steps_with_events": 7.5,
+          "semantic_improved_count": 0,
+          "semantic_dropped_count": 0,
+          "exact_improved_count": 0,
+          "exact_dropped_count": 0,
+          "answer_changed_count": 1
+        }
+      ]
+    },
+    {
+      "candidate": {
+        "name": "ind0067_safety_pareto__prev_entropy_q80",
+        "site_keys": [
+          "mlp.output|layer_18",
+          "mlp.output|layer_24"
+        ],
+        "target_mode": "reduce_semantic_high",
+        "alpha_scale": 0.007029674339123061,
+        "site_weights": {
+          "mlp.output|layer_18": 0.9163404703140259,
+          "mlp.output|layer_24": 1.0427833795547485
+        },
+        "base_candidate_name": "ind0067_safety_pareto",
+        "gate_name": "prev_entropy_q80",
+        "trigger_mode": "prev_entropy_quantile",
+        "gate_entropy_quantile": 0.8,
+        "asset_gate_entropy_quantile": 0.8
+      },
+      "overall_summary": {
+        "description": "Smoke test for Phase 1B gate ablation runner.",
+        "selection_label": "split:test[0:2]",
+        "question_pairs": 2,
+        "num_unique_questions": 2,
+        "num_seeds": 1,
+        "candidate": {
+          "name": "ind0067_safety_pareto__prev_entropy_q80",
+          "site_keys": [
+            "mlp.output|layer_18",
+            "mlp.output|layer_24"
+          ],
+          "target_mode": "reduce_semantic_high",
+          "alpha_scale": 0.007029674339123061,
+          "site_weights": {
+            "mlp.output|layer_18": 0.9163404703140259,
+            "mlp.output|layer_24": 1.0427833795547485
+          },
+          "base_candidate_name": "ind0067_safety_pareto",
+          "gate_name": "prev_entropy_q80",
+          "trigger_mode": "prev_entropy_quantile",
+          "gate_entropy_quantile": 0.8,
+          "asset_gate_entropy_quantile": 0.8
+        },
+        "gate_entropy_quantile": 0.8,
+        "gate_entropy_threshold": 0.46585848927497864,
+        "semantic_high_quantile": 0.67,
+        "semantic_high_threshold": 0.6654030680656433,
+        "delta_semantic_entropy_weighted_mean": -4.6851666195613095e-05,
+        "delta_semantic_entropy_weighted_std": 6.62582617536131e-05,
+        "relative_semantic_entropy_weighted_pct": -0.013888333730945748,
+        "delta_token_mean_entropy_mean": -0.011549574980037988,
+        "delta_token_mean_entropy_std": 0.01635201515410239,
+        "delta_token_max_entropy_mean": -0.00084686279296875,
+        "delta_token_max_entropy_std": 0.0011976448472855647,
+        "delta_elapsed_ms_mean": -263.5,
+        "delta_elapsed_ms_std": 277.8929650063132,
+        "delta_final_semantic_correct_rate": 0.0,
+        "delta_final_exact_match_rate": 0.0,
+        "mean_intervention_total_events": 10.0,
+        "mean_intervention_total_events_std": 0.0,
+        "semantic_nonpositive_rate": 1.0,
+        "token_mean_nonpositive_rate": 0.5,
+        "token_max_nonpositive_rate": 1.0,
+        "correct_nonnegative_rate": 1.0,
+        "elapsed_nonpositive_rate": 1.0,
+        "semantic_improved_count": 0,
+        "semantic_dropped_count": 0,
+        "semantic_unchanged_count": 2,
+        "exact_improved_count": 0,
+        "exact_dropped_count": 0,
+        "answer_changed_count": 1,
+        "base_candidate_name": "ind0067_safety_pareto",
+        "gate_name": "prev_entropy_q80",
+        "trigger_mode": "prev_entropy_quantile"
+      },
+      "seed_summaries": [
+        {
+          "seed": 42,
+          "question_count": 2,
+          "delta_semantic_entropy_weighted_mean": -4.6851666195613095e-05,
+          "delta_token_mean_entropy_mean": -0.011549574980037988,
+          "delta_token_max_entropy_mean": -0.00084686279296875,
+          "delta_elapsed_ms_mean": -263.5,
+          "delta_num_generated_tokens_mean": -1.0,
+          "delta_final_semantic_correct_rate": 0.0,
+          "delta_final_exact_match_rate": 0.0,
+          "baseline_final_semantic_correct_rate": 0.5,
+          "intervention_final_semantic_correct_rate": 0.5,
+          "baseline_final_exact_match_rate": 0.0,
+          "intervention_final_exact_match_rate": 0.0,
+          "mean_intervention_total_events": 10.0,
+          "mean_intervention_steps_with_events": 5.0,
+          "semantic_improved_count": 0,
+          "semantic_dropped_count": 0,
+          "exact_improved_count": 0,
+          "exact_dropped_count": 0,
+          "answer_changed_count": 1
+        }
+      ]
+    }
+  ]
+}

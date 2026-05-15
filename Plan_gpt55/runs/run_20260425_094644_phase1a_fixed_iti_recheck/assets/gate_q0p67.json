@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "run_dir": "/zhutingqi/song/layer_level/output/run_20260403_050400",
+    "split_manifest_path": "/zhutingqi/song/ITI_for_entropy/Plan_A/artifacts/feat_plus_mlpdown_entropy_weighted/split_manifest.json",
+    "semantic_high_quantile": 0.67,
+    "semantic_high_threshold": 0.6654030680656433,
+    "gate_entropy_quantile": 0.67,
+    "gate_entropy_threshold": 0.1006811335682869,
+    "feature_sites": [
+      {
+        "location": "mlp.output",
+        "layer": 18
+      },
+      {
+        "location": "mlp.output",
+        "layer": 24
+      }
+    ],
+    "train_question_count": 139
+  },
+  "sites": {
+    "mlp.output|layer_18": {
+      "location": "mlp.output",
+      "layer": 18,
+      "raw_norm": 4.702187538146973,
+      "median_step_norm": 29.88707160949707
+    },
+    "mlp.output|layer_24": {
+      "location": "mlp.output",
+      "layer": 24,
+      "raw_norm": 23.95345115661621,
+      "median_step_norm": 102.55055236816406
+    }
+  },
+  "output_pt": "/zhutingqi/song/Plan_gpt55/runs/run_20260425_094644_phase1a_fixed_iti_recheck/assets/gate_q0p67.pt"
+}

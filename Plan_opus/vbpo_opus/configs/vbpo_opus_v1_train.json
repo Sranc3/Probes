@@ -1,0 +1,25 @@
+{
+  "tag": "vbpo_opus_v1_triviaqa_anchor",
+  "model_dir": "/zhutingqi/song/qwen_model/model",
+  "pair_dir": "/zhutingqi/song/Plan_opus/vbpo_opus/runs/pairs_v1",
+  "output_root": "/zhutingqi/song/Plan_opus/vbpo_opus/runs",
+  "seed": 42,
+  "training": {
+    "max_steps": 120,
+    "batch_size": 4,
+    "learning_rate": 1.5e-6,
+    "beta": 0.1,
+    "grad_clip_norm": 1.0,
+    "bf16": true,
+    "save_every_steps": 30,
+    "eval_every_steps": 20,
+    "dev_eval_max_pairs": 64,
+    "span_only_loss": true
+  },
+  "lora": {
+    "r": 8,
+    "alpha": 16,
+    "dropout": 0.05,
+    "target_modules": ["q_proj", "k_proj", "v_proj", "o_proj", "up_proj", "down_proj"]
+  }
+}

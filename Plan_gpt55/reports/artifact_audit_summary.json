@@ -1,0 +1,106 @@
+{
+  "intervention_d": {
+    "run_root": "/zhutingqi/song/ITI_for_entropy/Intervention_D/runs/run_20260416_085929_nsga2_safety_pareto_v1",
+    "final_pareto_size": 1,
+    "final_candidate_count": 1,
+    "candidate_id": "ind_0067",
+    "candidate_signature": "reduce_semantic_high|0.007030|0.670000|mlp.output|layer_18,mlp.output|layer_24|mlp.output|layer_18:0.916340,mlp.output|layer_24:1.042783",
+    "target_mode": "reduce_semantic_high",
+    "alpha_scale": 0.007029674339123061,
+    "gate_entropy_quantile": 0.67,
+    "heldout_overall": {
+      "num_runs": 3,
+      "baseline_final_semantic_correct_rate_mean": 0.3611111111111111,
+      "intervention_final_semantic_correct_rate_mean": 0.3611111111111111,
+      "delta_final_semantic_correct_rate_mean": 0.0,
+      "delta_final_semantic_correct_rate_std": 0.0,
+      "baseline_final_exact_match_rate_mean": 0.0,
+      "intervention_final_exact_match_rate_mean": 0.0,
+      "delta_final_exact_match_rate_mean": 0.0,
+      "delta_final_exact_match_rate_std": 0.0,
+      "baseline_semantic_entropy_weighted_mean": 0.5626757709015484,
+      "intervention_semantic_entropy_weighted_mean": 0.5886366871527429,
+      "delta_semantic_entropy_weighted_mean": 0.02596091625119448,
+      "delta_semantic_entropy_weighted_std": 0.047916470348867986,
+      "abs_delta_semantic_entropy_weighted_mean": 0.028230563021344992,
+      "relative_semantic_entropy_weighted_pct": 4.61383226251213,
+      "delta_semantic_entropy_uniform_mean": 0.030517008018558597,
+      "delta_semantic_entropy_uniform_std": 0.05285700838313032,
+      "baseline_token_mean_entropy_mean": 0.3257759213065317,
+      "intervention_token_mean_entropy_mean": 0.318886484746959,
+      "delta_token_mean_entropy_mean": -0.0068894365595726795,
+      "delta_token_mean_entropy_std": 0.011216460373736224,
+      "relative_token_mean_entropy_pct": -2.114777707309502,
+      "baseline_token_max_entropy_mean": 2.6610573931441954,
+      "intervention_token_max_entropy_mean": 2.6232847989174637,
+      "delta_token_max_entropy_mean": -0.03777259422673119,
+      "delta_token_max_entropy_std": 0.06942341344857143,
+      "relative_token_max_entropy_pct": -1.419458081740231,
+      "baseline_elapsed_ms_mean": 474.27777777777777,
+      "intervention_elapsed_ms_mean": 468.75,
+      "delta_elapsed_ms_mean": -5.527777777777779,
+      "delta_elapsed_ms_std": 64.12846987218819,
+      "relative_elapsed_ms_pct": -1.1655148178517045,
+      "intervention_total_events_mean": 11.833333333333334,
+      "intervention_steps_with_events_mean": 5.916666666666667,
+      "semantic_nonpositive_rate": 0.6666666666666666,
+      "semantic_band_success_rate": 0.6666666666666666,
+      "token_mean_nonpositive_rate": 0.6666666666666666,
+      "token_max_nonpositive_rate": 0.3333333333333333,
+      "correct_nonnegative_rate": 1.0,
+      "exact_nonnegative_rate": 1.0,
+      "elapsed_nonpositive_rate": 0.6666666666666666,
+      "all_entropy_nonpositive_rate": 0.0,
+      "robust_success_rate": 0.0,
+      "safety_success_rate": 0.0,
+      "constraint_violation": 0.0,
+      "stability_penalty": 6.541403331389995
+    },
+    "heldout_gate_failed": true,
+    "failed_gates": [
+      "semantic_band_success_rate=0.667 < 0.670",
+      "token_mean_nonpositive_rate=0.667 < 0.670",
+      "token_max_nonpositive_rate=0.333 < 0.500",
+      "safety_success_rate=0.000 < 0.670",
+      "stability_penalty=6.541 > 4.500"
+    ],
+    "interpretation": "fallback_pareto_representative_not_robust_solution"
+  },
+  "deploy_eval": {
+    "run_root": "/zhutingqi/song/cand008_deploy_eval_v1/runs/run_20260416_034151_cand008_deploy_eval_v1",
+    "question_pairs": 400,
+    "num_unique_questions": 200,
+    "num_seeds": 2,
+    "answer_changed_count": 13,
+    "answer_change_rate": 0.0325,
+    "correctness_delta": 0.0,
+    "exact_delta": 0.0,
+    "metric_judgments": {
+      "delta_semantic_entropy_weighted": {
+        "mean": 0.002383135539017983,
+        "std": 0.07077201072036722,
+        "abs_mean_over_std": 0.033673418555736315,
+        "classification": "noise_scale"
+      },
+      "delta_token_mean_entropy": {
+        "mean": -0.0010442839129459907,
+        "std": 0.025900911293406624,
+        "abs_mean_over_std": 0.04031842359198479,
+        "classification": "noise_scale"
+      },
+      "delta_token_max_entropy": {
+        "mean": 0.006795168370008469,
+        "std": 0.1194105810801583,
+        "abs_mean_over_std": 0.056905914941046874,
+        "classification": "noise_scale"
+      },
+      "delta_elapsed_ms": {
+        "mean": 1.9475,
+        "std": 124.51739314947874,
+        "abs_mean_over_std": 0.01564038525655685,
+        "classification": "noise_scale"
+      }
+    },
+    "interpretation": "weak_behavioral_perturbation"
+  }
+}

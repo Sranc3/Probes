@@ -1,0 +1,21 @@
+{
+  "model_dir": "/zhutingqi/song/qwen_model/model",
+  "adapter_dir": "/zhutingqi/song/Plan_opus/grpo_opus/runs/run_20260513_090135_grpo_opus_v1_triviaqa_full500/checkpoints/step_0020",
+  "input_jsonl": "/zhutingqi/song/datasets/trivia_qa/processed/test.full.jsonl",
+  "offset": 500,
+  "num_questions": 500,
+  "seeds": [
+    2026,
+    42
+  ],
+  "fixed_k": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "max_new_tokens": 48,
+  "temperature": 0.8,
+  "top_p": 0.9,
+  "label": "grpo_opus_v1_step20"
+}

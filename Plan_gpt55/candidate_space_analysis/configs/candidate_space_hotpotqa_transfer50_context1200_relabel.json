@@ -1,0 +1,33 @@
+{
+  "tag": "candidate_space_hotpotqa_transfer50_context1200_relabel_qwen25",
+  "description": "Candidate-space diagnostics for HotpotQA transfer smoke run after strict answer relabel.",
+  "phase2a_run_dir": "/zhutingqi/song/Plan_gpt55/candidate_space_analysis/runs/run_20260512_024138_phase2a_reranking_hotpotqa_transfer50_context1200_relabel_strict",
+  "features": [
+    "logprob_avg",
+    "token_mean_entropy",
+    "token_max_entropy",
+    "token_count",
+    "cluster_size",
+    "cluster_weight_mass",
+    "sample_index"
+  ],
+  "score_formulas": {
+    "confidence_minus_entropy": {
+      "logprob_avg_z": 1.0,
+      "token_mean_entropy_z": -1.0
+    },
+    "cluster_confidence_entropy": {
+      "logprob_avg_z": 1.0,
+      "token_mean_entropy_z": -0.75,
+      "cluster_size_z": 0.5,
+      "cluster_weight_mass_z": 0.5,
+      "token_count_z": -0.1
+    },
+    "low_entropy_cluster": {
+      "token_mean_entropy_z": -1.0,
+      "cluster_size_z": 0.75,
+      "cluster_weight_mass_z": 0.25
+    }
+  },
+  "top_case_count": 20
+}

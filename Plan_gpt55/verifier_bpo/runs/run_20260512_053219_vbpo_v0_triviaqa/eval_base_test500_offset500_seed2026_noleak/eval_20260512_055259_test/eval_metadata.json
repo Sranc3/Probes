@@ -1,0 +1,12 @@
+{
+  "adapter_dir": "",
+  "split": "test",
+  "items": 500,
+  "fixed_k": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "seed": 2026
+}

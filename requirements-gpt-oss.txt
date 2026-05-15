@@ -1,0 +1,14 @@
+# =============================================================================
+# Dependencies for the SECOND env (`deepseek_v4`, Python 3.11) used ONLY for
+# GPT-OSS-120B teacher generation.
+# =============================================================================
+# Why a separate env: GPT-OSS-120B uses MXFP4 quantization which only works
+# with transformers>=5.x and the `kernels` package's gpt-oss-triton-kernels.
+# Mixing this transformers version into the main `vllm` env breaks vLLM.
+
+torch>=2.11
+transformers>=5.0
+accelerate>=0.30
+kernels>=0.1
+numpy>=1.24
+pyarrow>=14

@@ -1,0 +1,22 @@
+target_acc,probe,cheapest_cost,savings_vs_always_teacher,always_qwen_meets
+0.3,DCP-MLP (ours),1.00 (esc=0%),+94%,✓
+0.3,SEPs-LR,1.00 (esc=0%),+94%,✓
+0.3,SEPs-Ridge (Kossen 2024),1.00 (esc=0%),+94%,✓
+0.4,DCP-MLP (ours),7.61 (esc=38%),+56%,✗
+0.4,SEPs-LR,9.01 (esc=46%),+48%,✗
+0.4,SEPs-Ridge (Kossen 2024),5.70 (esc=27%),+67%,✗
+0.45,DCP-MLP (ours),12.66 (esc=67%),+27%,✗
+0.45,SEPs-LR,13.01 (esc=69%),+25%,✗
+0.45,SEPs-Ridge (Kossen 2024),11.96 (esc=63%),+31%,✗
+0.5,DCP-MLP (ours),—,—,✗
+0.5,SEPs-LR,—,—,✗
+0.5,SEPs-Ridge (Kossen 2024),—,—,✗
+0.55,DCP-MLP (ours),—,—,✗
+0.55,SEPs-LR,—,—,✗
+0.55,SEPs-Ridge (Kossen 2024),—,—,✗
+0.6,DCP-MLP (ours),—,—,✗
+0.6,SEPs-LR,—,—,✗
+0.6,SEPs-Ridge (Kossen 2024),—,—,✗
+0.65,DCP-MLP (ours),—,—,✗
+0.65,SEPs-LR,—,—,✗
+0.65,SEPs-Ridge (Kossen 2024),—,—,✗

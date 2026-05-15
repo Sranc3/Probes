@@ -1,0 +1,9 @@
+{
+  "train_pairs": 209,
+  "dev_pairs": 23,
+  "train_questions": 86,
+  "dev_questions": 9,
+  "mean_weight_train": 1.8668992252201577,
+  "mean_chosen_words": 7.019138755980861,
+  "mean_rejected_words": 21.382775119617225
+}

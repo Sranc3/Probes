@@ -1,0 +1,21 @@
+{
+  "tag": "phase1c_case_diagnosis",
+  "description": "Post-hoc case-level diagnosis for Phase 1A fixed ITI and Phase 1B gate ablation outputs.",
+  "inputs": [
+    {
+      "experiment": "phase1a_fixed_iti_recheck",
+      "run_dir": "/zhutingqi/song/Plan_gpt55/runs/run_20260425_094644_phase1a_fixed_iti_recheck"
+    },
+    {
+      "experiment": "phase1b_gate_ablation",
+      "run_dir": "/zhutingqi/song/Plan_gpt55/runs/run_20260427_031409_phase1b_gate_ablation"
+    }
+  ],
+  "thresholds": {
+    "large_abs_semantic_delta": 0.25,
+    "large_abs_token_mean_delta": 0.05,
+    "large_abs_token_max_delta": 0.25,
+    "meaningful_event_density": 0.5,
+    "top_case_count": 12
+  }
+}

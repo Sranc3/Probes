@@ -1,0 +1,6 @@
+probe,llama3b | hotpotqa,llama3b | id,llama3b | nq,qwen72b | hotpotqa,qwen72b | id,qwen72b | nq,qwen7b | hotpotqa,qwen7b | id,qwen7b | nq
+DCP_mlp,16.0,28.0,24.0,64.0,64.0,64.0,16.0,20.0,20.0
+SEPs_logreg,16.0,27.0,12.0,56.0,64.0,56.0,16.0,24.0,20.0
+SEPs_ridge,16.0,27.0,12.0,56.0,72.0,48.0,16.0,27.0,16.0
+ARD_mlp,,28.0,,,56.0,,,20.0,
+ARD_ridge,,27.0,,,72.0,,,24.0,

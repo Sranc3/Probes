@@ -1,0 +1,32 @@
+{
+  "tag": "vbpo_smoke",
+  "model_dir": "/zhutingqi/song/qwen_model/model",
+  "input_jsonl": "/zhutingqi/song/datasets/trivia_qa/processed/test.full.jsonl",
+  "candidate_features": "/zhutingqi/song/Plan_gpt55/candidate_space_analysis/runs/run_20260511_100502_candidate_space_triviaqa_scale500_qwen25/candidate_features.csv",
+  "output_root": "/zhutingqi/song/Plan_gpt55/verifier_bpo/runs",
+  "seed": 42,
+  "split": {
+    "train_size": 24,
+    "dev_size": 8,
+    "test_size": 8,
+    "offset": 0
+  },
+  "training": {
+    "max_steps": 4,
+    "batch_size": 2,
+    "max_new_tokens": 48,
+    "learning_rate": 0.000002,
+    "beta": 0.1,
+    "grad_clip_norm": 1.0,
+    "bf16": true,
+    "save_every_steps": 2,
+    "eval_every_steps": 2,
+    "max_pairs_per_question": 3
+  },
+  "lora": {
+    "r": 8,
+    "alpha": 16,
+    "dropout": 0.05,
+    "target_modules": ["q_proj", "k_proj", "v_proj", "o_proj", "up_proj", "down_proj"]
+  }
+}

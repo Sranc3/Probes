@@ -1,0 +1,29 @@
+# =============================================================================
+# Python dependencies for the main `vllm` env (Python 3.10)
+# =============================================================================
+# This covers every script EXCEPT GPT-OSS-120B teacher generation,
+# which needs the `deepseek_v4` env (see requirements-gpt-oss.txt).
+
+# Core ML
+torch>=2.4.0
+transformers>=4.51,<5.0
+accelerate>=0.30
+datasets>=2.20
+
+# vLLM (used by candidate_space_analysis pipeline; optional for probe training)
+# vllm==0.8.5.post1   # uncomment if you need the K=8 sampling pipeline
+
+# Tabular / numerical
+numpy>=1.24
+pandas>=2.0
+pyarrow>=14
+scipy>=1.11
+scikit-learn>=1.3
+
+# Plotting (dashboards)
+matplotlib>=3.7
+seaborn>=0.13
+
+# Utilities
+tqdm
+pyyaml

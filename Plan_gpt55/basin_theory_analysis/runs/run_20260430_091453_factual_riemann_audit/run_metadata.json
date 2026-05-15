@@ -1,0 +1,14 @@
+{
+  "theory_run": "/zhutingqi/song/Plan_gpt55/basin_theory_analysis/runs/run_20260430_084251_basin_theory_deep_audit",
+  "candidate_run": "/zhutingqi/song/Plan_gpt55/candidate_space_analysis/runs/run_20260427_102843_candidate_space_all200_qwen25",
+  "phase2a_run": "/zhutingqi/song/Plan_gpt55/candidate_space_analysis/runs/run_20260427_100339_phase2a_reranking_all200_qwen25",
+  "model_dir": "/zhutingqi/song/qwen_model/model",
+  "qwen_verifier": "attempted",
+  "qwen_rows_scored": 1094,
+  "qwen_device": "cuda",
+  "qwen_new_scores": 653,
+  "hidden_riemann": "attempted",
+  "hidden_device": "cuda",
+  "hidden_new_embeddings": 863,
+  "hidden_embeddings_total": 863
+}

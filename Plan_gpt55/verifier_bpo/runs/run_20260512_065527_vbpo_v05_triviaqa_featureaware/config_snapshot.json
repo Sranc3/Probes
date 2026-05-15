@@ -1,0 +1,76 @@
+{
+  "tag": "vbpo_v05_triviaqa_featureaware",
+  "model_dir": "/zhutingqi/song/qwen_model/model",
+  "input_jsonl": "/zhutingqi/song/datasets/trivia_qa/processed/test.full.jsonl",
+  "candidate_features": "/zhutingqi/song/Plan_gpt55/candidate_space_analysis/runs/run_20260511_100502_candidate_space_triviaqa_scale500_qwen25/candidate_features.csv",
+  "output_root": "/zhutingqi/song/Plan_gpt55/verifier_bpo/runs",
+  "seed": 42,
+  "split": {
+    "train_size": 425,
+    "dev_size": 75,
+    "test_size": 0,
+    "offset": 0
+  },
+  "training": {
+    "max_steps": 90,
+    "batch_size": 4,
+    "max_new_tokens": 48,
+    "temperature": 0.8,
+    "top_p": 0.9,
+    "learning_rate": 0.000001,
+    "beta": 0.07,
+    "grad_clip_norm": 1.0,
+    "bf16": true,
+    "save_every_steps": 30,
+    "eval_every_steps": 15,
+    "max_pairs_per_question": 4,
+    "balanced_pair_batches": false,
+    "pair_type_order": ["damage_guard", "rescue_from_sample0", "correct_vs_stable_wrong"]
+  },
+  "pair_building": {
+    "max_correct_chosen_per_question": 1,
+    "score_terms": [
+      {"feature": "logprob_avg_z", "weight": 0.32},
+      {"feature": "token_mean_entropy_z", "weight": -0.22},
+      {"feature": "token_max_entropy_z", "weight": -0.08},
+      {"feature": "token_count_z", "weight": -0.06},
+      {"feature": "cluster_weight_mass_z", "weight": 0.28},
+      {"feature": "cluster_size_z", "weight": 0.12},
+      {"feature": "cluster_size_minmax", "weight": 0.08},
+      {"feature": "cluster_weight_mass_minmax", "weight": 0.08}
+    ],
+    "risk_terms": [
+      {"feature": "cluster_weight_mass_z", "weight": 0.34},
+      {"feature": "cluster_size_z", "weight": 0.26},
+      {"feature": "logprob_avg_z", "weight": 0.20},
+      {"feature": "token_mean_entropy_z", "weight": -0.16},
+      {"feature": "token_max_entropy_z", "weight": -0.08}
+    ],
+    "pair_weights": {
+      "damage_guard": 1.25,
+      "rescue_from_sample0": 1.8,
+      "correct_vs_stable_wrong": 1.1
+    },
+    "dynamic_weighting": {
+      "enabled": true,
+      "hard_negative_alpha": 0.35,
+      "rescue_confidence_alpha": 0.15,
+      "max_weight": 2.3
+    }
+  },
+  "lora": {
+    "r": 8,
+    "alpha": 16,
+    "dropout": 0.05,
+    "target_modules": ["q_proj", "k_proj", "v_proj", "o_proj", "up_proj", "down_proj"]
+  },
+  "reward": {
+    "strict": 1.0,
+    "f1": 0.2,
+    "length": 0.05,
+    "stable_wrong_basin": 0.8,
+    "damage": 1.0,
+    "correct_consensus": 0.05,
+    "length_max_tokens": 48
+  }
+}

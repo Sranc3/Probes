@@ -1,0 +1,10 @@
+answer_changed_rate,avg_basin_count,avg_generated_candidates,avg_structured_verifier_prompt_calls,candidate_cost_vs_sample0,damaged_count,delta_vs_sample0,full_generation,improved_count,mean_margin,method,net_gain_count,pairs,sample0_strict_correct_rate,split,strict_correct_rate,token_cost_vs_sample0,uses_structured_verifier
+0.0,2.735,1.0,0.0,1.0,0,0.0,0.0,0,,sample0_baseline,0,400,0.5075,question_grouped_cv,0.5075,1.0,0.0
+0.245,2.735,8.0,0.0,8.0,6,0.0225,1.0,15,,fixed8_cluster_weight,9,400,0.5075,question_grouped_cv,0.53,8.295346582660821,0.0
+0.2525,2.735,8.0,0.0,8.0,7,0.0125,1.0,12,,fixed8_low_entropy_weight,5,400,0.5075,question_grouped_cv,0.52,8.295346582660821,0.0
+0.325,2.735,8.0,19.145,8.0,11,0.015,1.0,17,,fixed8_structured_acceptability,6,400,0.5075,question_grouped_cv,0.5225,8.295346582660821,1.0
+0.16,2.7350000000000003,8.0,19.145,8.0,3,0.019999999999999997,1.0,11,0.0,cluster_weight_structured_veto,8,400,0.5075000000000001,question_grouped_cv,0.5275000000000001,8.29534658266083,1.0
+0.05750000000000001,2.7350000000000003,8.0,19.145,8.0,2,-0.005,1.0,0,0.18,qwen_structured,-2,400,0.5075000000000001,question_grouped_cv,0.5025000000000001,8.29534658266083,1.0
+0.06000000000000001,2.7350000000000003,8.0,0.0,8.0,2,0.0,1.0,2,0.29,theory_core,0,400,0.5075000000000001,question_grouped_cv,0.5075000000000001,8.29534658266083,0.0
+0.0475,2.7350000000000003,8.0,19.145,8.0,2,0.0,1.0,2,0.36,theory_plus_structured,0,400,0.5075000000000001,question_grouped_cv,0.5075000000000001,8.29534658266083,1.0
+0.065,2.7350000000000003,8.0,19.145,8.0,1,0.0025,1.0,2,0.37,veto_bonus_compact,1,400,0.5075000000000001,question_grouped_cv,0.51,8.29534658266083,1.0

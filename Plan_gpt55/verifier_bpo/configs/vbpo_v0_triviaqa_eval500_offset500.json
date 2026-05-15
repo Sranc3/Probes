@@ -1,0 +1,43 @@
+{
+  "tag": "vbpo_v0_triviaqa_eval500_offset500",
+  "model_dir": "/zhutingqi/song/qwen_model/model",
+  "input_jsonl": "/zhutingqi/song/datasets/trivia_qa/processed/test.full.jsonl",
+  "candidate_features": "/zhutingqi/song/Plan_gpt55/candidate_space_analysis/runs/run_20260511_100502_candidate_space_triviaqa_scale500_qwen25/candidate_features.csv",
+  "output_root": "/zhutingqi/song/Plan_gpt55/verifier_bpo/runs",
+  "seed": 42,
+  "split": {
+    "train_size": 0,
+    "dev_size": 0,
+    "test_size": 500,
+    "offset": 500
+  },
+  "training": {
+    "max_steps": 120,
+    "batch_size": 4,
+    "max_new_tokens": 48,
+    "temperature": 0.8,
+    "top_p": 0.9,
+    "learning_rate": 0.000002,
+    "beta": 0.1,
+    "grad_clip_norm": 1.0,
+    "bf16": true,
+    "save_every_steps": 30,
+    "eval_every_steps": 15,
+    "max_pairs_per_question": 3
+  },
+  "lora": {
+    "r": 8,
+    "alpha": 16,
+    "dropout": 0.05,
+    "target_modules": ["q_proj", "k_proj", "v_proj", "o_proj", "up_proj", "down_proj"]
+  },
+  "reward": {
+    "strict": 1.0,
+    "f1": 0.2,
+    "length": 0.05,
+    "stable_wrong_basin": 0.8,
+    "damage": 1.0,
+    "correct_consensus": 0.05,
+    "length_max_tokens": 48
+  }
+}

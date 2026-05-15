@@ -1,0 +1,5 @@
+method,items,seeds_evaluated,strict_rate_mean,strict_rate_min,strict_rate_max,mean_f1_mean,delta_vs_sample0_mean,improved_count_mean,damaged_count_mean,avg_selected_tokens_mean
+fixed_2_majority_basin,500,2,0.665,0.658,0.672,0.1826376824524077,0.001,1.0,0.5,35.614000000000004
+fixed_4_majority_basin,500,2,0.673,0.668,0.678,0.1860522222049925,0.009000000000000001,7.5,3.0,35.614000000000004
+fixed_8_majority_basin,500,2,0.676,0.676,0.676,0.1874387217179133,0.012,12.5,6.5,35.614000000000004
+sample0,500,2,0.664,0.66,0.668,0.1818521332925368,0.0,0.0,0.0,35.614000000000004

@@ -1,0 +1,18 @@
+{
+  "train": {
+    "pairs": 467,
+    "pair_types": {
+      "correct_vs_stable_wrong": 224,
+      "damage_guard": 193,
+      "rescue_from_sample0": 50
+    }
+  },
+  "dev": {
+    "pairs": 0,
+    "pair_types": {}
+  },
+  "test": {
+    "pairs": 0,
+    "pair_types": {}
+  }
+}

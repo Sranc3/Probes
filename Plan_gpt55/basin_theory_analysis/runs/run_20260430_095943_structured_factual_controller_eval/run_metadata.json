@@ -1,0 +1,68 @@
+{
+  "factual_run": "/zhutingqi/song/Plan_gpt55/basin_theory_analysis/runs/run_20260430_094647_factual_riemann_strong_verifier_compact",
+  "candidate_run": "/zhutingqi/song/Plan_gpt55/candidate_space_analysis/runs/run_20260427_102843_candidate_space_all200_qwen25",
+  "feature_sets": {
+    "theory_core": [
+      "cluster_size",
+      "cluster_weight_mass",
+      "stable_score",
+      "fragmentation_entropy",
+      "top2_weight_margin",
+      "distance_to_sample0_entropy_logprob",
+      "wf_entropy_max_mean",
+      "wf_entropy_roughness",
+      "wf_prob_min_mean",
+      "delta_cluster_weight_mass_vs_sample0",
+      "delta_wf_prob_min_mean_vs_sample0",
+      "riemann_anisotropy"
+    ],
+    "qwen_structured": [
+      "qwen_structured_acceptability_score",
+      "qwen_structured_factual_residual",
+      "qwen_answer_responsiveness_score",
+      "qwen_constraint_satisfaction_score",
+      "qwen_entity_number_consistency_score",
+      "qwen_basin_consensus_support_score",
+      "qwen_overclaim_risk",
+      "qwen_world_knowledge_conflict_risk",
+      "delta_qwen_structured_acceptability_score_vs_sample0",
+      "delta_qwen_world_knowledge_conflict_risk_vs_sample0"
+    ],
+    "theory_plus_structured": [
+      "cluster_size",
+      "cluster_weight_mass",
+      "stable_score",
+      "fragmentation_entropy",
+      "top2_weight_margin",
+      "distance_to_sample0_entropy_logprob",
+      "wf_entropy_max_mean",
+      "wf_entropy_roughness",
+      "wf_prob_min_mean",
+      "delta_cluster_weight_mass_vs_sample0",
+      "delta_wf_prob_min_mean_vs_sample0",
+      "riemann_anisotropy",
+      "qwen_structured_acceptability_score",
+      "qwen_structured_factual_residual",
+      "qwen_answer_responsiveness_score",
+      "qwen_constraint_satisfaction_score",
+      "qwen_entity_number_consistency_score",
+      "qwen_basin_consensus_support_score",
+      "qwen_overclaim_risk",
+      "qwen_world_knowledge_conflict_risk",
+      "delta_qwen_structured_acceptability_score_vs_sample0",
+      "delta_qwen_world_knowledge_conflict_risk_vs_sample0"
+    ],
+    "veto_bonus_compact": [
+      "delta_cluster_weight_mass_vs_sample0",
+      "delta_wf_prob_min_mean_vs_sample0",
+      "delta_qwen_structured_acceptability_score_vs_sample0",
+      "delta_qwen_world_knowledge_conflict_risk_vs_sample0",
+      "qwen_structured_acceptability_score",
+      "qwen_world_knowledge_conflict_risk",
+      "qwen_answer_responsiveness_score",
+      "qwen_constraint_satisfaction_score",
+      "riemann_anisotropy"
+    ]
+  },
+  "pair_count": 400
+}

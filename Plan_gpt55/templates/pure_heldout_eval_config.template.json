@@ -1,0 +1,40 @@
+{
+  "tag": "phase1a_pure_heldout_fixed_iti",
+  "description": "Template for pure test split fixed ITI recheck. Copy and fill candidate details before execution.",
+  "model_dir": "/zhutingqi/song/qwen_model/model",
+  "deberta_model_dir": "/zhutingqi/song/DeBERTa_model/model",
+  "run_dir": "/zhutingqi/song/layer_level/output/run_20260403_050400",
+  "split_manifest": "/zhutingqi/song/ITI_for_entropy/Plan_A/artifacts/feat_plus_mlpdown_entropy_weighted/split_manifest.json",
+  "site_specs": "mlp.output:18,24",
+  "asset_prep": {
+    "semantic_high_quantile": 0.67,
+    "gate_entropy_quantile": 0.67
+  },
+  "candidate": {
+    "name": "FILL_ME",
+    "site_keys": ["mlp.output|layer_18", "mlp.output|layer_24"],
+    "target_mode": "FILL_ME",
+    "alpha_scale": 0.0,
+    "trigger_mode": "prev_entropy_quantile",
+    "site_weights": {}
+  },
+  "evaluation": {
+    "selection_mode": "split",
+    "split": "test",
+    "num_questions": 31,
+    "offset": 0,
+    "seeds": [42, 43, 52, 53, 54],
+    "trace_max_new_tokens": 80,
+    "semantic_num_samples": 8,
+    "semantic_max_new_tokens": 96,
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "system_prompt": "Answer the question briefly and factually."
+  },
+  "reporting": {
+    "top_case_count": 20,
+    "must_report_split_overlap": true,
+    "must_report_correctness_transition": true,
+    "must_report_event_density": true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "train": {
+    "pairs": 6,
+    "pair_types": {
+      "damage_guard": 3,
+      "rescue_from_sample0": 1,
+      "correct_vs_stable_wrong": 2
+    }
+  },
+  "dev": {
+    "pairs": 5,
+    "pair_types": {
+      "damage_guard": 5
+    }
+  },
+  "test": {
+    "pairs": 0,
+    "pair_types": {}
+  }
+}

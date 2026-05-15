@@ -1,0 +1,56 @@
+{
+  "tag": "phase2b_offline_controller_dataset",
+  "description": "Dataset schema for the first offline learned-controller prototype.",
+  "unit": "question_seed_candidate",
+  "required_input_artifacts": [
+    "phase1a_pure_heldout_fixed_iti",
+    "phase1b_gate_ablation",
+    "phase1c_alpha_sign_stress"
+  ],
+  "features": [
+    "baseline_token_mean_entropy",
+    "baseline_token_max_entropy",
+    "baseline_semantic_entropy_weighted",
+    "candidate_alpha_scale",
+    "candidate_target_mode",
+    "candidate_site_count",
+    "candidate_gate_id",
+    "intervention_event_density",
+    "intervention_total_events",
+    "intervention_steps_with_events",
+    "delta_num_generated_tokens",
+    "site18_weight",
+    "site24_weight"
+  ],
+  "optional_features": [
+    "layer18_projection_score",
+    "layer24_projection_score",
+    "question_length",
+    "answer_length",
+    "entropy_trend_summary"
+  ],
+  "label_rule": {
+    "positive": {
+      "delta_final_semantic_correct": ">= 0",
+      "delta_semantic_entropy_weighted_abs": "<= 0.03",
+      "delta_token_mean_entropy": "<= 0",
+      "delta_token_max_entropy": "<= 0"
+    },
+    "negative_if_any": {
+      "delta_final_semantic_correct": "< 0",
+      "delta_semantic_entropy_weighted_abs": "> 0.03"
+    }
+  },
+  "baseline_models": [
+    "majority_class",
+    "logistic_regression",
+    "small_mlp"
+  ],
+  "required_report_metrics": [
+    "auc",
+    "precision_at_top_k",
+    "recall",
+    "calibration",
+    "heldout_split_performance"
+  ]
+}

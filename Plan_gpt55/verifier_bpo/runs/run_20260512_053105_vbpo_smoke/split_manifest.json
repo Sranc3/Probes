@@ -1,0 +1,48 @@
+{
+  "train": [
+    "trivia_qa_9",
+    "trivia_qa_3",
+    "trivia_qa_10",
+    "trivia_qa_36",
+    "trivia_qa_25",
+    "trivia_qa_24",
+    "trivia_qa_30",
+    "trivia_qa_11",
+    "trivia_qa_4",
+    "trivia_qa_32",
+    "trivia_qa_21",
+    "trivia_qa_28",
+    "trivia_qa_23",
+    "trivia_qa_18",
+    "trivia_qa_12",
+    "trivia_qa_34",
+    "trivia_qa_35",
+    "trivia_qa_26",
+    "trivia_qa_13",
+    "trivia_qa_22",
+    "trivia_qa_20",
+    "trivia_qa_31",
+    "trivia_qa_37",
+    "trivia_qa_29"
+  ],
+  "dev": [
+    "trivia_qa_19",
+    "trivia_qa_16",
+    "trivia_qa_39",
+    "trivia_qa_33",
+    "trivia_qa_2",
+    "trivia_qa_0",
+    "trivia_qa_38",
+    "trivia_qa_27"
+  ],
+  "test": [
+    "trivia_qa_5",
+    "trivia_qa_6",
+    "trivia_qa_8",
+    "trivia_qa_14",
+    "trivia_qa_15",
+    "trivia_qa_17",
+    "trivia_qa_1",
+    "trivia_qa_7"
+  ]
+}

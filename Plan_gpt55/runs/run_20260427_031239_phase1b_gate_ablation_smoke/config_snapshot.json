@@ -1,0 +1,78 @@
+{
+  "tag": "phase1b_gate_ablation_smoke",
+  "description": "Smoke test for Phase 1B gate ablation runner.",
+  "model_dir": "/zhutingqi/song/qwen_model/model",
+  "deberta_model_dir": "/zhutingqi/song/DeBERTa_model/model",
+  "run_dir": "/zhutingqi/song/layer_level/output/run_20260403_050400",
+  "split_manifest": "/zhutingqi/song/ITI_for_entropy/Plan_A/artifacts/feat_plus_mlpdown_entropy_weighted/split_manifest.json",
+  "site_specs": "mlp.output:18,24",
+  "asset_prep": {
+    "semantic_high_quantile": 0.67,
+    "gate_entropy_quantile": 0.67
+  },
+  "evaluation": {
+    "selection_mode": "split",
+    "split": "test",
+    "num_questions": 2,
+    "offset": 0,
+    "seeds": [
+      42
+    ],
+    "trace_max_new_tokens": 32,
+    "semantic_num_samples": 2,
+    "semantic_max_new_tokens": 48,
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "system_prompt": "Answer the question briefly and factually."
+  },
+  "gate_variants": [
+    {
+      "name": "always",
+      "trigger_mode": "always",
+      "asset_gate_entropy_quantile": 0.67
+    },
+    {
+      "name": "prev_entropy_q50",
+      "trigger_mode": "prev_entropy_quantile",
+      "gate_entropy_quantile": 0.5
+    },
+    {
+      "name": "prev_entropy_q67",
+      "trigger_mode": "prev_entropy_quantile",
+      "gate_entropy_quantile": 0.67
+    },
+    {
+      "name": "prev_entropy_q80",
+      "trigger_mode": "prev_entropy_quantile",
+      "gate_entropy_quantile": 0.8
+    }
+  ],
+  "base_candidates": [
+    {
+      "name": "cand008_primary",
+      "site_keys": [
+        "mlp.output|layer_18",
+        "mlp.output|layer_24"
+      ],
+      "target_mode": "increase_semantic_high",
+      "alpha_scale": 0.005,
+      "site_weights": {
+        "mlp.output|layer_18": 1.0,
+        "mlp.output|layer_24": 1.0
+      }
+    },
+    {
+      "name": "ind0067_safety_pareto",
+      "site_keys": [
+        "mlp.output|layer_18",
+        "mlp.output|layer_24"
+      ],
+      "target_mode": "reduce_semantic_high",
+      "alpha_scale": 0.007029674339123061,
+      "site_weights": {
+        "mlp.output|layer_18": 0.9163404703140259,
+        "mlp.output|layer_24": 1.0427833795547485
+      }
+    }
+  ]
+}

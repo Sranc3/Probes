@@ -1,0 +1,27 @@
+{
+  "tag": "phase2a_reranking_all200_qwen25",
+  "description": "Larger Qwen2.5 candidate-space validation on all 200 TriviaQA artifact rows.",
+  "model_dir": "/zhutingqi/song/qwen_model/model",
+  "deberta_model_dir": "/zhutingqi/song/DeBERTa_model/model",
+  "run_dir": "/zhutingqi/song/layer_level/output/run_20260403_050400",
+  "split_manifest": "/zhutingqi/song/ITI_for_entropy/Plan_A/artifacts/feat_plus_mlpdown_entropy_weighted/split_manifest.json",
+  "evaluation": {
+    "selection_mode": "all_rows",
+    "num_questions": 200,
+    "offset": 0,
+    "seeds": [42, 43],
+    "num_samples": 8,
+    "max_new_tokens": 96,
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "system_prompt": "Answer the question briefly and factually."
+  },
+  "methods": [
+    "single_sample_baseline",
+    "random_of_n",
+    "best_of_n_logprob",
+    "semantic_cluster_majority",
+    "low_token_mean_entropy",
+    "cluster_then_low_entropy"
+  ]
+}

@@ -1,0 +1,7 @@
+method,pairs,strict_correct_rate,semantic_correct_rate,nli_only_correct_rate,answer_changed_vs_sample0_rate,delta_strict_correct_vs_sample0,delta_semantic_correct_vs_sample0,token_mean_entropy_mean,token_mean_entropy_std,token_max_entropy_mean,token_count_mean,selected_cluster_size_mean
+best_of_n_logprob,2,0.0,0.0,0.0,1.0,-0.5,-0.5,0.2885352412866119,0.21138179029482923,3.1090900897979736,31.5,2.0
+cluster_then_low_entropy,2,0.0,0.0,0.0,1.0,-0.5,-0.5,0.2885352412866119,0.21138179029482923,3.1090900897979736,31.5,2.0
+low_token_mean_entropy,2,0.0,0.0,0.0,1.0,-0.5,-0.5,0.2885352412866119,0.21138179029482923,3.1090900897979736,31.5,2.0
+random_of_n,2,0.0,0.0,0.0,1.0,-0.5,-0.5,0.35397624289343177,0.1188342382871851,3.6588388681411743,32.0,2.0
+semantic_cluster_majority,2,0.0,0.0,0.0,1.0,-0.5,-0.5,0.2885352412866119,0.21138179029482923,3.1090900897979736,31.5,2.0
+single_sample_baseline,2,0.5,0.5,0.0,0.0,0.0,0.0,0.3862472103368454,0.28736779004252266,4.199385762214661,30.0,1.0

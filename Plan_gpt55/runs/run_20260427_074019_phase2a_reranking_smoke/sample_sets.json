@@ -1,0 +1,170 @@
+[
+  {
+    "seed": 42,
+    "question_id": "trivia_qa_104",
+    "semantic_entropy_weighted": 1.3670409983632237,
+    "semantic_clusters": 4,
+    "generations": [
+      {
+        "sample_index": 0,
+        "cluster_id": 0,
+        "text": "The brothel in \"The Best Little Whorehouse in Texas\" is named Miss Havisham's.",
+        "token_count": 23,
+        "logprob_avg": -0.3139249440842491,
+        "token_mean_entropy": 0.5894469233705052,
+        "token_max_entropy": 5.958863735198975
+      },
+      {
+        "sample_index": 1,
+        "cluster_id": 1,
+        "text": "The brothel in \"The Best Little Whorehouse in Texas\" is named Miss Rose's Roadside Rescue.",
+        "token_count": 24,
+        "logprob_avg": -0.6651962283464385,
+        "token_mean_entropy": 0.8002921851500243,
+        "token_max_entropy": 5.958863735198975
+      },
+      {
+        "sample_index": 2,
+        "cluster_id": 2,
+        "text": "The brothel in \"The Best Little Whorehouse in Texas\" is named Crystal Palace.",
+        "token_count": 20,
+        "logprob_avg": -0.16404351413972051,
+        "token_mean_entropy": 0.4380047386234384,
+        "token_max_entropy": 3.7782723903656006
+      },
+      {
+        "sample_index": 3,
+        "cluster_id": 3,
+        "text": "The brothel in \"The Best Little Whorehouse in Texas\" is named The Lovemonger.",
+        "token_count": 23,
+        "logprob_avg": -0.5532845972079362,
+        "token_mean_entropy": 0.8067611050324307,
+        "token_max_entropy": 5.626301288604736
+      }
+    ],
+    "clusters": [
+      {
+        "cluster_id": 0,
+        "size": 1,
+        "sample_indices": [
+          0
+        ],
+        "weight_mass": 0.27377600686994724,
+        "representative_text": "The brothel in \"The Best Little Whorehouse in Texas\" is named Miss Havisham's.",
+        "texts": [
+          "The brothel in \"The Best Little Whorehouse in Texas\" is named Miss Havisham's."
+        ]
+      },
+      {
+        "cluster_id": 1,
+        "size": 1,
+        "sample_indices": [
+          1
+        ],
+        "weight_mass": 0.19268158246011627,
+        "representative_text": "The brothel in \"The Best Little Whorehouse in Texas\" is named Miss Rose's Roadside Rescue.",
+        "texts": [
+          "The brothel in \"The Best Little Whorehouse in Texas\" is named Miss Rose's Roadside Rescue."
+        ]
+      },
+      {
+        "cluster_id": 2,
+        "size": 1,
+        "sample_indices": [
+          2
+        ],
+        "weight_mass": 0.31804462681411416,
+        "representative_text": "The brothel in \"The Best Little Whorehouse in Texas\" is named Crystal Palace.",
+        "texts": [
+          "The brothel in \"The Best Little Whorehouse in Texas\" is named Crystal Palace."
+        ]
+      },
+      {
+        "cluster_id": 3,
+        "size": 1,
+        "sample_indices": [
+          3
+        ],
+        "weight_mass": 0.21549778385582233,
+        "representative_text": "The brothel in \"The Best Little Whorehouse in Texas\" is named The Lovemonger.",
+        "texts": [
+          "The brothel in \"The Best Little Whorehouse in Texas\" is named The Lovemonger."
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 42,
+    "question_id": "trivia_qa_123",
+    "semantic_entropy_weighted": 0.5604639988227751,
+    "semantic_clusters": 2,
+    "generations": [
+      {
+        "sample_index": 0,
+        "cluster_id": 0,
+        "text": "In the 1998 season, Mark McGwire broke Roger Maris's home run record of 61, setting a new record with 70 home runs.",
+        "token_count": 37,
+        "logprob_avg": -0.1014211754477399,
+        "token_mean_entropy": 0.18304749730318556,
+        "token_max_entropy": 2.4399077892303467
+      },
+      {
+        "sample_index": 1,
+        "cluster_id": 1,
+        "text": "In the 1998 season, Mark McGwire broke the single-season home run record previously held by Hank Aaron, who had hit 75 home runs in the 1974 season.",
+        "token_count": 43,
+        "logprob_avg": -0.043393756139704996,
+        "token_mean_entropy": 0.13906574394978544,
+        "token_max_entropy": 2.4399077892303467
+      },
+      {
+        "sample_index": 2,
+        "cluster_id": 1,
+        "text": "In the 1998 season, Mark McGwire broke the home run record set by Hank Aaron, who had 755 career home runs. McGwire ended the season with 70 home runs, surpassing Aaron's record of 756 career home runs.",
+        "token_count": 59,
+        "logprob_avg": -0.08242817426892055,
+        "token_mean_entropy": 0.20834033477515193,
+        "token_max_entropy": 2.4399077892303467
+      },
+      {
+        "sample_index": 3,
+        "cluster_id": 1,
+        "text": "In the 1998 season, Mark McGwire broke Sammy Sosa's record for most home runs in a season, which was 66. McGwire hit 70 home runs that year.",
+        "token_count": 44,
+        "logprob_avg": -0.154393814336386,
+        "token_mean_entropy": 0.2699477471634251,
+        "token_max_entropy": 3.539405345916748
+      }
+    ],
+    "clusters": [
+      {
+        "cluster_id": 0,
+        "size": 1,
+        "sample_indices": [
+          0
+        ],
+        "weight_mass": 0.2483038038219696,
+        "representative_text": "In the 1998 season, Mark McGwire broke Roger Maris's home run record of 61, setting a new record with 70 home runs.",
+        "texts": [
+          "In the 1998 season, Mark McGwire broke Roger Maris's home run record of 61, setting a new record with 70 home runs."
+        ]
+      },
+      {
+        "cluster_id": 1,
+        "size": 3,
+        "sample_indices": [
+          1,
+          2,
+          3
+        ],
+        "weight_mass": 0.7516961961780304,
+        "representative_text": "In the 1998 season, Mark McGwire broke the single-season home run record previously held by Hank Aaron, who had hit 75 home runs in the 1974 season.",
+        "texts": [
+          "In the 1998 season, Mark McGwire broke the single-season home run record previously held by Hank Aaron, who had hit 75 home runs in the 1974 season.",
+          "In the 1998 season, Mark McGwire broke the home run record set by Hank Aaron, who had 755 career home runs. McGwire ended the season with 70 home runs, surpassing Aaron's record of 756 career home runs.",
+          "In the 1998 season, Mark McGwire broke Sammy Sosa's record for most home runs in a season, which was 66. McGwire hit 70 home runs that year."
+        ]
+      }
+    ]
+  }
+]

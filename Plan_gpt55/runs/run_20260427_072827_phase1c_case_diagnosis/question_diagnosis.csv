@@ -1,0 +1,63 @@
+experiment,question_id,question,pairs,candidates,seeds,baseline_correct_rate,answer_changed_count,answer_changed_rate,corrected_count,damaged_count,wrong_to_wrong_changed_count,changed_but_correct_count,mean_abs_semantic_delta,mean_semantic_delta,mean_abs_token_mean_delta,mean_events
+phase1b_gate_ablation,trivia_qa_104,What was the name of the brothel in The Best Little Whorehouse in Texas?,24,8,3,0.0,20,0.8333333333333334,0,0,20,0,0.14220874605503445,-0.14220874605503445,0.1377649152733147,22.0
+phase1b_gate_ablation,trivia_qa_138,Who was the only female victim to be killed off in the opening credit sequence in Police Squad?,24,8,3,0.0,10,0.4166666666666667,0,0,10,0,0.09572590679042962,0.022101473297567387,0.04509675324117109,20.0
+phase1b_gate_ablation,trivia_qa_61,"""In which movie did Garbo say, """"I want to be alone"""".""",24,8,3,0.0,9,0.375,0,0,9,0,0.14616542689502635,0.0759777391922097,0.07910307680103464,49.166666666666664
+phase1b_gate_ablation,trivia_qa_178,Which US city was named after a British Prime Minister?,24,8,3,0.0,7,0.2916666666666667,3,0,4,0,0.17165377389630254,0.04151880187990794,0.019438532480485663,61.583333333333336
+phase1a_fixed_iti_recheck,trivia_qa_104,What was the name of the brothel in The Best Little Whorehouse in Texas?,10,2,5,0.2,7,0.7,0,0,7,0,0.11968361102427442,-0.11968361102427442,0.13846468289725233,14.8
+phase1b_gate_ablation,trivia_qa_127,Where did Jonathan Edwards set his 1995 triple jump world record?,24,8,3,0.0,6,0.25,0,0,6,0,0.001794059387191423,-0.0017513769012051188,0.014815635989543339,20.166666666666668
+phase1b_gate_ablation,trivia_qa_135,Which war veteran was Director of News & Special Events for ABC before find fame as a TV cop?,24,8,3,0.0,4,0.16666666666666666,0,0,4,0,0.3792811682094058,-0.24642949476754883,0.057971029912749716,67.83333333333333
+phase1a_fixed_iti_recheck,trivia_qa_138,Who was the only female victim to be killed off in the opening credit sequence in Police Squad?,10,2,5,0.0,4,0.4,0,0,4,0,0.04951483512697898,0.005104219904142404,0.08967616117227305,14.2
+phase1a_fixed_iti_recheck,trivia_qa_178,Which US city was named after a British Prime Minister?,10,2,5,0.2,2,0.2,1,0,1,0,0.31826620015696955,0.22892809009711698,0.01345452910530116,55.6
+phase1a_fixed_iti_recheck,trivia_qa_127,Where did Jonathan Edwards set his 1995 triple jump world record?,10,2,5,0.0,2,0.2,0,0,2,0,0.0010820561318094502,-0.0010187293238194338,0.010768065130725429,9.0
+phase1a_fixed_iti_recheck,trivia_qa_135,Which war veteran was Director of News & Special Events for ABC before find fame as a TV cop?,10,2,5,0.0,1,0.1,0,0,1,0,0.2386882868097273,-0.1858000050170843,0.03491769326902502,61.2
+phase1a_fixed_iti_recheck,trivia_qa_156,Which rock star did Cindy Crawford name her first son after?,10,2,5,0.2,1,0.1,0,1,0,0,0.0004340022371539298,-0.0003557330121238156,0.004485586116178791,7.8
+phase1a_fixed_iti_recheck,trivia_qa_61,"""In which movie did Garbo say, """"I want to be alone"""".""",10,2,5,0.0,1,0.1,0,0,1,0,1.3327041186772525e-05,-2.9627991961600484e-06,0.0017640033174477793,21.8
+phase1a_fixed_iti_recheck,trivia_qa_190,Truax Field international airport is in which US state?,10,2,5,0.8,1,0.1,0,0,0,1,1.1102230246251565e-16,-8.881784197001253e-17,0.0021817110470337686,27.0
+phase1b_gate_ablation,trivia_qa_158,Who designed the dress which made the most at Diana's dress auction?,24,8,3,0.0,0,0.0,0,0,0,0,0.4856350204051418,0.45283257490312284,0.0005103755390557981,18.333333333333332
+phase1a_fixed_iti_recheck,trivia_qa_158,Who designed the dress which made the most at Diana's dress auction?,10,2,5,0.0,0,0.0,0,0,0,0,0.29040930531719006,0.2903031592159354,0.00019658677547067515,10.8
+phase1b_gate_ablation,trivia_qa_194,The Black Hills lie between which two rivers?,24,8,3,0.0,0,0.0,0,0,0,0,0.029776680037546726,0.029776680037546726,0.0004665904883556296,29.0
+phase1b_gate_ablation,trivia_qa_190,Truax Field international airport is in which US state?,24,8,3,0.6666666666666666,0,0.0,0,0,0,0,0.014627933041812619,0.014627933041812544,0.0007817086198779374,33.833333333333336
+phase1b_gate_ablation,trivia_qa_156,Which rock star did Cindy Crawford name her first son after?,24,8,3,0.0,0,0.0,0,0,0,0,0.000671851413463089,-0.0005234132628568477,0.0012379106307908703,15.0
+phase1b_gate_ablation,trivia_qa_123,Who's home runs record did Mark McGwire break in the 1998 season?,24,8,3,0.3333333333333333,0,0.0,0,0,0,0,0.00036652711547590505,-0.0003565960210595645,0.00033455200301654833,33.75
+phase1b_gate_ablation,trivia_qa_56,Which US No 1 single came from Diana Ross's platinum album Diana?,24,8,3,0.0,0,0.0,0,0,0,0,0.000105958311329248,-1.2195797529081695e-05,0.0003773387057139042,22.666666666666668
+phase1b_gate_ablation,trivia_qa_5,Rita Coolidge sang the title song for which Bond film?,24,8,3,0.0,0,0.0,0,0,0,0,8.909250112032474e-05,4.541101350055236e-05,0.00019958597273802767,14.5
+phase1a_fixed_iti_recheck,trivia_qa_56,Which US No 1 single came from Diana Ross's platinum album Diana?,10,2,5,0.0,0,0.0,0,0,0,0,5.73556060582181e-05,-1.9211168272947886e-05,0.00035602929580398623,11.2
+phase1b_gate_ablation,trivia_qa_30,What was President Gerald Ford's middle name?,24,8,3,0.0,0,0.0,0,0,0,0,4.590415037207529e-05,-9.116041608641287e-06,0.00020783480664247206,9.0
+phase1b_gate_ablation,trivia_qa_175,Throughout the 80s and 90s Phil Collins recorded on which record label?,24,8,3,1.0,0,0.0,0,0,0,0,3.878177071906889e-05,3.734847608803197e-05,0.0005399783488631068,21.0
+phase1a_fixed_iti_recheck,trivia_qa_175,Throughout the 80s and 90s Phil Collins recorded on which record label?,10,2,5,1.0,0,0.0,0,0,0,0,2.6117890076027274e-05,2.6117890076027274e-05,0.00042472319695007615,12.0
+phase1b_gate_ablation,trivia_qa_71,Who was the youngest brother in the Beach Boys?,24,8,3,1.0,0,0.0,0,0,0,0,1.5449297643244098e-05,-1.4981855822049361e-05,0.0005270483395492144,19.5
+phase1b_gate_ablation,trivia_qa_79,Who had a 60s No 1 with Downtown?,24,8,3,0.0,0,0.0,0,0,0,0,1.5377116509317685e-05,-3.609104074001057e-06,0.00043021537973694096,17.0
+phase1a_fixed_iti_recheck,trivia_qa_30,What was President Gerald Ford's middle name?,10,2,5,0.2,0,0.0,0,0,0,0,1.0084558680645283e-05,-1.0441177168751813e-06,8.127181140848982e-08,6.0
+phase1a_fixed_iti_recheck,trivia_qa_71,Who was the youngest brother in the Beach Boys?,10,2,5,1.0,0,0.0,0,0,0,0,6.813036150898899e-06,-6.813036150898899e-06,0.000203935168259263,14.4
+phase1a_fixed_iti_recheck,trivia_qa_5,Rita Coolidge sang the title song for which Bond film?,10,2,5,0.0,0,0.0,0,0,0,0,4.4143266845320104e-06,2.795687642387357e-07,1.2177063692378476e-05,6.8
+phase1a_fixed_iti_recheck,trivia_qa_123,Who's home runs record did Mark McGwire break in the 1998 season?,10,2,5,0.2,0,0.0,0,0,0,0,3.574201720496495e-06,3.405987795040977e-06,0.00010690782451998893,18.2
+phase1a_fixed_iti_recheck,trivia_qa_79,Who had a 60s No 1 with Downtown?,10,2,5,0.0,0,0.0,0,0,0,0,2.864866599505689e-09,3.5063063563711694e-12,2.59079355011127e-07,6.0
+phase1b_gate_ablation,trivia_qa_21,Which highway was Revisited in a classic 60s album by Bob Dylan?,24,8,3,1.0,0,0.0,0,0,0,0,1.4802973661668753e-16,1.850371707708594e-17,0.00023821869246944938,39.833333333333336
+phase1b_gate_ablation,trivia_qa_31,Art Garfunkel trained for which profession although he didn't qualify?,24,8,3,0.0,0,0.0,0,0,0,0,1.3415194880887307e-16,4.163336342344337e-17,0.00039854765247102655,20.5
+phase1a_fixed_iti_recheck,trivia_qa_31,Art Garfunkel trained for which profession although he didn't qualify?,10,2,5,0.0,0,0.0,0,0,0,0,1.2212453270876723e-16,9.992007221626409e-17,0.0004844824127945596,15.6
+phase1a_fixed_iti_recheck,trivia_qa_21,Which highway was Revisited in a classic 60s album by Bob Dylan?,10,2,5,1.0,0,0.0,0,0,0,0,8.881784197001253e-17,2.2204460492503132e-17,0.00018311401729860787,26.0
+phase1b_gate_ablation,trivia_qa_42,"What mythological beast has the head of a man, the body of a lion, and the tail and feet of a dragon?",24,8,3,0.0,0,0.0,0,0,0,0,8.789265611615822e-17,-2.312964634635743e-17,0.0006556957570337946,13.0
+phase1b_gate_ablation,trivia_qa_78,What was the profession of Paul Strand (1890 - 1976)?,24,8,3,1.0,0,0.0,0,0,0,0,8.326672684688674e-17,9.251858538542968e-18,0.00014021141472161068,8.0
+phase1a_fixed_iti_recheck,trivia_qa_78,What was the profession of Paul Strand (1890 - 1976)?,10,2,5,1.0,0,0.0,0,0,0,0,4.4408920985006264e-17,-4.4408920985006264e-17,1.6133300960063934e-05,4.0
+phase1a_fixed_iti_recheck,trivia_qa_42,"What mythological beast has the head of a man, the body of a lion, and the tail and feet of a dragon?",10,2,5,0.0,0,0.0,0,0,0,0,4.440892098500626e-17,2.220446049250313e-17,0.0006597967029930152,8.0
+phase1a_fixed_iti_recheck,trivia_qa_149,In which year was the Juilliard School founded in New York?,10,2,5,1.0,0,0.0,0,0,0,0,0.0,0.0,2.8229866682119575e-08,2.0
+phase1a_fixed_iti_recheck,trivia_qa_155,The Suez Canal connects the Mediterranean Sea to which other Sea?,10,2,5,1.0,0,0.0,0,0,0,0,0.0,0.0,0.0,0.0
+phase1a_fixed_iti_recheck,trivia_qa_17,"""Who was the target of the failed """"Bomb Plot"""" of 1944?""",10,2,5,1.0,0,0.0,0,0,0,0,0.0,0.0,2.7266846700305103e-07,6.0
+phase1a_fixed_iti_recheck,trivia_qa_181,What are the international registration letters of a vehicle from Iceland?,10,2,5,1.0,0,0.0,0,0,0,0,0.0,0.0,5.367597883117192e-06,4.0
+phase1a_fixed_iti_recheck,trivia_qa_194,The Black Hills lie between which two rivers?,10,2,5,0.0,0,0.0,0,0,0,0,0.0,0.0,0.0004077157051974867,18.0
+phase1a_fixed_iti_recheck,trivia_qa_198,Which caped crusader operated in Gotham City?,10,2,5,1.0,0,0.0,0,0,0,0,0.0,0.0,1.1253780976550054e-07,4.0
+phase1a_fixed_iti_recheck,trivia_qa_22,Which was the only eastern bloc country to participate in the 1984 LA Olympics?,10,2,5,1.0,0,0.0,0,0,0,0,0.0,0.0,2.1123004275813706e-05,12.0
+phase1a_fixed_iti_recheck,trivia_qa_60,Richard Daley was mayor of which city for 21 years?,10,2,5,1.0,0,0.0,0,0,0,0,0.0,0.0,0.00047290866129919007,6.0
+phase1a_fixed_iti_recheck,trivia_qa_65,In which country is the Sky Train Rail bridge?,10,2,5,0.0,0,0.0,0,0,0,0,0.0,0.0,3.542229533196051e-05,6.0
+phase1a_fixed_iti_recheck,trivia_qa_77,Bandar Seri Begawan International airport is in which country?,10,2,5,1.0,0,0.0,0,0,0,0,0.0,0.0,3.180165956961911e-10,2.0
+phase1a_fixed_iti_recheck,trivia_qa_81,"To the nearest two, how many tennis Grand Slam titles did Jimmy Connors win?",10,2,5,1.0,0,0.0,0,0,0,0,0.0,0.0,0.00019785160811004732,8.0
+phase1b_gate_ablation,trivia_qa_149,In which year was the Juilliard School founded in New York?,24,8,3,1.0,0,0.0,0,0,0,0,0.0,0.0,1.7053637242215973e-06,9.0
+phase1b_gate_ablation,trivia_qa_155,The Suez Canal connects the Mediterranean Sea to which other Sea?,24,8,3,1.0,0,0.0,0,0,0,0,0.0,0.0,1.7113493043200448e-06,7.5
+phase1b_gate_ablation,trivia_qa_17,"""Who was the target of the failed """"Bomb Plot"""" of 1944?""",24,8,3,1.0,0,0.0,0,0,0,0,0.0,0.0,5.153628327073589e-05,15.5
+phase1b_gate_ablation,trivia_qa_181,What are the international registration letters of a vehicle from Iceland?,24,8,3,1.0,0,0.0,0,0,0,0,0.0,0.0,7.769428307824369e-05,10.0
+phase1b_gate_ablation,trivia_qa_198,Which caped crusader operated in Gotham City?,24,8,3,1.0,0,0.0,0,0,0,0,0.0,0.0,0.00021128425389165418,10.0
+phase1b_gate_ablation,trivia_qa_22,Which was the only eastern bloc country to participate in the 1984 LA Olympics?,24,8,3,1.0,0,0.0,0,0,0,0,0.0,0.0,0.00011000667451772222,23.0
+phase1b_gate_ablation,trivia_qa_60,Richard Daley was mayor of which city for 21 years?,24,8,3,1.0,0,0.0,0,0,0,0,0.0,0.0,0.0005113053834575037,12.0
+phase1b_gate_ablation,trivia_qa_65,In which country is the Sky Train Rail bridge?,24,8,3,0.0,0,0.0,0,0,0,0,0.0,0.0,0.00012954307385371587,10.5
+phase1b_gate_ablation,trivia_qa_77,Bandar Seri Begawan International airport is in which country?,24,8,3,1.0,0,0.0,0,0,0,0,0.0,0.0,0.00018843559448367044,8.5
+phase1b_gate_ablation,trivia_qa_81,"To the nearest two, how many tennis Grand Slam titles did Jimmy Connors win?",24,8,3,1.0,0,0.0,0,0,0,0,0.0,0.0,0.0002479752323351382,15.0

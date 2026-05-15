@@ -1,0 +1,22 @@
+{
+  "output_dir": "/zhutingqi/song/Plan_gpt55/reports",
+  "intervention_d": {
+    "run_root": "/zhutingqi/song/ITI_for_entropy/Intervention_D/runs/run_20260416_085929_nsga2_safety_pareto_v1",
+    "config_snapshot": "/zhutingqi/song/ITI_for_entropy/Intervention_D/runs/run_20260416_085929_nsga2_safety_pareto_v1/config_snapshot.json",
+    "summary_md": "/zhutingqi/song/ITI_for_entropy/Intervention_D/runs/run_20260416_085929_nsga2_safety_pareto_v1/summary.md",
+    "final_pareto": "/zhutingqi/song/ITI_for_entropy/Intervention_D/runs/run_20260416_085929_nsga2_safety_pareto_v1/final_pareto.json",
+    "final_candidates_csv": "/zhutingqi/song/ITI_for_entropy/Intervention_D/runs/run_20260416_085929_nsga2_safety_pareto_v1/final_candidates.csv"
+  },
+  "deploy_eval": {
+    "run_root": "/zhutingqi/song/cand008_deploy_eval_v1/runs/run_20260416_034151_cand008_deploy_eval_v1",
+    "overall_summary": "/zhutingqi/song/cand008_deploy_eval_v1/runs/run_20260416_034151_cand008_deploy_eval_v1/overall_summary.json",
+    "summary_md": "/zhutingqi/song/cand008_deploy_eval_v1/runs/run_20260416_034151_cand008_deploy_eval_v1/summary.md"
+  },
+  "interpretation_thresholds": {
+    "small_effect_snr": 0.2,
+    "min_answer_change_rate_for_strong_claim": 0.1,
+    "required_safety_success_rate": 0.67,
+    "required_correct_nonnegative_rate": 1.0,
+    "required_exact_nonnegative_rate": 1.0
+  }
+}

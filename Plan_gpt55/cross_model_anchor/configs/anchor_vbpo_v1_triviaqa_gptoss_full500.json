@@ -1,0 +1,71 @@
+{
+  "tag": "anchor_vbpo_v1_triviaqa_gptoss_full500",
+  "model_dir": "/zhutingqi/song/qwen_model/model",
+  "anchor_rows": "/zhutingqi/song/Plan_gpt55/cross_model_anchor/runs/run_20260513_012413_gptoss_anchor_triviaqa_full500_k4_tok256/qwen_candidate_anchor_rows_final_only.csv",
+  "output_root": "/zhutingqi/song/Plan_gpt55/cross_model_anchor/runs",
+  "system_prompt": "Answer the question briefly and factually.",
+  "seed": 42,
+  "split": {
+    "train_questions": 425,
+    "dev_questions": 75
+  },
+  "training": {
+    "max_steps": 150,
+    "batch_size": 4,
+    "learning_rate": 0.000001,
+    "beta": 0.07,
+    "grad_clip_norm": 1.0,
+    "bf16": true,
+    "save_every_steps": 50,
+    "eval_every_steps": 25,
+    "balanced_pair_batches": true,
+    "pair_type_order": [
+      "anchor_rescue",
+      "anchor_damage_guard",
+      "anchor_correct_vs_qwen_only_stable_wrong",
+      "teacher_anchor_vs_student_only"
+    ]
+  },
+  "pair_building": {
+    "max_pairs_per_question": 4,
+    "min_teacher_support_mass": 0.1,
+    "min_teacher_similarity": 0.55,
+    "min_anchor_score_noleak": 0.15,
+    "allow_best_correct_fallback": true,
+    "max_sample0_rescues": 2,
+    "max_damage_guard_chosen": 1,
+    "max_damage_guard_rejected": 2,
+    "max_correct_chosen": 1,
+    "enable_teacher_anchor_pairs": true,
+    "max_teacher_anchor_chosen": 2,
+    "max_teacher_anchor_rejected": 3,
+    "min_teacher_anchor_pair_score_gap": 0.25,
+    "max_rejected_teacher_support_mass": 0.0,
+    "min_rejected_qwen_only_stable_mass": 0.1,
+    "chosen_support_alpha": 0.4,
+    "rejected_stability_alpha": 0.3,
+    "max_pair_weight": 2.8,
+    "pair_weights": {
+      "anchor_rescue": 2.2,
+      "anchor_damage_guard": 1.4,
+      "anchor_correct_vs_qwen_only_stable_wrong": 1.7,
+      "teacher_anchor_vs_student_only": 1.5
+    }
+  },
+  "anchor_scoring": {
+    "anchor_score_weight": 0.55,
+    "teacher_support_weight": 0.55,
+    "teacher_similarity_weight": 0.25,
+    "student_verifier_weight": 0.1,
+    "qwen_only_stable_weight": 0.6,
+    "student_cluster_mass_weight": 0.35,
+    "student_verifier_risk_weight": 0.15,
+    "unsupported_penalty_weight": 0.35
+  },
+  "lora": {
+    "r": 8,
+    "alpha": 16,
+    "dropout": 0.05,
+    "target_modules": ["q_proj", "k_proj", "v_proj", "o_proj", "up_proj", "down_proj"]
+  }
+}

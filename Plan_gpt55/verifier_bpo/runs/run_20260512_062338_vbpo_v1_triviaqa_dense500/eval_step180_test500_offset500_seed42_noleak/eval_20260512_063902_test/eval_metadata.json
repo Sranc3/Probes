@@ -1,0 +1,12 @@
+{
+  "adapter_dir": "/zhutingqi/song/Plan_gpt55/verifier_bpo/runs/run_20260512_062338_vbpo_v1_triviaqa_dense500/checkpoints/step_0180",
+  "split": "test",
+  "items": 500,
+  "fixed_k": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "seed": 42
+}

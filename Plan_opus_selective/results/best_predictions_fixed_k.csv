@@ -1,0 +1,1001 @@
+question_id,seed,label,selected_token_count,selected_answer_text,confidence,teacher_correct
+trivia_qa_164,42,1.0,24.0,"In La Cage Aux Folles, La Cage Aux Folles is a French nightclub and the setting of the story.",0.5204425847834934,0.0
+trivia_qa_164,43,0.0,27.0,"In ""La Cage Aux Folles,"" La Cage Aux Folles is a café and drag club owned by Jacques and Albin.",0.48827279303053084,1.0
+trivia_qa_383,42,0.0,27.0,"George Cornell was shot in the Humming Bird Café, which was located on Bethnal Green Road in the East End of London.",0.13801548429699298,1.0
+trivia_qa_383,43,0.0,19.0,"George Cornell was shot in the Black Horse public house in Bethnal Green, East London.",0.19093918583489786,1.0
+trivia_qa_45,42,1.0,29.0,"The Shining Path (Sendero Luminoso) terrorists operated primarily in Peru, particularly in the country's rural and mountainous regions.",0.9850710775104322,1.0
+trivia_qa_45,43,1.0,29.0,"The Shining Path (Sendero Luminoso) terrorists operated primarily in Peru, particularly in the country's rural and mountainous regions.",0.9858677512331114,1.0
+trivia_qa_156,42,0.0,16.0,Cindy Crawford named her first son after the rock star Mick Jagger.,0.0779995290193172,0.0
+trivia_qa_156,43,0.0,15.0,Cindy Crawford named her first son after the rock star Keith Richards.,0.10497787278860228,0.0
+trivia_qa_53,42,0.0,43.0,"According to Rudyard Kipling's poem ""The White Man's Burden,"" the ""two imposters"" are Sybarite and Boche, representing the decadent and militaristic attitudes, respectively.",0.01836868723443279,0.0
+trivia_qa_53,43,0.0,43.0,"According to Rudyard Kipling's poem ""The White Man's Burden,"" the ""two imposters"" are Sybarite and Boche, representing the decadent and militaristic attitudes, respectively.",0.024402796264081466,0.0
+trivia_qa_72,42,1.0,12.0,The first host of Family Feud was Richard Dawson.,0.9947037691880627,1.0
+trivia_qa_72,43,1.0,12.0,The first host of Family Feud was Richard Dawson.,0.9951895450286992,1.0
+trivia_qa_315,42,1.0,63.0,"The films ""Thelma and Louise,"" ""Hannibal,"" and ""Black Hawk Down"" were directed by different individuals. ""Thelma and Louise"" was directed by Ridley Scott, ""Hannibal"" was directed by Neil Jordan, and ""Black Hawk Down"" was directed by Ridley Scott.",0.9596209455787896,1.0
+trivia_qa_315,43,1.0,27.0,"The films ""Thelma and Louise,"" ""Hannibal,"" and ""Black Hawk Down"" were directed by Ridley Scott.",0.9748055838258992,1.0
+trivia_qa_209,42,0.0,21.0,The Syrian city of Aleppo is often cited as one of the oldest continually inhabited cities in the world.,0.3067168724633097,0.0
+trivia_qa_209,43,0.0,21.0,The Syrian city of Aleppo is often cited as one of the oldest continually inhabited cities in the world.,0.3723741060367994,0.0
+trivia_qa_74,42,1.0,29.0,Gentle Ben was a brown bear who was the main character in the 1960s TV series of the same name.,0.3815342619432534,1.0
+trivia_qa_74,43,1.0,29.0,Gentle Ben was a brown bear who was the main character in the 1960s TV series of the same name.,0.5991817074311349,1.0
+trivia_qa_333,42,0.0,50.0,"Luigina Giavotti was 13 years and 262 days old when she won a silver medal in gymnastics at the 1928 Amsterdam Olympics, and she is still the youngest medalist in Olympic history.",0.15328773644418256,0.0
+trivia_qa_333,43,0.0,50.0,"Luigina Giavotti was 13 years and 262 days old when she won a silver medal in gymnastics at the 1928 Amsterdam Olympics, and she is still the youngest medalist in Olympic history.",0.12457507390489014,0.0
+trivia_qa_403,42,0.0,20.0,The singing voice of Miss Piggy in The Muppet Movie was dubbed by Nancy Cartwright.,0.13167808108655743,0.0
+trivia_qa_403,43,0.0,20.0,The singing voice of Miss Piggy in The Muppet Movie was dubbed by Nancy Cartwright.,0.15343727826808257,0.0
+trivia_qa_415,42,0.0,23.0,"Nose walking is primarily seen in the sport of nose walking, where participants balance and walk on their noses.",0.3779909827599338,0.0
+trivia_qa_415,43,0.0,81.0,"Nose walking is a trick or stunt seen in the sport of wrestling, particularly professional wrestling, as well as in杂技和魔术表演中。但这通常是在特定的表演或娱乐活动中看到，而不是在正式的体育比赛中。为了更准确地回答，它更常出现在街头表演或娱乐节目中。请问您希望它以哪种语言回答？或者您想了解更多信息吗？",0.1520527133375483,0.0
+trivia_qa_92,42,0.0,32.0,"The sitcom star who appeared in the film ""The Object of My Affection"" is Lisa Kudrow, who starred in the popular sitcom ""Friends.""",0.19024654117143566,0.0
+trivia_qa_92,43,0.0,32.0,"The sitcom star who appeared in the film ""The Object of My Affection"" is Lisa Kudrow, who starred in the popular sitcom ""Friends.""",0.22795320513545167,0.0
+trivia_qa_215,42,1.0,15.0,"The United Nations International Court of Justice sits in The Hague, Netherlands.",0.9995045166244383,1.0
+trivia_qa_215,43,1.0,15.0,"The United Nations International Court of Justice sits in The Hague, Netherlands.",0.9995045166244383,1.0
+trivia_qa_479,42,1.0,23.0,"The name of C.S. Lewis' 7-book fantasy series is ""The Chronicles of Narnia.""",0.9934552090631363,1.0
+trivia_qa_479,43,1.0,23.0,"The name of C.S. Lewis' 7-book fantasy series is ""The Chronicles of Narnia.""",0.9934552090631363,1.0
+trivia_qa_59,42,0.0,9.0,Mel Gibson's middle name is Joseph.,0.09805611031579001,0.0
+trivia_qa_59,43,0.0,9.0,Mel Gibson's middle name is Joseph.,0.09816255700709825,0.0
+trivia_qa_368,42,0.0,31.0,The Cook Islands beat American Samoa 31-0 in a 2002 World Cup qualifier but still failed to qualify for the tournament.,0.08197375758553425,0.0
+trivia_qa_368,43,0.0,31.0,The Cook Islands beat American Samoa 31-0 in a 2002 World Cup qualifier but still failed to qualify for the tournament.,0.07746242722300233,0.0
+trivia_qa_163,42,1.0,43.0,"D.W. Griffith had the last name nearest the beginning of the alphabet among the founders of United Artists. The founders were Douglas Fairbanks, D.W. Griffith, Charlie Chaplin, and Mary Pickford.",0.9938059711787334,1.0
+trivia_qa_163,43,1.0,43.0,"D.W. Griffith had the last name nearest the beginning of the alphabet among the founders of United Artists. The founders were Douglas Fairbanks, D.W. Griffith, Charlie Chaplin, and Mary Pickford.",0.9933323988119447,1.0
+trivia_qa_210,42,1.0,23.0,"At the time the French Revolution began in 1789, the king of France was Louis XVI.",0.9934405790083077,1.0
+trivia_qa_210,43,1.0,23.0,"At the time the French Revolution began in 1789, the king of France was Louis XVI.",0.9934405790083077,1.0
+trivia_qa_251,42,1.0,17.0,The large buttock and thigh muscle is called the gluteus maximus.,0.9939139707505628,1.0
+trivia_qa_251,43,1.0,17.0,The large buttock and thigh muscle is called the gluteus maximus.,0.9939139707505628,1.0
+trivia_qa_443,42,0.0,31.0,"In 1961, Geoff Hurst scored six goals for West Ham United, but they still lost to Arsenal in an FA Cup tie.",0.3091250087654715,0.0
+trivia_qa_443,43,0.0,31.0,"In 1961, Geoff Hurst scored six goals for West Ham United, but they still lost to Arsenal in an FA Cup tie.",0.2879552349961095,0.0
+trivia_qa_320,42,1.0,31.0,"The melody for ""Happy Birthday to You"" was written by sisters and school teachers Patty and Mildred Hill in Kentucky in 1893.",1.0,1.0
+trivia_qa_320,43,1.0,41.0,"The melody for ""Good Morning to All,"" a famous song often sung as ""Happy Birthday,"" was written by sisters and school teachers Patty and Mildred Hill in Kentucky in 1893.",0.6551201761235593,1.0
+trivia_qa_289,42,1.0,13.0,"Oscar Wilde wrote ""The Importance of Being Earnest.""",0.9943522040766963,1.0
+trivia_qa_289,43,1.0,13.0,"Oscar Wilde wrote ""The Importance of Being Earnest.""",0.9943522040766963,1.0
+trivia_qa_389,42,0.0,76.0,"Fruit, cricket, and horseshoe are not varieties of any type of animal. These terms refer to different things: ""fruit"" is a part of a plant that contains seeds and is used in food, ""cricket"" is a type of insect, and ""horseshoe"" is a curved piece of metal that is placed on a horse's hoof.",0.2937054330899651,0.0
+trivia_qa_389,43,0.0,76.0,"Fruit, cricket, and horseshoe are not varieties of any type of animal. These terms refer to different things: ""fruit"" is a part of a plant that contains seeds and is used in food, ""cricket"" is a type of insect, and ""horseshoe"" is a curved piece of metal that is placed on a horse's hoof.",0.16373309677885103,0.0
+trivia_qa_7,42,0.0,17.0,Joan Blondell was voted Miss Greenwich Village in 1942.,0.1112339310855567,0.0
+trivia_qa_7,43,0.0,17.0,Joan Blondell was voted Miss Greenwich Village in 1942.,0.10261182514242502,0.0
+trivia_qa_462,42,1.0,16.0,The Duke of Edinburgh and Prince Charles attended Gordonstoun School in Scotland.,0.958297681874181,1.0
+trivia_qa_462,43,1.0,16.0,The Duke of Edinburgh and Prince Charles attended Gordonstoun School in Scotland.,0.9430362333284071,1.0
+trivia_qa_249,42,1.0,16.0,The pancreas secretes insulin and glucagon to regulate blood sugar levels.,0.9945167916022543,1.0
+trivia_qa_249,43,1.0,16.0,The pancreas secretes insulin and glucagon to regulate blood sugar levels.,0.9945167916022543,1.0
+trivia_qa_228,42,1.0,14.0,Silica sand is the primary raw material used for making glass.,0.9864890517129806,1.0
+trivia_qa_228,43,1.0,14.0,Silica sand is the primary raw material used for making glass.,0.9816739799795453,1.0
+trivia_qa_245,42,1.0,12.0,A leaf has a central vein called a midrib.,0.9941980644915093,1.0
+trivia_qa_245,43,1.0,12.0,A leaf has a central vein called a midrib.,0.9941980644915093,1.0
+trivia_qa_211,42,1.0,9.0,The principal language of Bulgaria is Bulgarian.,0.9944074391986737,1.0
+trivia_qa_211,43,1.0,9.0,The principal language of Bulgaria is Bulgarian.,0.9944074391986737,1.0
+trivia_qa_129,42,1.0,11.0,The Naismith Award is presented in basketball.,0.999549712143366,1.0
+trivia_qa_129,43,1.0,11.0,The Naismith Award is presented in basketball.,0.999549712143366,1.0
+trivia_qa_162,42,1.0,20.0,Aung San Suu Kyi is a controversial leader in Myanmar (also known as Burma).,0.8868903248628714,1.0
+trivia_qa_162,43,1.0,20.0,Aung San Suu Kyi is a controversial leader in Myanmar (formerly known as Burma).,0.8924960081194598,1.0
+trivia_qa_223,42,0.0,96.0,"The word derived from the name of one of Napoleon's admirers is ""bonhomme,"" which in this context likely refers to ""bonhomie,"" though more specifically, the term ""bonapartism"" is not commonly used. The term you might be thinking of is likely ""jingoism,"" but if you are referring to a word derived from a specific admirer, it could be ""nepotism"" from Napoleon's family connections, but the direct link to",0.14924588656106832,0.0
+trivia_qa_223,43,0.0,96.0,"The word derived from the name of one of Napoleon's admirers is ""bonhomme,"" which in this context likely refers to ""bonhomie,"" though more specifically, the term ""bonapartism"" is not commonly used. The term you might be thinking of is likely ""jingoism,"" but if you are referring to a word derived from a specific admirer, it could be ""nepotism"" from Napoleon's family connections, but the direct link to",0.131430141472736,0.0
+trivia_qa_41,42,0.0,16.0,"Nigel Hawthorne was born in Burnley, Lancashire, England.",0.22799780440953044,1.0
+trivia_qa_41,43,0.0,16.0,"Nigel Hawthorne was born in Burnley, Lancashire, England.",0.2309660834239345,1.0
+trivia_qa_278,42,1.0,22.0,The American President when the Berlin Wall was constructed in 1961 was John F. Kennedy.,0.9924612777168936,1.0
+trivia_qa_278,43,1.0,22.0,The American President when the Berlin Wall was constructed in 1961 was John F. Kennedy.,0.9924612777168936,1.0
+trivia_qa_21,42,1.0,36.0,"In Bob Dylan's classic 1965 album ""Highway 61 Revisited,"" the title track ""Highway 61 Revisited"" is featured.",0.997122297586502,1.0
+trivia_qa_21,43,1.0,40.0,"The highway referred to in Bob Dylan's classic 60s album ""Highway 61 Revisited"" is U.S. Highway 61, which runs from Minnesota to Louisiana.",0.9871980357911903,1.0
+trivia_qa_434,42,0.0,16.0,Donald Bradman scored 9 runs in his last ever Test match innings.,0.14131873333639944,0.0
+trivia_qa_434,43,0.0,16.0,Donald Bradman scored 9 runs in his last ever Test match innings.,0.14131873333639938,0.0
+trivia_qa_68,42,1.0,21.0,Journalist Seymour Hersh first reported on the My Lai massacre in 1969.,0.9943464209065584,1.0
+trivia_qa_68,43,1.0,21.0,Journalist Seymour Hersh first reported on the My Lai massacre in 1969.,0.9968418007869534,1.0
+trivia_qa_227,42,1.0,15.0,The type of coal that is brown and fibrous is lignite.,0.9932448775630648,1.0
+trivia_qa_227,43,1.0,15.0,The type of coal that is brown and fibrous is lignite.,0.9939737749164597,1.0
+trivia_qa_151,42,0.0,95.0,"Blondie's last UK No. 1 hit of the 1980s was ""Call Me"" in 1981. However, it's worth noting that ""Call Me"" was actually their biggest hit and a跨年代的经典，而不是他们80年代的最后冠军单曲。80年代末期，他们的冠军单曲主要是""The Tide Is High""的翻唱版本，但在英国chart的顶峰是在早期。",0.34854371205636053,0.0
+trivia_qa_151,43,0.0,86.0,"Blondie's last UK No. 1 hit of the 1980s was ""Call Me"" in 1981. However, it's worth noting that ""Call Me"" was actually their first UK No. 1, not their last. Their last UK No. 1 of the 1980s was ""The Tide Is High"" in 1984.",0.6046577629468025,0.0
+trivia_qa_369,42,0.0,13.0,Roland Rat's gerbil friend was named Plotz.,0.07153324325859352,0.0
+trivia_qa_369,43,0.0,13.0,Roland Rat's gerbil friend was named Plotz.,0.08159462596145578,0.0
+trivia_qa_217,42,1.0,20.0,Mao Zedong proclaimed the People's Republic of China in 1949.,0.9940673371389501,1.0
+trivia_qa_217,43,1.0,20.0,Mao Zedong proclaimed the People's Republic of China in 1949.,0.9940673371389501,1.0
+trivia_qa_154,42,1.0,29.0,"Anne Bancroft was born in the 1930s, specifically on January 10, 1931.",0.9883247498596378,1.0
+trivia_qa_154,43,1.0,29.0,"Anne Bancroft was born in the 1930s, specifically on January 10, 1931.",0.9704520096194973,1.0
+trivia_qa_177,42,0.0,12.0,Michael Jackson's second wife was Lisa Marie Presley.,0.43722725878577845,0.0
+trivia_qa_177,43,0.0,12.0,Michael Jackson's second wife was Lisa Marie Presley.,0.3765143475536816,0.0
+trivia_qa_397,42,0.0,22.0,The stand-up comedian who presents 8 Out Of 10 Cats and Distraction is Matt Lucas.,0.06808670700463967,0.0
+trivia_qa_397,43,0.0,19.0,"Matt Lucas presents both ""8 Out Of 10 Cats"" and ""Distraction"".",0.06720825938993583,0.0
+trivia_qa_139,42,1.0,23.0,The U.S. President who won the Nobel Peace Prize in 1920 was Woodrow Wilson.,0.9991603782581727,1.0
+trivia_qa_139,43,1.0,23.0,The U.S. President who won the Nobel Peace Prize in 1920 was Woodrow Wilson.,0.9991603782581727,1.0
+trivia_qa_141,42,0.0,40.0,Flo Jo and Jackie Joyner-Kersee were not related. Flo Jo's full name was Florence Griffith Joyner. She was Jackie Joyner-Kersee's cousin through their shared grandmother.,0.1496441535370432,0.0
+trivia_qa_141,43,0.0,34.0,Flo Jo and Jackie Joyner-Kersee were not related. Flo Jo (Florence Griffith Joyner) was Jackie Joyner-Kersee's older sister.,0.32466455229483193,0.0
+trivia_qa_326,42,0.0,24.0,"The Hollies had a top ten hit in the UK with ""Cupid"" in 1961.",0.05229972020754686,0.0
+trivia_qa_326,43,0.0,24.0,"The Hollies had a top ten hit in the UK with ""Cupid"" in 1961.",0.07299976628191192,0.0
+trivia_qa_175,42,1.0,26.0,"Throughout the 1980s and 1990s, Phil Collins recorded on the Atlantic Records label.",0.9909827523752088,1.0
+trivia_qa_175,43,1.0,26.0,"Throughout the 1980s and 1990s, Phil Collins recorded on the Atlantic Records label.",0.9909827523752088,1.0
+trivia_qa_170,42,0.0,38.0,"The first European city to open an underground railway system in the 21st century was Stockholm, Sweden, with the opening of the Stockholm Metro extension in 2000.",0.04265723773524704,0.0
+trivia_qa_170,43,0.0,38.0,"The first European city to open an underground railway system in the 21st century was Stockholm, Sweden, with the opening of the Stockholm Metro extension in 2000.",0.06847244234394602,0.0
+trivia_qa_88,42,1.0,11.0,The Isabella Stewart Gardner Museum is in Massachusetts.,0.9944218663431569,1.0
+trivia_qa_88,43,1.0,11.0,The Isabella Stewart Gardner Museum is in Massachusetts.,0.9944218663431569,1.0
+trivia_qa_96,42,0.0,23.0,The film director who guested as the FBI Director in The Silence of the Lambs is Jonathan Demme.,0.06566500352283583,0.0
+trivia_qa_96,43,0.0,23.0,The film director who guested as the FBI Director in The Silence of the Lambs is Jonathan Demme.,0.09939149503193354,0.0
+trivia_qa_439,42,1.0,21.0,"Wyatt Earp was shot four times in his life, but none of these wounds were fatal.",0.599230428100835,0.0
+trivia_qa_439,43,1.0,21.0,"Wyatt Earp was shot four times in his life, but none of these shootings were fatal.",0.6655965279377212,0.0
+trivia_qa_303,42,1.0,18.0,"Donald Duck's three nephews are Huey, Dewey, and Louie.",0.9924841099663982,1.0
+trivia_qa_303,43,1.0,18.0,"Donald Duck's three nephews are Huey, Dewey, and Louie.",0.9924841099663982,1.0
+trivia_qa_50,42,1.0,12.0,"Brandon Lee died during the making of ""The Crow.""",0.9938667344832729,1.0
+trivia_qa_50,43,1.0,12.0,"Brandon Lee died during the making of ""The Crow.""",0.9938667344832729,1.0
+trivia_qa_199,42,1.0,17.0,Jack Ruby shot and killed Lee Harvey Oswald in November 1963.,0.9993779701286947,1.0
+trivia_qa_199,43,1.0,17.0,Jack Ruby shot and killed Lee Harvey Oswald in November 1963.,0.9993779701286947,1.0
+trivia_qa_297,42,0.0,22.0,The only two musical notes that have no flats are B (B natural) and E (E natural).,0.1579713472054127,0.0
+trivia_qa_297,43,0.0,22.0,The only two musical notes that have no flats are B (B natural) and E (E natural).,0.18094759024773646,0.0
+trivia_qa_131,42,0.0,17.0,Babe Ruth blasted his last Major League home run for the New York Yankees.,0.08228698789060421,0.0
+trivia_qa_131,43,0.0,17.0,Babe Ruth blasted his last Major League home run for the New York Yankees.,0.08228698789060421,0.0
+trivia_qa_120,42,1.0,15.0,"Solidarity was set up in the shipyard in Gdańsk, Poland.",0.9926473805505003,1.0
+trivia_qa_120,43,1.0,15.0,"Solidarity was set up in the shipyard in Gdańsk, Poland.",0.9926473805505003,1.0
+trivia_qa_358,42,1.0,42.0,"The surname of the woman who inspired the Rolling Stones song ""Angie"" was Richards. Her full name was Angie Bowie, and she was the wife of Mick Jagger's friend and musician Buddy Rich.",0.034249406241844804,0.0
+trivia_qa_358,43,1.0,42.0,"The surname of the woman who inspired the Rolling Stones song ""Angie"" was Richards. Her full name was Angie Bowie, and she was the wife of Mick Jagger's friend and musician Buddy Rich.",0.036908623946571906,0.0
+trivia_qa_180,42,0.0,38.0,"The song ""Roses Are Red"" was a hit for Wayne Cochran in 1966, reaching No. 1 on the Billboard Hot 100 chart.",0.07966619603103799,0.0
+trivia_qa_180,43,0.0,27.0,"The singer who had a big 60s No. 1 hit with ""Roses Are Red"" is Johnny Nash.",0.05158770053546844,0.0
+trivia_qa_370,42,1.0,18.0,"The elephant has the longest gestation period, which is approximately 22 months.",0.8822928346700278,1.0
+trivia_qa_370,43,1.0,18.0,"The elephant has the longest gestation period, which is approximately 22 months.",0.8857918549771269,1.0
+trivia_qa_37,42,0.0,32.0,"Kim Carnes' nine weeks at No. 1 with ""Bette Davis Eyes"" was interrupted for one week by Johnny Mathis's ""Always.""",0.012967106720201533,0.0
+trivia_qa_37,43,0.0,32.0,"Kim Carnes' nine weeks at No. 1 with ""Bette Davis Eyes"" was interrupted for one week by Johnny Mathis's ""Always.""",0.010937123878074606,0.0
+trivia_qa_160,42,0.0,21.0,Earl Spencer's acrimonious divorce settlement was heard in the High Court of England and Wales.,0.13971227941851685,0.0
+trivia_qa_160,43,0.0,21.0,Earl Spencer's acrimonious divorce settlement was heard in the High Court of England and Wales.,0.13971227941851685,0.0
+trivia_qa_4,42,1.0,11.0,Kathleen Ferrier died of liver cancer.,0.2779830597243348,1.0
+trivia_qa_4,43,1.0,11.0,Kathleen Ferrier died of liver cancer.,0.2635068395981366,1.0
+trivia_qa_93,42,0.0,17.0,"In Steven Spielberg's ""Hook,"" Julia Roberts played the character of Wendy Darling.",0.13167841573693623,0.0
+trivia_qa_93,43,0.0,17.0,"In Steven Spielberg's ""Hook,"" Julia Roberts played the character of Wendy Darling.",0.1214067862024803,0.0
+trivia_qa_304,42,1.0,10.0,"The film is ""Sleepless in Seattle.""",0.1312393488515374,0.0
+trivia_qa_304,43,1.0,10.0,"The film is ""Sleepless in Seattle.""",0.1312393488515374,0.0
+trivia_qa_188,42,1.0,29.0,"The disaster that claimed some 100,000 lives in Armenia in 1988 was the Spitak earthquake.",0.9057985231986958,1.0
+trivia_qa_188,43,1.0,51.0,"The 1988 Armenian earthquake, also known as the Spitak earthquake, claimed approximately 25,000 lives, not 100,000. The disaster affected Armenia, then part of the Soviet Union.",0.9764106930281471,1.0
+trivia_qa_374,42,0.0,18.0,The star of the 2005 film Racing Stripes is a horse.,0.07222499331090612,0.0
+trivia_qa_374,43,0.0,18.0,The star of the 2005 film Racing Stripes is a horse.,0.07222499331090612,0.0
+trivia_qa_453,42,1.0,8.0,Angel Falls are located in Venezuela.,0.9945052274602495,1.0
+trivia_qa_453,43,1.0,8.0,Angel Falls are located in Venezuela.,0.9945052274602495,1.0
+trivia_qa_94,42,1.0,14.0,"Anthony Hopkins played President Richard Nixon in the film ""Nixon.""",0.9940064704567897,1.0
+trivia_qa_94,43,1.0,14.0,"Anthony Hopkins played President Richard Nixon in the film ""Nixon.""",0.9940064704567897,1.0
+trivia_qa_468,42,0.0,24.0,"The well-known couple who live at Bagshot Park in Surrey are Prince Charles and Camilla, Duchess of Cornwall.",0.20150952667873306,0.0
+trivia_qa_468,43,0.0,24.0,"The well-known couple who live at Bagshot Park in Surrey are Prince Charles and Camilla, Duchess of Cornwall.",0.21406010433510772,0.0
+trivia_qa_292,42,0.0,24.0,"No, the letter 'e' is the most common letter used in the English language, followed by 't'.",0.24986338707819197,0.0
+trivia_qa_292,43,0.0,16.0,The letter t is the second most common letter used in the English language.,0.39571958947522645,0.0
+trivia_qa_340,42,1.0,19.0,The correct technical term for the art of making and displaying fireworks is pyrotechnics.,0.9925679806156589,1.0
+trivia_qa_340,43,1.0,19.0,The correct technical term for the art of making and displaying fireworks is pyrotechnics.,0.9925679806156589,1.0
+trivia_qa_407,42,1.0,20.0,The small fifth claw on the side of a dog's foot is called a dewclaw.,0.9681389048111694,1.0
+trivia_qa_407,43,1.0,20.0,The small fifth claw on the side of a dog's foot is called a dewclaw.,0.9681389048111692,1.0
+trivia_qa_408,42,1.0,17.0,The plastic bit on the end of shoelaces is called a aglet.,0.9933183503074257,1.0
+trivia_qa_408,43,1.0,17.0,The plastic bit on the end of shoelaces is called a aglet.,0.9927321660482337,1.0
+trivia_qa_187,42,1.0,15.0,Ferdinand Marcos was deposed in 1986.,0.9923036881198144,1.0
+trivia_qa_187,43,1.0,15.0,Ferdinand Marcos was deposed in 1986.,0.9923036881198144,1.0
+trivia_qa_334,42,0.0,24.0,"The actor who has played the character Nick Rowan, a policeman, in EastEnders is Danny Dyer.",0.09433821634177,0.0
+trivia_qa_334,43,0.0,24.0,"The actor who has played the character Nick Rowan, a policeman, in EastEnders is Danny Dyer.",0.09782086132875731,0.0
+trivia_qa_213,42,1.0,15.0,Suomen Tasavalta is the official name of Finland in Finnish.,0.9930214802467939,1.0
+trivia_qa_213,43,1.0,15.0,Suomen Tasavalta is the official name of Finland in Finnish.,0.9930214802467939,1.0
+trivia_qa_127,42,0.0,22.0,Jonathan Edwards set his 1995 triple jump world record at the Meeting de Monaco in Monaco.,0.061956219563787364,0.0
+trivia_qa_127,43,0.0,22.0,Jonathan Edwards set his 1995 triple jump world record at the Meeting de Monaco in Monaco.,0.12149684754581203,0.0
+trivia_qa_11,42,0.0,44.0,"Electric timing devices were used for the first time in the 1912 Olympics in Stockholm, Sweden, while a public-address system was first used in the 1936 Olympics in Berlin, Germany.",0.2544817357039537,0.0
+trivia_qa_11,43,0.0,44.0,"Electric timing devices were used for the first time in the 1912 Olympics in Stockholm, Sweden, while a public-address system was first used in the 1936 Olympics in Berlin, Germany.",0.17446813638004224,0.0
+trivia_qa_6,42,0.0,31.0,"Mississippi was the last U.S. state to reintroduce alcohol after Prohibition, doing so on January 1, 1966.",0.3868973049398949,0.0
+trivia_qa_6,43,0.0,31.0,"Mississippi was the last U.S. state to reintroduce alcohol after Prohibition, doing so on January 1, 1966.",0.3868973049398949,0.0
+trivia_qa_442,42,0.0,96.0,"The movie that starred Michael Caine as a murderous transvestite psychiatrist is ""Whatubitschi"" (also known as ""Suicide Circle"" or ""The Killing of a Young Psychiatrist""), though Caine did not play a transvestite psychiatrist in this film. It's possible there might be some confusion with another film. A famous role of Michael Caine's that involves a psychiatrist is in ""The Sweet Hereafter,"" but he does not play a transvestite in",0.042488030310473934,0.0
+trivia_qa_442,43,0.0,17.0,"The movie is ""Alamo Bay,"" released in 1980.",0.09855883436380247,0.0
+trivia_qa_246,42,1.0,21.0,"The beaver constructs a lodge in which to store food, rear young, and pass the winter.",0.9929594868926429,1.0
+trivia_qa_246,43,1.0,21.0,"The beaver constructs a lodge in which to store food, rear young, and pass the winter.",0.9929594868926429,1.0
+trivia_qa_396,42,1.0,15.0,The Yalu River forms a natural border between China and North Korea.,0.9941702344533244,1.0
+trivia_qa_396,43,1.0,15.0,The Yalu River forms a natural border between China and North Korea.,0.9941702344533244,1.0
+trivia_qa_425,42,1.0,16.0,The shape-shifting foxes in Japanese folklore are known as Kitsune.,0.9938323619638634,1.0
+trivia_qa_425,43,1.0,16.0,The shape-shifting foxes in Japanese folklore are known as kitsune.,0.990218387553777,1.0
+trivia_qa_345,42,1.0,19.0,The device made of wood and horsehair used to play a violin is called a bow.,0.9939848407853945,1.0
+trivia_qa_345,43,1.0,19.0,The device made of wood and horsehair used to play a violin is called a bow.,0.9939848407853945,1.0
+trivia_qa_89,42,1.0,9.0,Benina International Airport is in Libya.,0.9941700654965808,1.0
+trivia_qa_89,43,1.0,9.0,Benina International Airport is in Libya.,0.9941700654965808,1.0
+trivia_qa_426,42,1.0,14.0,The twin of Polydeuces in Greek mythology is Castor.,0.9937466280677392,1.0
+trivia_qa_426,43,1.0,14.0,The twin of Polydeuces in Greek mythology is Castor.,0.9937466280677392,1.0
+trivia_qa_26,42,0.0,19.0,Truman Capote's last name before he was adopted by his stepfather was Hanson.,0.14464468267105127,0.0
+trivia_qa_26,43,0.0,19.0,Truman Capote's last name before he was adopted by his stepfather was Goodman.,0.16495307410543172,0.0
+trivia_qa_77,42,1.0,14.0,Bandar Seri Begawan International Airport is in Brunei.,0.9942190354666877,1.0
+trivia_qa_77,43,1.0,14.0,Bandar Seri Begawan International Airport is in Brunei.,0.9942190354666877,1.0
+trivia_qa_184,42,0.0,36.0,"The most expensive presidential inauguration ceremony of the 20th century was that of President Bill Clinton in 1997, with total costs estimated around $5 million.",0.05930534999040634,0.0
+trivia_qa_184,43,0.0,36.0,"The most expensive presidential inauguration ceremony of the 20th century was that of President Bill Clinton in 1997, with total costs estimated around $5 million.",0.10077686581167256,0.0
+trivia_qa_262,42,1.0,18.0,"Black holes have regions from which there is no escape, known as the event horizon.",0.8392227096910987,1.0
+trivia_qa_262,43,1.0,18.0,"Black holes have regions from which there is no escape, known as the event horizon.",0.8813015034825087,1.0
+trivia_qa_207,42,1.0,18.0,The mountain pass that lies between Pakistan and Afghanistan is known as Khyber Pass.,0.9948709467987287,1.0
+trivia_qa_207,43,1.0,18.0,The mountain pass which lies between Pakistan and Afghanistan is known as Khyber Pass.,0.9955727764140619,1.0
+trivia_qa_182,42,1.0,17.0,"The American venue for the Live Aid concert was JFK Stadium in Philadelphia, Pennsylvania.",0.9035158478585661,1.0
+trivia_qa_182,43,1.0,17.0,"The American venue for the Live Aid concert was JFK Stadium in Philadelphia, Pennsylvania.",0.9676214806890607,1.0
+trivia_qa_95,42,1.0,26.0,"The biopic about the life of David Helfgott is ""Shine,"" released in 1996.",0.9990692668826177,1.0
+trivia_qa_95,43,1.0,26.0,"The biopic about the life of David Helfgott is ""Shine,"" released in 1996.",0.9990692668826177,1.0
+trivia_qa_100,42,0.0,34.0,"The film ""Midnight Express,"" which was Oscar-nominated for Best Picture in 1978, featured ""You Sexy Thing"" as its theme song.",0.18961848106812873,1.0
+trivia_qa_100,43,0.0,34.0,"The film ""Midnight Express,"" which was Oscar-nominated for Best Picture in 1978, featured ""You Sexy Thing"" as its theme song.",0.18961848106812873,1.0
+trivia_qa_419,42,1.0,50.0,"The first person to sell one million records is generally considered to be Enrico Caruso, an Italian opera singer who achieved this milestone with his 1903 recording of ""Vesti la giubba (Put on the Overcoat).""",0.7300731351102415,1.0
+trivia_qa_419,43,1.0,50.0,"The first person to sell one million records is generally considered to be Enrico Caruso, an Italian opera singer who achieved this milestone with his 1903 recording of ""Vesti la giubba (Put on the Overcoat).""",0.7680798216725552,1.0
+trivia_qa_394,42,1.0,12.0,"Ducati is manufactured in Bologna, Italy.",0.9946542719166261,1.0
+trivia_qa_394,43,1.0,12.0,"Ducati is manufactured in Bologna, Italy.",0.9946542719166261,1.0
+trivia_qa_155,42,1.0,14.0,The Suez Canal connects the Mediterranean Sea to the Red Sea.,0.9948633429276755,1.0
+trivia_qa_155,43,1.0,14.0,The Suez Canal connects the Mediterranean Sea to the Red Sea.,0.9948633429276755,1.0
+trivia_qa_230,42,1.0,13.0,The strong material found in plant cell walls is cellulose.,0.993786006641325,1.0
+trivia_qa_230,43,1.0,13.0,The strong material found in plant cell walls is cellulose.,0.9948036351023477,1.0
+trivia_qa_362,42,1.0,20.0,"In 1982, Chelsea Football Club was bought for £1 by Ken Bates.",0.9810648572724049,1.0
+trivia_qa_362,43,1.0,20.0,"In 1982, Chelsea Football Club was bought for £1 by Ken Bates.",0.9747974104851158,1.0
+trivia_qa_237,42,0.0,60.0,"The reptile you are referring to is the soft-shelled turtle. Specifically, the two species are the Mississippi soft-shelled turtle (Apalone spinifera) found in the Mississippi River basin, and the Asian soft-shelled turtle (Pelodiscus sinensis) native to China.",0.05650734254501976,0.0
+trivia_qa_237,43,0.0,49.0,"The reptile you are referring to is the soft-shelled turtle. Specifically, the two species are the Mississippi soft-shelled turtle (Apalone mississippiensis) and the Asian soft-shelled turtle (Pelodiscus sinensis).",0.15300929886120132,0.0
+trivia_qa_353,42,0.0,55.0,"The film is ""Apollo 13"" (1995). However, James Garner does not appear in this film. The cast includes Clint Eastwood, Tommy Lee Jones, and Donald Sutherland as astronauts, but James Garner is not part of the cast.",0.09363250201250645,0.0
+trivia_qa_353,43,0.0,14.0,"The film is ""White Noise"" (1986).",0.09289904364746034,0.0
+trivia_qa_85,42,0.0,37.0,"""Sweet and Innocent and Too Young"" is a song by the British rock band Oasis, featured on their album ""Be Here Now"" released in 1997.",0.09695088410554921,0.0
+trivia_qa_85,43,0.0,38.0,"""Sweet and Innocent and Too Young"" is a song by the American country music group Little Big Town, released in 2010 as part of their album ""Golden.""",0.05518720195724652,0.0
+trivia_qa_323,42,0.0,3.0,Radar,0.1973609276760827,0.0
+trivia_qa_323,43,0.0,3.0,Radar,0.19736092767608265,0.0
+trivia_qa_171,42,1.0,30.0,Mickey Mouse was first drawn by Ub Iwerks in 1928. The first voice for Mickey was supplied by Walt Disney.,0.3811215728093519,1.0
+trivia_qa_171,43,1.0,30.0,Mickey Mouse was first drawn by Ub Iwerks in 1928. The first voice for Mickey was supplied by Walt Disney.,0.3811215728093519,1.0
+trivia_qa_393,42,0.0,29.0,"Neil Ruddock was nicknamed ""Taff"" due to his connection to the River Taff in Cardiff, Wales, where he was born.",0.042321758988349625,0.0
+trivia_qa_393,43,0.0,11.0,"Neil Ruddock was nicknamed ""Rudie.""",0.13256567786755752,0.0
+trivia_qa_153,42,1.0,10.0,Cleveland is the largest city in Ohio.,0.09963536745185636,0.0
+trivia_qa_153,43,1.0,10.0,Cleveland is the largest city in Ohio.,0.09963536745185636,0.0
+trivia_qa_313,42,0.0,25.0,"The voice for Bob The Builder on his number one hit ""Can We Fix It?"" was provided by Will Fries.",0.03916965092785261,0.0
+trivia_qa_313,43,0.0,25.0,"The voice for Bob The Builder on his number one hit ""Can We Fix It?"" was provided by Martyn Sole.",0.05144482441096951,0.0
+trivia_qa_38,42,1.0,16.0,"The Lion's Gate Bridge is located in Vancouver, British Columbia, Canada.",0.9793393738162467,1.0
+trivia_qa_38,43,1.0,16.0,"The Lion's Gate Bridge is located in Vancouver, British Columbia, Canada.",0.9793393738162467,1.0
+trivia_qa_392,42,1.0,17.0,"Albert Einstein was Time magazine's ""Person of the 20th Century.""",0.9945904800861662,1.0
+trivia_qa_392,43,1.0,17.0,"Albert Einstein was Time magazine's ""Person of the 20th Century.""",0.9945904800861662,1.0
+trivia_qa_69,42,0.0,19.0,Terence and Shirley Conran's son who is a dress designer is Thomas Conran.,0.6060264701290181,1.0
+trivia_qa_69,43,0.0,19.0,Terence and Shirley Conran's son who is a dress designer is Thomas Conran.,0.5532140420827617,1.0
+trivia_qa_106,42,0.0,11.0,Joey Richardson is Vanessa Redgrave's husband.,0.2193270452607428,0.0
+trivia_qa_106,43,0.0,11.0,Joey Richardson is Vanessa Redgrave's husband.,0.2193270452607428,0.0
+trivia_qa_348,42,1.0,19.0,Maria Sharapova won the Ladies singles title at Wimbledon in 2004.,0.9979714730445883,1.0
+trivia_qa_348,43,1.0,24.0,"In 2004, the Ladies singles title at Wimbledon was won by Maria Sharapova of Russia.",0.989011447354541,1.0
+trivia_qa_489,42,1.0,24.0,"Coco Chanel was famous for popularizing the ""little black dress"" in the 1920s.",0.9925628362697759,1.0
+trivia_qa_489,43,1.0,24.0,"Coco Chanel was famous for popularizing the ""little black dress"" in the 1920s.",0.9925628362697759,1.0
+trivia_qa_428,42,1.0,18.0,"In ""Good Morning, Vietnam,"" Robin Williams' character is named Adrian Cronauer.",0.9967211816441325,1.0
+trivia_qa_428,43,1.0,18.0,"In ""Good Morning, Vietnam,"" Robin Williams' character is named Adrian Cronauer.",0.998495279099779,1.0
+trivia_qa_158,42,0.0,16.0,The dress designed by David Emanuel made the most at Diana's dress auction.,0.11841420316084378,0.0
+trivia_qa_158,43,0.0,16.0,The dress designed by David Emanuel made the most at Diana's dress auction.,0.11841420316084378,0.0
+trivia_qa_31,42,0.0,17.0,Art Garfunkel trained to be a teacher although he didn't qualify.,0.18506226564695794,0.0
+trivia_qa_31,43,0.0,17.0,Art Garfunkel trained to be a teacher although he didn't qualify.,0.18506226564695788,0.0
+trivia_qa_244,42,1.0,25.0,"The rodent that rears its young, called kittens, in a nest called a drey is the red squirrel.",0.9219360329595301,1.0
+trivia_qa_244,43,1.0,25.0,"The rodent that rears its young, called kittens, in a nest called a drey is the red squirrel.",0.9338013868979332,1.0
+trivia_qa_8,42,1.0,16.0,The Japanese share index is called the Nikkei 225.,0.9946540959216958,1.0
+trivia_qa_8,43,1.0,16.0,The Japanese share index is called the Nikkei 225.,0.9946540959216958,1.0
+trivia_qa_267,42,1.0,38.0,"The star as bright as 23 Suns that is orbited by the Pup is WR 102ka, a Wolf-Rayet star located in the constellation Carina.",0.2835921838596399,0.0
+trivia_qa_267,43,1.0,38.0,"The star as bright as 23 Suns that is orbited by the Pup is WR 102ka, a Wolf-Rayet star located in the constellation Carina.",0.1127799182656027,0.0
+trivia_qa_485,42,1.0,28.0,"True. Sharks do not blink. Their eyes have a layer of protective tissue called the nictitating membrane, which does not blink.",0.9858127539608447,1.0
+trivia_qa_485,43,1.0,28.0,"True. Sharks do not blink. Their eyes have a layer of protective tissue called the nictitating membrane, which does not blink.",0.9834761324496287,1.0
+trivia_qa_233,42,1.0,19.0,The force that opposes the relative motion of two bodies that are in contact is called friction.,0.9926369317147828,1.0
+trivia_qa_233,43,1.0,19.0,The force that opposes the relative motion of two bodies that are in contact is called friction.,0.9926369317147828,1.0
+trivia_qa_261,42,1.0,17.0,The invisible material once thought to occupy all space was called ether or aether.,0.976314707007324,1.0
+trivia_qa_261,43,1.0,17.0,The invisible material once thought to occupy all space was called ether or aether.,0.9655556332560763,1.0
+trivia_qa_401,42,1.0,12.0,Uranus has moons named after Shakespearean characters.,0.9993273099315154,1.0
+trivia_qa_401,43,1.0,12.0,Uranus has moons named after Shakespearean characters.,0.9993273099315154,1.0
+trivia_qa_291,42,0.0,15.0,"No, taphephobia is the fear of being buried alive.",0.47059613431113684,0.0
+trivia_qa_291,43,0.0,15.0,"No, taphephobia is the fear of being buried alive.",0.470596134311137,0.0
+trivia_qa_198,42,1.0,14.0,The caped crusader who operated in Gotham City is Batman.,0.9940157949511838,1.0
+trivia_qa_198,43,1.0,14.0,The caped crusader who operated in Gotham City is Batman.,0.9940157949511838,1.0
+trivia_qa_132,42,1.0,26.0,"Warren Beatty's first movie as an actor was ""Splendor in the Grass"" in 1961.",0.2254959595055583,1.0
+trivia_qa_132,43,1.0,26.0,"Warren Beatty's first movie as an actor was ""Splendor in the Grass"" in 1961.",0.17426673541738527,1.0
+trivia_qa_324,42,0.0,28.0,"The fruit that can go in the middle of the word ""aped"" to form a new word is ""e"", creating ""ape.""",0.24196696924719055,0.0
+trivia_qa_324,43,0.0,28.0,"The fruit that can go in the middle of the word ""aped"" to form a new word is ""e"", creating ""ape.""",0.24593811250603517,0.0
+trivia_qa_322,42,0.0,23.0,Kathy Burke played the character Garroting Granny in the Harry Enfield sketches with Kevin the Teenager.,0.13733043108971008,0.0
+trivia_qa_322,43,0.0,25.0,Kathy Burke played the character Known as Mrs. Brown in the sketches with Harry Enfield's Kevin the Teenager.,0.084065346161961,0.0
+trivia_qa_2,42,0.0,20.0,The next British Prime Minister after Arthur Balfour was H. H. Asquith.,0.12158040802284238,0.0
+trivia_qa_2,43,0.0,20.0,The next British Prime Minister after Arthur Balfour was H. H. Asquith.,0.12158040802284238,0.0
+trivia_qa_18,42,0.0,23.0,"The 80s No 1 hit ""Hold On to the Nights"" was performed by Neil Diamond.",0.1127949095598247,0.0
+trivia_qa_18,43,0.0,23.0,"The Power Station had an 80s No. 1 hit with ""Hold On to the Nights.""",0.11791581428457325,0.0
+trivia_qa_488,42,1.0,22.0,Gianni Versace was shot dead on the steps of his Miami mansion in 1997.,0.9993285042350213,1.0
+trivia_qa_488,43,1.0,22.0,Gianni Versace was shot dead on the steps of his Miami mansion in 1997.,0.9993285042350213,1.0
+trivia_qa_263,42,1.0,13.0,The first man to walk on the Moon was Neil Armstrong.,0.9946922527554765,1.0
+trivia_qa_263,43,1.0,13.0,The first man to walk on the Moon was Neil Armstrong.,0.9946922527554765,1.0
+trivia_qa_76,42,1.0,21.0,"Neil Armstrong first set foot on the Moon on July 20, 1969.",0.991444891674248,1.0
+trivia_qa_76,43,1.0,21.0,"Neil Armstrong first set foot on the Moon on July 20, 1969.",0.991444891674248,1.0
+trivia_qa_253,42,1.0,20.0,The scientific name for the heart's pacemaker is the sinoatrial node (SA node).,0.85751823750925,1.0
+trivia_qa_253,43,1.0,20.0,The scientific name for the heart's pacemaker is the sinoatrial node (SA node).,0.8910158612032161,1.0
+trivia_qa_314,42,0.0,34.0,"The actor who received $4 million for his 10 minutes on screen in the film ""Superman"" (1978) was Christopher Reeve.",0.6985609481473107,0.0
+trivia_qa_314,43,0.0,34.0,"The actor who received $4 million for his 10 minutes on screen in the film ""Superman"" (1978) was Christopher Reeve.",0.6985609481473107,0.0
+trivia_qa_351,42,0.0,24.0,"The Four Horsemen of the Apocalypse are War, Famine, Death, and Pestilence/Calamity.",0.19551487330505268,0.0
+trivia_qa_351,43,0.0,24.0,"The Four Horsemen of the Apocalypse are War, Famine, Death, and Pestilence/Calamity.",0.18649274568314,0.0
+trivia_qa_471,42,1.0,21.0,"Sirhan Sirhan killed Robert F. Kennedy on June 5, 1968.",0.9909460690156812,1.0
+trivia_qa_471,43,1.0,21.0,"Sirhan Sirhan killed Robert F. Kennedy on June 5, 1968.",0.9909460690156812,1.0
+trivia_qa_143,42,0.0,16.0,Yuan Yuan was caught carrying drugs for the Chinese national table tennis team.,0.11650132213181584,0.0
+trivia_qa_143,43,0.0,16.0,Yuan Yuan was caught carrying drugs for the Chinese national table tennis team.,0.11650132213181584,0.0
+trivia_qa_449,42,1.0,22.0,Tony Hadley was the lead singer with Spandau Ballet in the 1980s.,0.9925077090077004,1.0
+trivia_qa_449,43,1.0,22.0,Tony Hadley was the lead singer with Spandau Ballet in the 1980s.,0.9925077090077004,1.0
+trivia_qa_66,42,1.0,13.0,The Paramount Film Company was originally called Famous Players Film Company.,0.9858552153410749,1.0
+trivia_qa_66,43,1.0,13.0,The Paramount Film Company was originally called Famous Players Film Company.,0.9855522787816131,1.0
+trivia_qa_179,42,0.0,54.0,"The quote ""To err is human, but to really foul things up you need a computer"" is often incorrectly attributed to ""To err is human, but it feels divine."" The actual quote is attributed to Scott Adams, the creator of the comic strip Dilbert.",0.023525850602960138,0.0
+trivia_qa_179,43,0.0,54.0,"The quote ""To err is human, but to really foul things up you need a computer"" is often incorrectly attributed to ""To err is human, but it feels divine."" The actual quote is attributed to Scott Adams, the creator of the comic strip Dilbert.",0.02676659090249667,0.0
+trivia_qa_133,42,0.0,44.0,"Kiele Sanchez got her start as Wonder Girl, Wonder Woman's sister Drusilla, in the Justice Society of America series, which was adapted into a film segment for the Wonder Woman film directed by Patty Jenkins.",0.011912875167781426,0.0
+trivia_qa_133,43,0.0,51.0,"Rachel薇薇安薇普 (Rachel薇薇安薇普) got her break as Wonder Girl, Wonder Woman's sister Drusilla, in the DC Comics television series ""Wonder Woman"" (2017-2020).",0.008888099470279827,0.0
+trivia_qa_144,42,1.0,35.0,Pete Sampras did not win the French Open during the 20th century. He won all other Grand Slam titles except for the French Open throughout his career.,0.9951279892526029,1.0
+trivia_qa_144,43,1.0,35.0,Pete Sampras did not win the French Open during the 20th century. He won all other Grand Slam titles except for the French Open throughout his career.,0.9950931360611667,1.0
+trivia_qa_406,42,1.0,11.0,The other Musketeer is Aramis.,0.9991749729675996,1.0
+trivia_qa_406,43,1.0,11.0,The other Musketeer is Aramis.,0.9991749729675996,1.0
+trivia_qa_280,42,0.0,21.0,The first British football team to win the European Cup was Leeds United in 1968.,0.08131055346481797,0.0
+trivia_qa_280,43,0.0,21.0,The first British football team to win the European Cup was Leeds United in 1968.,0.08050646338281994,0.0
+trivia_qa_269,42,1.0,25.0,"Oprah Winfrey made her big screen acting debut in the 1985 film ""The Color Purple.""",0.8671512631952182,1.0
+trivia_qa_269,43,1.0,25.0,"Oprah Winfrey made her big screen acting debut in the 1985 film ""The Color Purple.""",0.8671512631952182,1.0
+trivia_qa_466,42,1.0,27.0,"The painting you are referring to is ""The Persistence of Memory,"" often nicknamed ""Soft Watches"" or ""Melting Clocks.""",0.9949837447399997,1.0
+trivia_qa_466,43,1.0,27.0,"The painting you are referring to is ""The Persistence of Memory,"" often nicknamed ""Soft Watches"" or ""Melting Clocks.""",0.991719026707092,1.0
+trivia_qa_208,42,0.0,42.0,"The group of 1,196 islands in the North Indian Ocean, none bigger than five square miles, is known as the Laccadive Islands or Laccadive Archipelago.",0.20913521941573118,0.0
+trivia_qa_208,43,0.0,42.0,"The group of 1,196 islands in the North Indian Ocean, none bigger than five square miles, is known as the Laccadive Islands or Laccadive Archipelago.",0.26810065650056675,0.0
+trivia_qa_145,42,0.0,96.0,"Gert Fredriksson, a Swedish cross-country skier, won six Olympic gold medals in the 1928, 1932, and 1936 Winter Olympics. Specifically, he won gold in the 18 km event at the 1928 and 1932 Games, and in the 50 km event at the 1928, 1932, and 1936",0.17979071147697728,0.0
+trivia_qa_145,43,0.0,51.0,"Gert Fredriksson, a Swedish shooter, won six Olympic gold medals in the events of double trap shooting. He achieved this feat at the 1952 Summer Olympics in Helsinki and the 1956 Summer Olympics in Melbourne.",0.21126135547775457,0.0
+trivia_qa_432,42,0.0,24.0,"On Red Nose Day 2001, the winner of Celebrity Big Brother was Mel Giedroyc.",0.09408350745324044,0.0
+trivia_qa_432,43,0.0,22.0,"On Red Nose Day 2001, the winner of Celebrity Big Brother was Emma Bunton.",0.08430438053641108,0.0
+trivia_qa_277,42,1.0,12.0,The cross on the national flag of Switzerland is white.,0.9940827693575891,1.0
+trivia_qa_277,43,1.0,12.0,The cross on the national flag of Switzerland is white.,0.9940827693575891,1.0
+trivia_qa_341,42,1.0,12.0,King James I of England (James VI of Scotland).,0.9939562411734173,1.0
+trivia_qa_341,43,1.0,12.0,King James I of England (James VI of Scotland).,0.9939562411734173,1.0
+trivia_qa_465,42,1.0,14.0,The architect known as the Wizard of the Dome is Albert Kahn.,0.03262073279090881,0.0
+trivia_qa_465,43,1.0,31.0,"The architect known as the Wizard of the Dome is Robert de mortealt. However, he is more commonly referred to as Robert Twombly.",0.002807965682044964,0.0
+trivia_qa_317,42,0.0,66.0,"In cricket, a score of 111 is colloquially known as a ""century"" when referring to a batsman's score, although it is not a round number century (100, 200, etc.). It is sometimes humorously referred to as a ""century minus nine.""",0.15389558897217492,0.0
+trivia_qa_317,43,0.0,65.0,"In cricket, a score of 111 is commonly known as a ""century"" when achieved by a batsman, but specifically, 111 not out is a notable score as it is the highest score possible without reaching a full century. It is often referred to as ""century minus nine.""",0.05683260221743144,0.0
+trivia_qa_17,42,1.0,20.0,"The target of the failed ""Bomb Plot"" of 1944 was Adolf Hitler.",0.07170234060853883,0.0
+trivia_qa_17,43,1.0,20.0,"The target of the failed ""Bomb Plot"" of 1944 was Adolf Hitler.",0.07170234060853883,0.0
+trivia_qa_448,42,0.0,28.0,"The full name of the train robber played by Phil Collins in the 1988 movie ""Robbery"" is Harry Trom.",0.058206767450380184,0.0
+trivia_qa_448,43,0.0,29.0,"The full name of the train robber played by Phil Collins in the 1988 movie ""Robbery"" is Harry Deever.",0.05541517089419416,0.0
+trivia_qa_20,42,1.0,15.0,Dave Gilmore and Roger Waters were in the rock group Pink Floyd.,0.9944505085407078,1.0
+trivia_qa_20,43,1.0,15.0,Dave Gilmore and Roger Waters were in the rock group Pink Floyd.,0.9944505085407078,1.0
+trivia_qa_130,42,0.0,31.0,"The nickname of super athlete Michael Johnson is ""The Mailman."" This nickname is not from a cartoon but is a well-known moniker in sports.",0.12286528342829899,0.0
+trivia_qa_130,43,0.0,31.0,"The nickname of super athlete Michael Johnson is ""The Mailman."" This nickname is not from a cartoon but is a well-known moniker in sports.",0.10625921936061715,0.0
+trivia_qa_238,42,1.0,40.0,The type of seaweed that can grow up to 100 meters in length and is farmed for its alginates is giant kelp (Macrocystis pyrifera).,0.9576729608762418,1.0
+trivia_qa_238,43,1.0,40.0,The type of seaweed that can grow up to 100 meters in length and is farmed for its alginates is giant kelp (Macrocystis pyrifera).,0.9593052503274818,1.0
+trivia_qa_296,42,1.0,14.0,"The Spice Girls' debut single was called ""Wannabe.""",0.9948194074193064,1.0
+trivia_qa_296,43,1.0,14.0,"The Spice Girls' debut single was called ""Wannabe.""",0.9948194074193064,1.0
+trivia_qa_286,42,1.0,15.0,The first Miss World contest was held in 1951.,0.994739570585657,1.0
+trivia_qa_286,43,1.0,15.0,The first Miss World contest was held in 1951.,0.994739570585657,1.0
+trivia_qa_336,42,0.0,10.0,Homer Simpson regularly drinks Budweiser.,0.5681099899521418,0.0
+trivia_qa_336,43,0.0,10.0,Homer Simpson regularly drinks Budweiser.,0.5551913419766284,0.0
+trivia_qa_300,42,1.0,26.0,"The longest word that can be typed using only the top row of letters on a typewriter is ""qwertyuiop.""",0.9950696642926302,1.0
+trivia_qa_300,43,1.0,26.0,"The longest word that can be typed using only the top row of letters on a typewriter is ""qwertyuiop.""",0.9822939220904062,1.0
+trivia_qa_149,42,1.0,15.0,The Juilliard School was founded in 1905.,0.9941652269867706,1.0
+trivia_qa_149,43,1.0,15.0,The Juilliard School was founded in 1905.,0.9941652269867706,1.0
+trivia_qa_203,42,1.0,17.0,The writer and politician who became Lord Tweedsmuir was John Buchan.,0.9992911424886098,1.0
+trivia_qa_203,43,1.0,17.0,The writer and politician who became Lord Tweedsmuir was John Buchan.,0.9992911424886098,1.0
+trivia_qa_387,42,0.0,22.0,The third Chancellor of the Exchequer during Margaret Thatcher's tenure as Prime Minister was Norman Lamont.,0.05317727539108144,0.0
+trivia_qa_387,43,0.0,22.0,The third Chancellor of the Exchequer during Margaret Thatcher's tenure as Prime Minister was Sir Gordon Brown.,0.040705019698751656,0.0
+trivia_qa_398,42,0.0,25.0,"The game show you're referring to is ""Superbrain,"" which aired in the UK in 2010.",0.11508756349418273,0.0
+trivia_qa_398,43,0.0,25.0,"The game show you're referring to is ""Superbrain,"" which aired in the UK in 2010.",0.1118075494166261,0.0
+trivia_qa_190,42,1.0,18.0,"Truax Field, now known as Joint Base Madison, is located in Wisconsin.",0.9541206962607472,1.0
+trivia_qa_190,43,1.0,11.0,Truax Field International Airport is in Wisconsin.,0.9680228999111959,1.0
+trivia_qa_201,42,0.0,17.0,The first U.S. president Barbara Walters interviewed was Lyndon B. Johnson.,0.09546241655743286,0.0
+trivia_qa_201,43,0.0,17.0,The first U.S. president Barbara Walters interviewed was Lyndon B. Johnson.,0.09546241655743291,0.0
+trivia_qa_418,42,1.0,24.0,"In the 1994 film ""Frankenstein,"" Kenneth Branagh played the role of Henry Frankenstein.",0.9980883822982382,1.0
+trivia_qa_418,43,1.0,24.0,"In the 1994 film ""Frankenstein,"" Kenneth Branagh played the role of Henry Frankenstein.",0.9980883822982382,1.0
+trivia_qa_14,42,1.0,10.0,Niamey is the capital of Niger.,0.9952277666872451,1.0
+trivia_qa_14,43,1.0,10.0,Niamey is the capital of Niger.,0.9952277666872451,1.0
+trivia_qa_55,42,1.0,9.0,TAAG Angola Airlines comes from Angola.,0.9944824938718158,1.0
+trivia_qa_55,43,1.0,9.0,TAAG Angola Airlines comes from Angola.,0.9944824938718158,1.0
+trivia_qa_75,42,1.0,24.0,"The American show ""All in the Family"" was based on the British show ""Till Death Us Do Part.""",0.9929907242000892,1.0
+trivia_qa_75,43,1.0,24.0,"The American show ""All in the Family"" was based on the British show ""Till Death Us Do Part.""",0.9930857727648565,1.0
+trivia_qa_284,42,1.0,17.0,The acronym for the agency which provides cooperation between police forces worldwide is INTERPOL.,0.9993645781435292,1.0
+trivia_qa_284,43,1.0,17.0,The acronym for the agency which provides cooperation between police forces worldwide is INTERPOL.,0.9993645781435292,1.0
+trivia_qa_39,42,0.0,26.0,"Walter Matthau's first credited movie role was in the 1955 film ""The Tale of Benjamin Powers.""",0.1005588901388369,1.0
+trivia_qa_39,43,0.0,31.0,"Walter Matthau's first credited movie role was in the 1952 film ""The Fearsome Fi-fis from Planet X.""",0.07347269208682006,1.0
+trivia_qa_391,42,1.0,11.0,Il Postino delivers mail to Pablo Neruda.,0.9994101952998533,1.0
+trivia_qa_391,43,1.0,11.0,Il Postino delivers mail to Pablo Neruda.,0.9994101952998533,1.0
+trivia_qa_460,42,1.0,15.0,SpongeBob SquarePants lives in a pineapple under the sea.,0.9995005591407206,1.0
+trivia_qa_460,43,1.0,15.0,SpongeBob SquarePants lives in a pineapple under the sea.,0.9995005591407206,1.0
+trivia_qa_257,42,0.0,7.0,The Great Wall of China.,0.26901764244782395,0.0
+trivia_qa_257,43,0.0,7.0,The Great Wall of China.,0.2683389833683533,0.0
+trivia_qa_178,42,0.0,36.0,"Philadelphia was named after Philip II of Macedonia, commonly known as Philip II, who was not a British Prime Minister. There is no US city named after a British Prime Minister.",0.025649194173343843,0.0
+trivia_qa_178,43,0.0,36.0,"Philadelphia was named after Philip II of Macedonia, commonly known as Philip II, who was not a British Prime Minister. There is no US city named after a British Prime Minister.",0.0826445552523298,0.0
+trivia_qa_212,42,0.0,23.0,"The cathedral in Red Square, Moscow, is known as the Cathedral of the Assumption (Assumption Cathedral).",0.421076294955943,1.0
+trivia_qa_212,43,0.0,23.0,"The cathedral in Red Square, Moscow, is known as the Cathedral of the Assumption (Assumption Cathedral).",0.3547376672265587,1.0
+trivia_qa_472,42,1.0,24.0,"Jean-Paul Marat was killed by Charlotte Corday on July 13, 1793.",0.992668581944666,1.0
+trivia_qa_472,43,1.0,24.0,"Jean-Paul Marat was killed by Charlotte Corday on July 13, 1793.",0.9926685819446658,1.0
+trivia_qa_420,42,1.0,20.0,"In Greek mythology, righteous souls typically go to Elysium or the Elysian Fields.",0.8967247759868585,1.0
+trivia_qa_420,43,1.0,20.0,"In Greek mythology, righteous souls typically go to Elysium or the Elysian Fields.",0.919833391280862,1.0
+trivia_qa_67,42,0.0,22.0,The first person to reach the South Pole overland after Robert Falcon Scott was Roald Amundsen.,0.09691470675662038,0.0
+trivia_qa_67,43,0.0,22.0,The first person to reach the South Pole overland after Robert Falcon Scott was Roald Amundsen.,0.09691470675662038,0.0
+trivia_qa_99,42,1.0,30.0,"Ingrid Bergman won the Best Supporting Actress Oscar for her role in ""Murder on the Orient Express"" in 1946.",0.09195882122852639,0.0
+trivia_qa_99,43,1.0,30.0,"Ingrid Bergman won the Best Supporting Actress Oscar for her role in ""Murder on the Orient Express"" in 1946.",0.0845761471191918,0.0
+trivia_qa_476,42,1.0,13.0,Arthur Wellesley is better known as Duke of Wellington.,0.9617196302444845,1.0
+trivia_qa_476,43,1.0,13.0,Arthur Wellesley is better known as Duke of Wellington.,0.9590919331604628,1.0
+trivia_qa_97,42,1.0,24.0,"The space ship Nostromo first appeared in the sci-fi classic ""Alien"" (1979).",0.9932046434228005,1.0
+trivia_qa_97,43,1.0,24.0,"The space ship Nostromo first appeared in the sci-fi classic ""Alien"" (1979).",0.9932046434228005,1.0
+trivia_qa_196,42,1.0,10.0,John Lennon was murdered in New York City.,0.994579321917513,1.0
+trivia_qa_196,43,1.0,10.0,John Lennon was murdered in New York City.,0.994579321917513,1.0
+trivia_qa_339,42,1.0,11.0,The most common blood type in humans is O.,0.9951765436342453,1.0
+trivia_qa_339,43,1.0,11.0,The most common blood type in humans is O.,0.9951765436342453,1.0
+trivia_qa_288,42,0.0,25.0,The Central Line is the only line on the London Underground that connects at some point with every other line on the system.,0.07934418762044668,0.0
+trivia_qa_288,43,0.0,25.0,The Central Line is the only line on the London Underground that connects at some point with every other line on the system.,0.07934418762044668,0.0
+trivia_qa_318,42,1.0,24.0,"Nick Hornby wrote the novels ""About a Boy,"" ""How to Be Good,"" and ""High Fidelity.""",0.9932255408532175,1.0
+trivia_qa_318,43,1.0,24.0,"Nick Hornby wrote the novels ""About a Boy,"" ""How to Be Good,"" and ""High Fidelity.""",0.9932255408532175,1.0
+trivia_qa_457,42,1.0,14.0,"Ecuador has a border with Colombia, in addition to Peru.",0.9943330752815822,1.0
+trivia_qa_457,43,1.0,14.0,"Ecuador has a border with Colombia, in addition to Peru.",0.9943330752815822,1.0
+trivia_qa_124,42,0.0,36.0,"The Boston Red Sox won baseball's first World Series of the 80s in 1986, defeating the New York Mets in the best-of-seven series.",0.05191109351008284,0.0
+trivia_qa_124,43,0.0,35.0,"The Boston Red Sox won baseball's first World Series of the 80s in 1986, defeating the New York Mets in the seven-game series.",0.043429965178583094,0.0
+trivia_qa_242,42,1.0,11.0,The study of animal behavior is called ethology.,0.9995600972393687,1.0
+trivia_qa_242,43,1.0,11.0,The study of animal behavior is called ethology.,0.9995600972393687,1.0
+trivia_qa_42,42,0.0,11.0,The mythological beast you described is the Sphinx.,0.15744110197463512,0.0
+trivia_qa_42,43,0.0,11.0,The mythological beast you described is the Sphinx.,0.15738565594220658,0.0
+trivia_qa_60,42,1.0,15.0,Richard Daley was the mayor of Chicago for 21 years.,0.9934476494288047,1.0
+trivia_qa_60,43,1.0,15.0,Richard Daley was the mayor of Chicago for 21 years.,0.9934476494288047,1.0
+trivia_qa_192,42,1.0,26.0,"Dr. Crippen is believed to have murdered his wife, Ethel Sarah Crippen, also known as Helen.",0.357299039823464,0.0
+trivia_qa_192,43,1.0,26.0,"Dr. Crippen is believed to have murdered his wife, Ethel Payne, also known as Eva Crippen.",0.3862934029748573,0.0
+trivia_qa_422,42,0.0,25.0,"In the 1999 film Stuart Little, the part of Mrs. Eleanor Little is played by Jennifer Scotia.",0.13309455019629884,0.0
+trivia_qa_422,43,0.0,25.0,"In the 1999 film Stuart Little, the part of Mrs. Eleanor Little is played by Bonnie Hunt.",0.10611510525039998,0.0
+trivia_qa_266,42,1.0,14.0,General relativity describes gravity as the bending of space and time.,0.9944651019937227,1.0
+trivia_qa_266,43,1.0,14.0,General relativity describes gravity as the bending of space and time.,0.9952317106537018,1.0
+trivia_qa_254,42,1.0,15.0,Luteinizing hormone (LH) helps control ovulation.,0.9946537369699755,1.0
+trivia_qa_254,43,1.0,15.0,Luteinizing hormone (LH) helps control ovulation.,0.9946537369699755,1.0
+trivia_qa_384,42,1.0,16.0,The musical theme for the Pink Panther was composed by Henry Mancini.,0.9822851044366187,1.0
+trivia_qa_384,43,1.0,16.0,The musical theme for the Pink Panther was composed by Henry Mancini.,0.9897266664653287,1.0
+trivia_qa_497,42,1.0,8.0,Sonja Henie was Norwegian.,0.9947405505511904,1.0
+trivia_qa_497,43,1.0,8.0,Sonja Henie was Norwegian.,0.9947405505511904,1.0
+trivia_qa_226,42,1.0,24.0,Martin Luther King Jr.'s birthday is celebrated by a public holiday on the third Monday in January in the USA.,0.9926000864609009,1.0
+trivia_qa_226,43,1.0,24.0,Martin Luther King Jr.'s birthday is celebrated by a public holiday on the third Monday in January in the USA.,0.9926000864609009,1.0
+trivia_qa_495,42,0.0,24.0,The role of Kate Flax in the 1990 film Mermaids was played by Christina Applegate.,0.0887318861122371,1.0
+trivia_qa_495,43,0.0,24.0,The role of Kate Flax in the 1990 film Mermaids was played by Drew Barrymore.,0.08510147507640434,0.0
+trivia_qa_113,42,0.0,23.0,Woody Herman founded his first orchestra in 1936 when he was 22 years old.,0.07214033565933685,0.0
+trivia_qa_113,43,0.0,23.0,Woody Herman founded his first orchestra in 1936 when he was 22 years old.,0.07405951263067392,0.0
+trivia_qa_19,42,1.0,19.0,"The classic 1939 western ""Stagecoach"" was directed by John Ford.",0.9941204271496329,1.0
+trivia_qa_19,43,1.0,19.0,"The classic 1939 western ""Stagecoach"" was directed by John Ford.",0.9941204271496329,1.0
+trivia_qa_218,42,0.0,24.0,Anne of Cleves had already married twice before becoming queen and married for a fourth time after Henry VIII's death.,0.23089262069342562,0.0
+trivia_qa_218,43,0.0,24.0,Anne of Cleves had already married twice before becoming queen and married for a fourth time after Henry VIII's death.,0.22922579306402763,0.0
+trivia_qa_118,42,1.0,20.0,Yuri Andropov succeeded Brezhnev as Soviet Premier in 1982.,0.15616244660285347,0.0
+trivia_qa_118,43,1.0,14.0,Yuri Andropov succeeded Brezhnev as Soviet Premier.,0.2663965137851542,0.0
+trivia_qa_364,42,1.0,9.0,Vincent Van Gogh was Dutch.,0.9994000571911325,1.0
+trivia_qa_364,43,1.0,9.0,Vincent Van Gogh was Dutch.,0.9994000571911325,1.0
+trivia_qa_385,42,0.0,28.0,"The cartoon adversary of Pixie and Dixie who often said ""I hate those meeces to pieces"" was Fusspot.",0.060638640495966505,0.0
+trivia_qa_385,43,0.0,28.0,"The cartoon adversary of Pixie and Dixie who often said ""I hate those meeces to pieces"" was Fusspot.",0.04514321346837032,0.0
+trivia_qa_437,42,1.0,16.0,Oswald Chesterfield Cobblepot is better known as the Joker.,0.3412884176248415,1.0
+trivia_qa_437,43,1.0,16.0,Oswald Chesterfield Cobblepot is better known as the Joker.,0.3412884176248415,1.0
+trivia_qa_293,42,1.0,17.0,The invention of dynamite in 1867 made Alfred Nobel famous.,0.992925419144287,1.0
+trivia_qa_293,43,1.0,17.0,The invention of dynamite in 1867 made Alfred Nobel famous.,0.992925419144287,1.0
+trivia_qa_493,42,1.0,7.0,The pancreas produces insulin.,0.7779088140117965,1.0
+trivia_qa_493,43,1.0,7.0,The pancreas produces insulin.,0.7779088140117966,1.0
+trivia_qa_378,42,1.0,24.0,"The Beatles have had more Christmas number one singles than any other act, with five number ones across various Christmas periods.",0.07557704915604876,0.0
+trivia_qa_378,43,1.0,24.0,"The Beatles have had more Christmas number one singles than any other act, with five Christmas number ones to their name.",0.34683812033793443,0.0
+trivia_qa_241,42,1.0,46.0,"The term ""drivers,"" ""weavers,"" and ""soldiers"" can refer to different species within the insect family Formicidae, which consists of ants. These terms describe various roles or castes within ant colonies.",0.6569371680049705,1.0
+trivia_qa_241,43,1.0,46.0,"The term ""drivers,"" ""weavers,"" and ""soldiers"" can refer to different species within the insect family Formicidae, which consists of ants. These terms describe various roles or castes within ant colonies.",0.5776413521662709,1.0
+trivia_qa_446,42,0.0,50.0,None of those titles apply to James II. He is more commonly known as James II & VI or James II of England (James VII of Scotland). There is no historical record of him being known by any of the titles mentioned in the question.,0.844435969267691,0.0
+trivia_qa_446,43,1.0,56.0,"None of those titles apply to James II. He is more commonly known as James II of England or James VII of Scotland. There was a historical figure known as ""James the Fat,"" but not ""James the Bald,"" ""Fiery Face,"" or ""The Red King.""",0.5601594502945328,0.0
+trivia_qa_435,42,0.0,32.0,"The only rider to have won all three jerseys in the same year in the Tour de France, nicknamed the ""Cannibal,"" is Bernard Hinault.",0.14634035601850848,0.0
+trivia_qa_435,43,0.0,32.0,"The only rider to have won all three jerseys in the same year in the Tour de France, nicknamed the ""Cannibal,"" is Bernard Hinault.",0.198467174940457,0.0
+trivia_qa_27,42,1.0,28.0,"In Lewis Carroll's poem ""The Hunting of the Snark,"" the elusive snark turns into a Boojum to fool hunters.",0.9800779622650703,1.0
+trivia_qa_27,43,1.0,28.0,"In Lewis Carroll's poem ""The Hunting of the Snark,"" the elusive snark turns into a Boojum to fool hunters.",0.9830462994495662,1.0
+trivia_qa_220,42,0.0,25.0,The UK has 87 seats in the House of Commons for members who are elected for a maximum five-year term.,0.11909251882431968,0.0
+trivia_qa_220,43,0.0,25.0,The UK has 87 seats in the House of Commons for members who are elected for a maximum five-year term.,0.11909251882431968,0.0
+trivia_qa_469,42,0.0,29.0,"The notorious murderer who lived at 10 Rillington Place was Reginald Christie, also known as Rillington Place murderer.",0.12104639542255997,1.0
+trivia_qa_469,43,0.0,30.0,"The notorious murderer who lived at 10 Rillington Place was Reginald Christie, also known as Rillington Place Murderer.",0.1062600617551346,1.0
+trivia_qa_86,42,0.0,18.0,"The song ""Can't Hold Me Down"" features The Notorious B.I.G.",0.09542570884134119,0.0
+trivia_qa_86,43,0.0,18.0,"The song ""Can't Hold Me Down"" features The Notorious B.I.G.",0.11672767327985632,0.0
+trivia_qa_361,42,1.0,10.0,Istanbul is the largest city in Turkey.,0.9944618086154184,1.0
+trivia_qa_361,43,1.0,10.0,Istanbul is the largest city in Turkey.,0.9944618086154184,1.0
+trivia_qa_103,42,0.0,28.0,"Diana Vishniac was Oscar-nominated for her dance performance in ""The Towering Inferno"" (1974).",0.06396118809142952,0.0
+trivia_qa_103,43,0.0,45.0,"The legendary dancer who was Oscar-nominated for her performance in The Towering Inferno is Twyla Tharp. She was nominated for Best Original Song for ""Movement,"" which she both wrote and performed in the film.",0.036013282121339994,0.0
+trivia_qa_481,42,0.0,31.0,"This statement is a play on words. Factually, all children do grow up, so the exception implied is a matter of semantics rather than reality.",0.20806907187208679,0.0
+trivia_qa_481,43,0.0,31.0,"This statement is a play on words. Factually, all children do grow up, so the exception implied is a matter of semantics rather than reality.",0.289424765750277,0.0
+trivia_qa_25,42,1.0,8.0,"""Mutiny on the Bounty""",0.0836869282993729,0.0
+trivia_qa_25,43,0.0,27.0,"Men Against the Sea and Pitcairn's Island were two sequels to Robert Louis Stevenson's novel ""Treasure Island.""",0.04043902089461376,0.0
+trivia_qa_307,42,1.0,4.0,Pac-Man,0.9960809396054848,1.0
+trivia_qa_307,43,1.0,4.0,Pac-Man,0.9960809396054848,1.0
+trivia_qa_167,42,0.0,15.0,About 2% of the Earth's surface is covered by Europe.,0.20262779150284063,0.0
+trivia_qa_167,43,0.0,15.0,About 2% of the Earth's surface is covered by Europe.,0.20262779150284063,0.0
+trivia_qa_450,42,0.0,3.0,Bingham,0.21422674236483838,0.0
+trivia_qa_450,43,0.0,4.0,Bennett,0.11923500426310214,0.0
+trivia_qa_475,42,1.0,16.0,A youngberry is a cross between a dewberry and a blackberry.,0.9500851583861587,1.0
+trivia_qa_475,43,1.0,16.0,A youngberry is a cross between a dewberry and a blackberry.,0.9500851583861587,1.0
+trivia_qa_410,42,1.0,19.0,"Anna Nicole Smith was controversially married to J. Howard Marshall II, an oil billionaire.",0.9931790875278764,1.0
+trivia_qa_410,43,1.0,19.0,"Anna Nicole Smith was controversially married to J. Howard Marshall II, an oil billionaire.",0.9931790875278764,1.0
+trivia_qa_221,42,1.0,50.0,"The former name of the British Green Party was the Campaign for Nuclear Disarmament (CND) Green Party. However, it is more commonly known as the Sustainable Development Party before it adopted the name Green Party in 1986.",0.4551094551892532,1.0
+trivia_qa_221,43,1.0,50.0,"The former name of the British Green Party was the Campaign for Nuclear Disarmament (CND) Green Party. However, it is more commonly known as the Sustainable Development Party before it adopted the name Green Party in 1986.",0.368796113325806,1.0
+trivia_qa_416,42,0.0,32.0,"The sport you would be playing is table tennis, where balls are not typically described as having colors, but players might use balls of different colors for identification.",0.05996907209961444,0.0
+trivia_qa_416,43,0.0,32.0,"The sport you would be playing is table tennis, where balls are not typically described as having colors, but players might use balls of different colors for identification.",0.10669269696517782,0.0
+trivia_qa_105,42,1.0,28.0,"The male star of the movie ""The Man of La Mancha"" (1972) was Peter O'Toole.",0.9897858119982258,1.0
+trivia_qa_105,43,1.0,28.0,"The male star of the movie ""The Man of La Mancha"" (1972) was Peter O'Toole.",0.9897858119982258,1.0
+trivia_qa_371,42,1.0,15.0,The home of a beaver is called a dam or a lodge.,0.9941830424260001,1.0
+trivia_qa_371,43,1.0,15.0,The home of a beaver is called a dam or a lodge.,0.9941830424260001,1.0
+trivia_qa_90,42,1.0,27.0,Beloved in 1999 was Oprah Winfrey's first movie since The Color Purple in 1985.,0.9987306194694744,1.0
+trivia_qa_90,43,1.0,27.0,Beloved in 1999 was Oprah Winfrey's first movie since The Color Purple in 1985.,0.9987306194694744,1.0
+trivia_qa_452,42,1.0,27.0,"The seventh president of the United States was Andrew Jackson, who served from 1829 to 1837.",0.9925170346838471,1.0
+trivia_qa_452,43,1.0,27.0,"The seventh president of the United States was Andrew Jackson, who served from 1829 to 1837.",0.9925170346838471,1.0
+trivia_qa_168,42,1.0,61.0,"The town that gave its name to the Treaty which symbolizes closer economic links between European countries is Maastricht. The Treaty of Maastricht, officially the Treaty on European Union, was signed in 1992 and aimed to create a more integrated European economic and political space.",0.9563688225933826,1.0
+trivia_qa_168,43,1.0,61.0,"The town that gave its name to the Treaty which symbolizes closer economic links between European countries is Maastricht. The Treaty of Maastricht, officially the Treaty on European Union, was signed in 1992 and aimed to create a more integrated European economic and political space.",0.9689970967497841,1.0
+trivia_qa_240,42,1.0,25.0,"Cellulose is the most abundant substance in the plant kingdom, and no mammal produces the enzyme to digest it.",0.9945345802363401,1.0
+trivia_qa_240,43,1.0,25.0,"Cellulose is the most abundant substance in the plant kingdom, and no mammal produces the enzyme to digest it.",0.9945345802363401,1.0
+trivia_qa_402,42,1.0,21.0,"RoboCop was part man, part machine, all cop and was set in a futuristic Detroit.",0.9744768538795368,1.0
+trivia_qa_402,43,1.0,21.0,"RoboCop was part man, part machine, all cop and was set in a futuristic Detroit.",0.9734842858949614,1.0
+trivia_qa_48,42,0.0,8.0,Gene Vincent was born in Idaho.,0.14178568368541927,0.0
+trivia_qa_48,43,0.0,8.0,Gene Vincent was born in Idaho.,0.13817217727946013,0.0
+trivia_qa_104,42,1.0,20.0,"The brothel in ""The Best Little Whorehouse in Texas"" is named Chicken Ranch.",0.3495227872078709,1.0
+trivia_qa_104,43,1.0,20.0,"The brothel in ""The Best Little Whorehouse in Texas"" is named Chicken Ranch.",0.38327981298455044,1.0
+trivia_qa_206,42,1.0,18.0,The Pacific terminus of the Trans-Siberian Railway is Vladivostok.,0.9939646121652352,1.0
+trivia_qa_206,43,1.0,18.0,The Pacific terminus of the Trans-Siberian Railway is Vladivostok.,0.9939646121652352,1.0
+trivia_qa_247,42,1.0,20.0,The generic term for plants that grow in water or water-logged conditions is hydrophytes.,0.9991066673766158,1.0
+trivia_qa_247,43,1.0,20.0,The generic term for plants that grow in water or water-logged conditions is hydrophytes.,0.9991066673766158,1.0
+trivia_qa_200,42,1.0,17.0,The first American to travel faster than the speed of sound was Chuck Yeager.,0.9937030358052311,1.0
+trivia_qa_200,43,1.0,17.0,The first American to travel faster than the speed of sound was Chuck Yeager.,0.9937030358052311,1.0
+trivia_qa_62,42,1.0,25.0,"Osbert Lancaster is best known for his cartooning and comic strip work, as well as his theatre and fashion designs.",0.6388532480235057,1.0
+trivia_qa_62,43,1.0,25.0,"Osbert Lancaster is best known for his cartooning and comic strip work, as well as his theatre and fashion designs.",0.6806098910325863,1.0
+trivia_qa_477,42,1.0,20.0,The town in East Sussex that now stands on the site of the Battle of Hastings is Battle.,0.9992066675122137,1.0
+trivia_qa_477,43,1.0,20.0,The town in East Sussex that now stands on the site of the Battle of Hastings is Battle.,0.9992066675122137,1.0
+trivia_qa_147,42,0.0,42.0,"Spam on the Internet refers to unsolicited, inappropriate, or redundant messages, typically sent in bulk to a large number of users through email or posted repeatedly on online communities, forums, and social media.",0.14964101589371331,0.0
+trivia_qa_147,43,0.0,39.0,"Spam on the Internet refers to unsolicited, unwanted, and often repetitive or misleading messages sent in bulk, typically via email or posted repeatedly on websites, blogs, or social media platforms.",0.220451873111628,0.0
+trivia_qa_146,42,1.0,17.0,Mike Hawthorn won 3 out of his 45 Formula One races.,0.8565845570939477,1.0
+trivia_qa_146,43,1.0,17.0,Mike Hawthorn won 3 out of his 45 Formula One races.,0.7693567442731952,1.0
+trivia_qa_225,42,1.0,14.0,"Edith Piaf was nicknamed ""The Little Sparrow.""",0.9993293772758868,1.0
+trivia_qa_225,43,1.0,14.0,"Edith Piaf was nicknamed ""The Little Sparrow.""",0.9993293772758868,1.0
+trivia_qa_421,42,1.0,13.0,The scientific name for tea is Camellia sinensis.,0.9939591702510188,1.0
+trivia_qa_421,43,1.0,13.0,The scientific name for tea is Camellia sinensis.,0.9939591702510188,1.0
+trivia_qa_484,42,1.0,11.0,The patron saint of lost causes is Saint Patrick.,0.6199118529257983,1.0
+trivia_qa_484,43,1.0,11.0,The patron saint of lost causes is Saint Patrick.,0.6200538090571619,1.0
+trivia_qa_491,42,1.0,38.0,"The character Miranda Priestly in the 2006 film ""The Devil Wears Prada"" was based on Anna Wintour, the editor-in-chief of Vogue magazine.",0.9936465472371366,1.0
+trivia_qa_491,43,1.0,38.0,"The character Miranda Priestly in the 2006 film ""The Devil Wears Prada"" was inspired by Anna Wintour, the editor-in-chief of Vogue magazine.",0.9953751946457555,1.0
+trivia_qa_451,42,0.0,17.0,Tia Jackson appeared in Celebrity Big Brother in January 2009.,0.4106458802565661,0.0
+trivia_qa_451,43,0.0,23.0,"Tichakunda ""Tia"" Jackson appeared in Celebrity Big Brother in January 2009.",0.3458598813075199,0.0
+trivia_qa_109,42,1.0,21.0,"Hitler took cyanide and shot himself on April 30, 1945.",0.9637516381147302,1.0
+trivia_qa_109,43,1.0,21.0,"Hitler took cyanide and shot himself on April 30, 1945.",0.9637516381147302,1.0
+trivia_qa_294,42,1.0,12.0,The most populated city in America is New York City.,0.9940743322789499,1.0
+trivia_qa_294,43,1.0,12.0,The most populated city in America is New York City.,0.9940743322789499,1.0
+trivia_qa_440,42,0.0,37.0,Buck Rogers was not a cowboy; he was a science fiction character created by Philip Francis Nowlan. The famous cowboy character created by George W. Trendle is Cisco Kid.,0.2520321306185927,1.0
+trivia_qa_440,43,0.0,49.0,"Buck Rogers was not a cowboy; he was a sci-fi character created by George W. Trendle. A famous cowboy character created by George W. Trendle is Dick Troop from the radio show and television series ""Dick Tracy.""",0.07212436991256045,1.0
+trivia_qa_121,42,0.0,57.0,"The female singer born on the same day as impressionist Rich Little is Barbra Streisand. Rich Little was born on April 24, 1935, and Barbra Streisand was born on April 24, 1942.",0.014945289718695803,0.0
+trivia_qa_121,43,0.0,57.0,"The female singer born on the same day as impressionist Rich Little is Barbra Streisand. Rich Little was born on April 24, 1935, and Barbra Streisand was born on April 24, 1942.",0.01816588691651323,0.0
+trivia_qa_265,42,1.0,25.0,"The Milky Way is a spiral galaxy that contains the Sun, the Earth, and billions of other stars and celestial bodies.",0.8545376607536801,1.0
+trivia_qa_265,43,1.0,41.0,"The Milky Way is a spiral galaxy that contains the solar system, including Earth. It consists of gas, dust, and approximately 100–400 billion stars, including our Sun.",0.7081772678355056,1.0
+trivia_qa_169,42,1.0,47.0,"The home of champagne in France where the German High Command surrendered in WWII is Reims. Specifically, the surrender took place in the Hotel de Ville (City Hall) of Reims on 7 May 1945.",0.9633557513002261,1.0
+trivia_qa_169,43,1.0,41.0,"The home of champagne in France where the German High Command surrendered in WWII is Reims. Specifically, the surrender took place in the hotel known as the Hotel de Comte, located in Reims.",0.7929144935556914,1.0
+trivia_qa_381,42,0.0,27.0,"On the album cover of Sgt. Pepper's Lonely Hearts Club Band by The Beatles, a trumpet is held by Donald Donaldson.",0.11429249919832445,0.0
+trivia_qa_381,43,0.0,27.0,"On the album cover of Sgt. Pepper's Lonely Hearts Club Band by The Beatles, a trumpet is held by Donald Donaldson.",0.08658501566669322,0.0
+trivia_qa_34,42,1.0,18.0,"The novel ""Empire of the Sun"" was written by J.G. Ballard.",0.9742443516879074,1.0
+trivia_qa_34,43,1.0,18.0,"The novel ""Empire of the Sun"" was written by J.G. Ballard.",0.972580739293959,1.0
+trivia_qa_268,42,0.0,15.0,"The three primary colours of light are red, green, and blue.",0.20729603160782153,0.0
+trivia_qa_268,43,0.0,15.0,"The three primary colours of light are red, green, and blue.",0.20729603160782145,0.0
+trivia_qa_30,42,0.0,10.0,Gerald Ford's middle name was Robert.,0.09489195460534368,0.0
+trivia_qa_30,43,0.0,10.0,Gerald Ford's middle name was Robert.,0.09487799577283378,0.0
+trivia_qa_400,42,1.0,24.0,Einstein received the Nobel Prize in Physics in 1921 for his explanation of the photoelectric effect.,0.9722838672954612,1.0
+trivia_qa_400,43,1.0,24.0,Einstein received the Nobel Prize in Physics in 1921 for his explanation of the photoelectric effect.,0.9722838672954612,1.0
+trivia_qa_461,42,0.0,36.0,"The serial killer who hanged himself in Wakefield Prison in January 2004, four years after being found guilty of 15 murders, was Robert Collins.",0.026775300417752168,0.0
+trivia_qa_461,43,0.0,36.0,"The serial killer who hanged himself in Wakefield Prison in January 2004, four years after being found guilty of 15 murders, was Robert Collins.",0.03962728139335466,0.0
+trivia_qa_354,42,0.0,47.0,"In a standard deck of 52 cards, the King of Kings (King of Spades) is depicted with a moustache. The other Kings (Hearts, Diamonds, Clubs) do not have moustaches.",0.07316512295801653,0.0
+trivia_qa_354,43,0.0,47.0,"In a standard deck of 52 cards, the King of Kings (King of Spades) is depicted with a moustache. The other Kings (Hearts, Diamonds, Clubs) do not have moustaches.",0.08168236845325916,0.0
+trivia_qa_382,42,0.0,27.0,"The song that begins with the line ""The taxman's taken all my dough"" is ""Taxman"" by The Beatles.",0.06000325781134432,0.0
+trivia_qa_382,43,0.0,27.0,"The song that begins with the line ""The taxman's taken all my dough"" is ""Taxman"" by The Beatles.",0.06000325781134432,0.0
+trivia_qa_10,42,0.0,17.0,Stereo records first went on sale in the 1950s.,0.276470818485134,0.0
+trivia_qa_10,43,0.0,17.0,Stereo records first went on sale in the 1950s.,0.276470818485134,0.0
+trivia_qa_173,42,0.0,42.0,"The film ""Harper Valley PTA"" was not based on Jeannie C. Riley's song but on a different source. The film starred Ginger Lynn and was released in 1975.",0.06332648777487682,0.0
+trivia_qa_173,43,0.0,45.0,"The film ""Harper Valley PTA"" was not based on Jeannie C. Riley's song but on a different source. The 1975 film ""Harper Valley PTA"" starred Shelley Long.",0.028350954522764597,0.0
+trivia_qa_342,42,1.0,25.0,"The song ""White Christmas"" was first sung in the film ""Holiday Inn,"" released in 1942.",0.9953307639332301,1.0
+trivia_qa_342,43,1.0,25.0,"The song ""White Christmas"" was first sung in the film ""Holiday Inn,"" released in 1942.",0.9953307639332301,1.0
+trivia_qa_115,42,0.0,31.0,"The song ""This Diamond Ring"" was a No. 1 hit in the 1960s for the group Wayne & Falwell.",0.08499192839235403,1.0
+trivia_qa_115,43,0.0,21.0,"The 60s No 1 hit ""This Diamond Ring"" was performed by Tony Bright.",0.21351012661764704,1.0
+trivia_qa_363,42,0.0,47.0,"The director whose Oscar acceptance speech included the line ""I'm king of the world!"" in 1998 is Martin Scorsese. He said this after winning the Academy Award for Best Director for ""The Departed.""",0.05310854069677762,0.0
+trivia_qa_363,43,0.0,47.0,"The director whose Oscar acceptance speech included the line ""I'm king of the world!"" in 1998 is Martin Scorsese. He said this after winning the Academy Award for Best Director for ""The Departed.""",0.05312407188962409,0.0
+trivia_qa_61,42,0.0,37.0,"Greta Garbo said the famous line ""I want to be alone"" in the 1932 film ""Queen Christina,"" directed by Rouben Mamoulian.",0.11204720514789468,1.0
+trivia_qa_61,43,0.0,37.0,"Greta Garbo said the famous line ""I want to be alone"" in the 1932 film ""Queen Christina,"" directed by Rouben Mamoulian.",0.13279460355295045,1.0
+trivia_qa_231,42,1.0,17.0,The change of state from liquid to gas is called vaporization or evaporation.,0.31359305115274777,0.0
+trivia_qa_231,43,1.0,17.0,The change of state from liquid to gas is called vaporization or evaporation.,0.31359305115274794,0.0
+trivia_qa_264,42,1.0,13.0,Proteus and Nereid are moons of Neptune.,0.9947691135310864,1.0
+trivia_qa_264,43,1.0,13.0,Proteus and Nereid are moons of Neptune.,0.9947691135310864,1.0
+trivia_qa_224,42,1.0,13.0,James Watt formed a successful partnership with Matthew Boulton.,0.9940004638506161,1.0
+trivia_qa_224,43,1.0,13.0,James Watt formed a successful partnership with Matthew Boulton.,0.9940004638506161,1.0
+trivia_qa_312,42,0.0,16.0,Robin Hood is a talking squirrel in the Disney cartoon film 'Robin Hood'.,0.07081154244581228,0.0
+trivia_qa_312,43,0.0,16.0,Robin Hood in the Disney cartoon film 'Robin Hood' was a rabbit.,0.15322328885356923,0.0
+trivia_qa_356,42,0.0,16.0,"The Canary Islands are named after the canary, a type of bird.",0.0884740183313822,0.0
+trivia_qa_356,43,0.0,16.0,"The Canary Islands are named after the canary, a type of bird.",0.0884740183313822,0.0
+trivia_qa_159,42,1.0,19.0,Yasser Arafat co-founded al-Fatah in 1957.,0.9938962325496064,1.0
+trivia_qa_159,43,1.0,19.0,Yasser Arafat co-founded al-Fatah in 1957.,0.9938962325496064,1.0
+trivia_qa_102,42,1.0,54.0,"Humphrey Bogart won the Best Actor Oscar for his role in The Caine Mutiny in 1954, not for The Philadelphia Story. James Stewart won the Best Actor Oscar for his role in The Philadelphia Story in 1957.",0.7718214760057939,1.0
+trivia_qa_102,43,0.0,73.0,"Montgomery Clift won the Best Actor Oscar for his role in The Heiress in 1954, not for The Philadelphia Story. The Philadelphia Story starred Humphrey Bogart, who did not win an Oscar for this film. Bogart was nominated for Best Actor for The Caine Mutiny Court-Martial in 1955.",0.15673541062099242,0.0
+trivia_qa_310,42,1.0,29.0,"Blade Runner, starring Harrison Ford, was based on the story ""Do Androids Dream of Electric Sheep?"" by Philip K. Dick.",0.9973575107893595,1.0
+trivia_qa_310,43,1.0,29.0,"Blade Runner, starring Harrison Ford, was based on the story ""Do Androids Dream of Electric Sheep?"" by Philip K. Dick.",0.9973575107893595,1.0
+trivia_qa_372,42,1.0,12.0,A baby marsupial is called a joey.,0.9945827528930138,1.0
+trivia_qa_372,43,1.0,12.0,A baby marsupial is called a joey.,0.9945827528930138,1.0
+trivia_qa_344,42,0.0,31.0,"The Channel 4 TV show that included Mark Lamarr, Amanda De Cadenet, and Terry Christian as presenters was ""The_coupon_game.""",0.30651812195679473,1.0
+trivia_qa_344,43,0.0,31.0,"The Channel 4 TV show that included Mark Lamarr, Amanda De Cadenet, and Terry Christian as presenters was ""The_coupon_game.""",0.3942738347400483,1.0
+trivia_qa_337,42,1.0,9.0,Haggis comes from a sheep.,0.9946745729611666,1.0
+trivia_qa_337,43,1.0,9.0,Haggis comes from a sheep.,0.9946745729611666,1.0
+trivia_qa_365,42,1.0,26.0,"The film that features the characters Sally Albright and Harry Burns is ""My Own Private Idaho,"" directed by Gus Van Sant.",0.5991026010826062,1.0
+trivia_qa_365,43,1.0,26.0,"The film that features the characters Sally Albright and Harry Burns is ""My Own Private Idaho,"" directed by Gus Van Sant.",0.6010355821253388,1.0
+trivia_qa_84,42,1.0,10.0,Della Street was Perry Mason's secretary.,0.7858017614519218,1.0
+trivia_qa_84,43,0.0,29.0,"Della Street was the secretary of Sam Spade in the novels ""The Maltese Falcon"" by Dashiell Hammett.",0.2002297979632101,0.0
+trivia_qa_281,42,0.0,16.0,The most popular natural attraction in Alaska is Glacier Bay National Park and Preserve.,0.49303671438696334,1.0
+trivia_qa_281,43,0.0,16.0,The most popular natural attraction in Alaska is Glacier Bay National Park and Preserve.,0.49303671438696334,1.0
+trivia_qa_243,42,0.0,24.0,"Mosses are classified as bryophytes, which is a subkingdom of the plant kingdom.",0.39967338964402077,1.0
+trivia_qa_243,43,0.0,24.0,"Mosses are classified as bryophytes, which is a subkingdom of the plant kingdom.",0.39967338964402077,1.0
+trivia_qa_65,42,0.0,10.0,The Sky Train Rail bridge is in Thailand.,0.11333454920621008,0.0
+trivia_qa_65,43,0.0,10.0,The Sky Train Rail bridge is in Thailand.,0.11333454920621003,0.0
+trivia_qa_64,42,0.0,73.0,"John Ball was the first U.S.-born winner of the British Open, which he won in 1867. However, it's important to note that the British Open at that time was open to golfers from all countries, not just British subjects. The first U.S.-citizen winner was Harry Vardon in 1896.",0.08582138993895692,0.0
+trivia_qa_64,43,0.0,26.0,"John Miller was the first U.S.-born winner of the British Open, which he won in 1900.",0.11026728202350188,0.0
+trivia_qa_272,42,1.0,3.0,White.,0.9457835195132034,1.0
+trivia_qa_272,43,1.0,3.0,White.,0.9457835195132034,1.0
+trivia_qa_423,42,0.0,21.0,Suger Mice was a 1987 single for the British rock band Squeeze.,0.05115376708626628,0.0
+trivia_qa_423,43,0.0,21.0,Suger Mice was a 1987 single for the British rock band Squeeze.,0.04410205699804689,0.0
+trivia_qa_248,42,1.0,23.0,"The third molars are the wisdom teeth, and they are the last to erupt in most people's mouths.",0.980022730518366,1.0
+trivia_qa_248,43,1.0,23.0,"The third molars are the wisdom teeth, and they are the last to erupt in most people's mouths.",0.98531642214176,1.0
+trivia_qa_43,42,1.0,46.0,"In Greek mythology, Arges, Brontes, and Steropes were three of the Cyclopes, sons of Uranus and Gaia. They were known for forging weapons, with particular skill in blacksmithing.",0.38617274791723044,0.0
+trivia_qa_43,43,1.0,49.0,"In Greek mythology, Arges, Brontes, and Steropes were three of the Cyclopes, known for their role as blacksmiths and artisans for the gods. They were particularly noted for crafting Zeus's thunderbolts.",0.3223795743751298,0.0
+trivia_qa_417,42,1.0,23.0,The age of the railway began in 1830 with the introduction of the Liverpool-Manchester line.,0.9921277815363445,1.0
+trivia_qa_417,43,1.0,23.0,The age of the railway began in 1830 with the introduction of the Liverpool-Manchester line.,0.9921277815363445,1.0
+trivia_qa_375,42,1.0,5.0,Horseracing.,0.7942827186167699,0.0
+trivia_qa_375,43,1.0,5.0,Horseracing.,0.787558242820767,0.0
+trivia_qa_123,42,0.0,43.0,"In the 1998 season, Mark McGwire broke the single-season home run record previously held by Hank Aaron, who had hit 75 home runs in the 1974 season.",0.09956816138545374,0.0
+trivia_qa_123,43,0.0,43.0,"In the 1998 season, Mark McGwire broke the single-season home run record previously held by Hank Aaron, who had hit 75 home runs in the 1974 season.",0.1143903202083621,0.0
+trivia_qa_29,42,1.0,33.0,"The movie that received a boost from the Coolio song ""Gangsta's Paradise"" was ""Dangerous Minds,"" in which Michelle Pfeiffer starred.",0.9972881404289627,1.0
+trivia_qa_29,43,1.0,33.0,"The movie that received a boost from the Coolio song ""Gangsta's Paradise"" was ""Dangerous Minds,"" in which Michelle Pfeiffer starred.",0.9972881404289627,1.0
+trivia_qa_122,42,1.0,22.0,"Harrison Ford's real name is Henry Ford II. However, he is professionally known as Harrison Ford.",0.9948316590386097,1.0
+trivia_qa_122,43,1.0,22.0,"Harrison Ford's real name is Henry Ford II. However, he is professionally known as Harrison Ford.",0.991712240253006,1.0
+trivia_qa_157,42,1.0,30.0,"Sun Yat-Sen overthrew the emperor in China, establishing the Republic of China after 2000 years of imperial rule.",0.9978410008112438,1.0
+trivia_qa_157,43,1.0,30.0,"Sun Yat-Sen overthrew the emperor in China, establishing the Republic of China after 2000 years of imperial rule.",0.9980379415988265,1.0
+trivia_qa_355,42,0.0,38.0,"According to the film Gremlins, if you are looking after a Gremlin, you should not feed him after midnight, not get him wet, and not expose him to light.",0.41393528953487785,1.0
+trivia_qa_355,43,0.0,38.0,"According to the film Gremlins, if you are looking after a Gremlin, you should not feed him after midnight, not get him wet, and not expose him to light.",0.41393528953487785,1.0
+trivia_qa_330,42,0.0,25.0,The last English-born player to win the men's singles title at Wimbledon was Andy Murray in 2013.,0.1481094864510944,0.0
+trivia_qa_330,43,0.0,25.0,The last English-born player to win the men's singles title at Wimbledon was Andy Murray in 2013.,0.17949461771014866,0.0
+trivia_qa_9,42,1.0,18.0,"Michael Jackson's autobiography written in 1988 was titled ""Moonwalk.""",0.9933591506367615,1.0
+trivia_qa_9,43,1.0,18.0,"Michael Jackson's autobiography written in 1988 was titled ""Moonwalk.""",0.9933591506367615,1.0
+trivia_qa_250,42,1.0,16.0,The heart has four chambers: two atria and two ventricles.,0.8826457547880805,1.0
+trivia_qa_250,43,1.0,16.0,The heart has four chambers: two atria and two ventricles.,0.8826457547880805,1.0
+trivia_qa_165,42,1.0,52.0,"In the musical ""Fiddler on the Roof,"" the fiddler is not located on a physical roof but is a symbol of tradition and culture. The title refers to a character who plays music at village gatherings, representing the坚守传统的生活方式。",0.9559991957948342,1.0
+trivia_qa_165,43,1.0,52.0,"In the musical ""Fiddler on the Roof,"" the fiddler is not located on a physical roof but is a symbol of tradition and culture. The title refers to a character who plays music at village gatherings, representing the坚守传统的生活方式。",0.9528583007487632,1.0
+trivia_qa_306,42,0.0,13.0,"The second most common word in written English is ""the.""",0.09717738868968642,0.0
+trivia_qa_306,43,0.0,13.0,"The second most common word in written English is ""the.""",0.09717738868968649,0.0
+trivia_qa_0,42,0.0,14.0,The Chipmunks were created by Ross Bagdasarian Sr.,0.23852195376436416,0.0
+trivia_qa_0,43,0.0,14.0,The Chipmunks were created by Ross Bagdasarian Sr.,0.23852195376436416,0.0
+trivia_qa_271,42,1.0,17.0,The value of Pi to three decimal places is 3.142.,0.9945523395572562,1.0
+trivia_qa_271,43,1.0,17.0,The value of Pi to three decimal places is 3.142.,0.9945523395572562,1.0
+trivia_qa_276,42,1.0,15.0,"The national anthem ""God Save the Queen"" consists of three verses.",0.8519226819331096,1.0
+trivia_qa_276,43,1.0,15.0,"The national anthem ""God Save the Queen"" consists of three verses.",0.7756093628758219,1.0
+trivia_qa_82,42,1.0,57.0,"The term ""Georgia Peach"" refers to Johnny Isaksen, a former Major League Baseball pitcher known for his time with the Houston Astros in the 1980s. He was called the ""Georgia Peach"" due to his hometown of Milledgeville, Georgia.",0.06547491530895302,0.0
+trivia_qa_82,43,1.0,71.0,"The term ""Georgia Peach"" typically refers to a nickname or title rather than a specific individual. It can be used as a general term to describe someone from Georgia or to refer to Georgia itself, due to the state's historical reputation for producing peaches. Without more context, it's not possible to identify a specific person as ""the Georgia Peach.""",0.0538869548802573,0.0
+trivia_qa_191,42,1.0,10.0,The attack on Pearl Harbor occurred in December.,0.9940752650905658,1.0
+trivia_qa_191,43,1.0,10.0,The attack on Pearl Harbor occurred in December.,0.9940752650905658,1.0
+trivia_qa_347,42,1.0,13.0,The largest bee in a hive is called the queen bee.,0.9943542218783232,1.0
+trivia_qa_347,43,1.0,13.0,The largest bee in a hive is called the queen bee.,0.9943542218783232,1.0
+trivia_qa_473,42,1.0,21.0,The kangaroo often mistaken by Sylvester the cat to be a giant mouse was named Speedy.,0.12684027270880938,0.0
+trivia_qa_473,43,1.0,21.0,The kangaroo often mistaken by Sylvester the cat to be a giant mouse was named Speedy.,0.09521979948834339,0.0
+trivia_qa_399,42,0.0,35.0,"Family Fortunes was presented by Bill Mitchell in the two years between Bob Monkhouse and Les Dennis, specifically in 1986 and 1987.",0.05491531842812787,0.0
+trivia_qa_399,43,0.0,44.0,"Family Fortunes was presented by Simon_BUSY_Taylor in the two years between Bob Monkhouse and Les Dennis. Specifically, Simon Busy Taylor presented the show from 1985 to 1986.",0.03902716432803976,0.0
+trivia_qa_319,42,0.0,32.0,"The game in which you would use a squidger, a circular disc between 25mm and 51mm in diameter, is croquet.",0.24999650308702456,0.0
+trivia_qa_319,43,0.0,33.0,"The game in which you would use a squidger, a circular disc between 25mm and 51mm in diameter, is crokinole.",0.3245000915219817,0.0
+trivia_qa_152,42,1.0,12.0,"The Kansas City Royals come from Kansas City, Missouri.",0.9939653349231696,1.0
+trivia_qa_152,43,1.0,12.0,"The Kansas City Royals come from Kansas City, Missouri.",0.9939653349231696,1.0
+trivia_qa_54,42,0.0,33.0,"Elvis Presley is considered the most successful UK solo artist in the USA. He achieved unparalleled success there, selling millions of records and becoming a cultural icon.",0.15759131888046085,0.0
+trivia_qa_54,43,0.0,33.0,"Elvis Presley is considered the most successful UK solo artist in the USA. He achieved unparalleled success there, selling millions of records and becoming a cultural icon.",0.16595037276989888,0.0
+trivia_qa_259,42,0.0,17.0,"The approximate circumference of the Earth is 40,075 kilometers.",0.11412692260447434,0.0
+trivia_qa_259,43,0.0,17.0,"The approximate circumference of the Earth is 40,075 kilometers.",0.11412692260447434,0.0
+trivia_qa_91,42,0.0,25.0,"There is no Star Trek star who directed ""Three Men and a Baby."" The film was directed by George Gallo.",0.0740470770470046,0.0
+trivia_qa_91,43,0.0,25.0,"There is no Star Trek star who directed ""Three Men and a Baby."" The film was directed by George Gallo.",0.06954823788198285,0.0
+trivia_qa_256,42,1.0,14.0,The term for nutrient enrichment of lakes is eutrophication.,0.9942924115426484,1.0
+trivia_qa_256,43,1.0,14.0,The term for nutrient enrichment of lakes is eutrophication.,0.9942924115426484,1.0
+trivia_qa_430,42,1.0,26.0,"The main stars in the 2008 movie ""Seven Pounds"" are Will Smith and Thandie Newton.",0.9746010442345814,1.0
+trivia_qa_430,43,1.0,26.0,"The main stars in the 2008 movie ""Seven Pounds"" are Will Smith and Thandie Newton.",0.9745966220873197,1.0
+trivia_qa_1,42,1.0,29.0,"The Lloyd Webber musical that premiered in the US on December 10, 1993, is ""Sunset Boulevard.""",0.9876676923072508,1.0
+trivia_qa_1,43,1.0,29.0,"The Lloyd Webber musical that premiered in the US on December 10, 1993, is ""Sunset Boulevard.""",0.9876676923072508,1.0
+trivia_qa_459,42,1.0,13.0,The right side of the heart pumps blood to the lungs.,0.9940650807307607,1.0
+trivia_qa_459,43,1.0,13.0,The right side of the heart pumps blood to the lungs.,0.9940650807307607,1.0
+trivia_qa_80,42,1.0,42.0,"Christian Slater was born first. He was born on December 21, 1974, while Kiefer Sutherland was born on October 16, 1966.",0.9112009509433815,1.0
+trivia_qa_80,43,1.0,42.0,"Christian Slater was born first. He was born on May 28, 1974, while Kiefer Sutherland was born on July 16, 1966.",0.9291329218923062,1.0
+trivia_qa_222,42,1.0,25.0,"The more common name for the ""simple plurality"" system of voting is the ""first-past-the-post"" system.",0.9930827840112403,1.0
+trivia_qa_222,43,1.0,25.0,"The more common name for the ""simple plurality"" system of voting is the ""first-past-the-post"" system.",0.9930827840112403,1.0
+trivia_qa_431,42,1.0,13.0,The Seven Year Itch was directed by Billy Wilder.,0.9902355656239419,1.0
+trivia_qa_431,43,1.0,13.0,The Seven Year Itch was directed by Billy Wilder.,0.9902355656239419,1.0
+trivia_qa_498,42,1.0,36.0,"The Cresta Run is located in St. Moritz, Switzerland, which has hosted the Winter Olympics twice, in 1928 and 1948.",0.9976051635941322,1.0
+trivia_qa_498,43,1.0,36.0,"The Cresta Run is located in St. Moritz, Switzerland, which has hosted the Winter Olympics twice, in 1928 and 1948.",0.9972785687281435,1.0
+trivia_qa_455,42,1.0,21.0,"In the 1967 musical film Camelot, King Arthur was played by Richard Harris.",0.9991001643138941,1.0
+trivia_qa_455,43,1.0,21.0,"In the 1967 musical film Camelot, King Arthur was played by Richard Harris.",0.9991001643138941,1.0
+trivia_qa_328,42,1.0,19.0,"The word given to a point in tennis that has to be replayed is ""let.""",0.991204134399378,1.0
+trivia_qa_328,43,1.0,19.0,"The word given to a point in tennis that has to be replayed is ""let.""",0.9899457236786582,1.0
+trivia_qa_404,42,1.0,13.0,The Bourne trilogy was written by Robert Ludlum.,0.9935601695179609,1.0
+trivia_qa_404,43,1.0,13.0,The Bourne trilogy was written by Robert Ludlum.,0.9935601695179609,1.0
+trivia_qa_436,42,0.0,13.0,The Red Skull is the arch nemesis of Captain America.,0.8376807748127593,0.0
+trivia_qa_436,43,0.0,14.0,The Red Skull is primarily the arch nemesis of Captain America.,0.8232088812257574,0.0
+trivia_qa_58,42,1.0,16.0,"The artist David born in Bradford, UK, is David Hockney.",0.9904352016153238,1.0
+trivia_qa_58,43,1.0,16.0,"The artist David born in Bradford, UK, is David Hockney.",0.990405271208189,1.0
+trivia_qa_5,42,0.0,19.0,"Rita Coolidge sang the title song for the Bond film ""Live and Let Die.""",0.14790044056583607,0.0
+trivia_qa_5,43,0.0,19.0,"Rita Coolidge sang the title song for the Bond film ""Live and Let Die.""",0.14790044056583593,0.0
+trivia_qa_283,42,1.0,14.0,A standard set of dominoes contains 28 pieces.,0.9943164889712942,1.0
+trivia_qa_283,43,1.0,14.0,A standard set of dominoes contains 28 pieces.,0.9943164889712942,1.0
+trivia_qa_128,42,1.0,10.0,"The Baltimore Orioles come from Baltimore, Maryland.",0.9940263375624283,1.0
+trivia_qa_128,43,1.0,10.0,"The Baltimore Orioles come from Baltimore, Maryland.",0.9940263375624283,1.0
+trivia_qa_270,42,1.0,10.0,The second lightest chemical element is helium.,0.9691315554360309,1.0
+trivia_qa_270,43,1.0,10.0,The second lightest chemical element is helium.,0.9660828824783652,1.0
+trivia_qa_239,42,0.0,24.0,"In vertebrates, myoglobin is primarily found in the muscles, particularly in muscle cells where it helps store oxygen.",0.7375677943983477,1.0
+trivia_qa_239,43,0.0,24.0,"In vertebrates, myoglobin is primarily found in the muscles, particularly in muscle cells where it helps store oxygen.",0.7184412219380439,1.0
+trivia_qa_405,42,1.0,21.0,The visit of the Magi (wise men) to Jesus is described in the Gospel of Matthew.,0.9941522115722747,1.0
+trivia_qa_405,43,1.0,21.0,The visit of the Magi (wise men) to Jesus is described in the Gospel of Matthew.,0.9940954013777288,1.0
+trivia_qa_195,42,0.0,22.0,The first in-flight movie shown on an internal flight in the USA was in 1948.,0.08818518810990222,0.0
+trivia_qa_195,43,0.0,22.0,The first in-flight movie shown on an internal flight in the USA was in 1948.,0.08818518810990222,0.0
+trivia_qa_197,42,1.0,51.0,"President Kennedy was assassinated on November 22, 1963, in Dallas, Texas. He was shot while riding in a motorcade. The assassination was carried out by Lee Harvey Oswald, who was arrested shortly after the shooting.",0.6409241735315853,1.0
+trivia_qa_197,43,1.0,51.0,"President Kennedy was assassinated on November 22, 1963, in Dallas, Texas. He was shot while riding in a motorcade. The assassination was carried out by Lee Harvey Oswald, who was arrested shortly after the shooting.",0.609793325482806,1.0
+trivia_qa_32,42,1.0,26.0,"The last inmate of Spandau jail in Berlin was Rudolf Hess, who died there in 1987.",0.9910901705463842,1.0
+trivia_qa_32,43,1.0,26.0,"The last inmate of Spandau jail in Berlin was Rudolf Hess, who died there in 1987.",0.9910901705463842,1.0
+trivia_qa_305,42,0.0,25.0,"The Pet Shop Boys had a top ten hit in the UK with ""Valentine"" in 1988.",0.04554960006941278,0.0
+trivia_qa_305,43,0.0,25.0,"The Pet Shop Boys had a top ten hit in the UK with ""Valentine"" in 1988.",0.07006209188519996,0.0
+trivia_qa_487,42,0.0,20.0,Kevin Zegers starred in the title role of Sebastian Stark in the American legal drama series Shark.,0.06656204520461724,0.0
+trivia_qa_487,43,0.0,21.0,The title role of Sebastian Stark was played by Stephen Moyer in the American legal drama series Shark.,0.010983307106753989,0.0
+trivia_qa_458,42,0.0,21.0,"In 2009, Christopher George Brown II was convicted of the murder of Lana Clarkson.",0.11519098979704671,0.0
+trivia_qa_458,43,0.0,21.0,"In 2009, Christopher George Brown II was convicted of the murder of Lana Clarkson.",0.11466336918094222,0.0
+trivia_qa_429,42,1.0,31.0,"In the 1996 live-action version of 101 Dalmatians, Cruella de Vil is played by Glenn Close.",0.9889326641262026,1.0
+trivia_qa_429,43,1.0,31.0,"In the 1996 live-action version of 101 Dalmatians, Cruella de Vil is played by Glenn Close.",0.9889326641262026,1.0
+trivia_qa_78,42,1.0,9.0,Paul Strand was a photographer and filmmaker.,0.9994746724608276,1.0
+trivia_qa_78,43,1.0,9.0,Paul Strand was a photographer and filmmaker.,0.9994746724608276,1.0
+trivia_qa_56,42,0.0,25.0,"The US No. 1 single from Diana Ross's platinum album ""Diana"" was ""Ain't Nobody.""",0.09097813999409121,0.0
+trivia_qa_56,43,0.0,25.0,"The US No. 1 single from Diana Ross's platinum album ""Diana"" was ""Ain't Nobody.""",0.09247073855236068,0.0
+trivia_qa_24,42,1.0,24.0,"""If I Were A Rich Man"" was a big hit from the stage show ""Fiddler on the Roof.""",0.9922175373572604,1.0
+trivia_qa_24,43,1.0,24.0,"""If I Were A Rich Man"" was a big hit from the stage show ""Fiddler on the Roof.""",0.9922175373572604,1.0
+trivia_qa_46,42,1.0,14.0,Jimi Hendrix died at the age of 27.,0.9791800625273214,1.0
+trivia_qa_46,43,1.0,14.0,Jimi Hendrix died at the age of 27.,0.9791800625273214,1.0
+trivia_qa_252,42,1.0,46.0,"When an egg is released from the ovary during ovulation, the follicle from which the egg was released is left behind. This follicle may develop into a corpus luteum if the egg is not fertilized.",0.6281696107959126,1.0
+trivia_qa_252,43,1.0,47.0,"When an egg is released from the ovary during ovulation, the follicle from which the egg was released is left behind. This follicle may eventually develop into a corpus luteum if the egg is not fertilized.",0.7835187697981553,1.0
+trivia_qa_260,42,1.0,23.0,"Gypsum is the common mineral used to make casts, molds, blackboard chalk, and plaster of Paris.",0.9907124484537871,1.0
+trivia_qa_260,43,1.0,23.0,"Gypsum is the common mineral used to make casts, molds, blackboard chalk, and plaster of Paris.",0.9907124484537871,1.0
+trivia_qa_70,42,0.0,9.0,The Spice Girls promoted Virgin Cola.,0.20492014471894943,0.0
+trivia_qa_70,43,0.0,9.0,The Spice Girls promoted Virgin Cola.,0.47890617447249495,0.0
+trivia_qa_386,42,0.0,23.0,The actress who married Dennis Quaid on Valentine's Day in 1991 is Kimberly Elise.,0.04092456744641569,0.0
+trivia_qa_386,43,0.0,23.0,The actress who married Dennis Quaid on Valentine's Day in 1991 is Kimberly Elise.,0.045506839721227814,0.0
+trivia_qa_427,42,0.0,46.0,"The film that features the Dawes Tomes Mousley Grubbs Fidelity Fiduciary Bank is ""O Brother, Where Art Thou?"" (2000), directed by Joel and Ethan Coen.",0.06783608472354022,0.0
+trivia_qa_427,43,0.0,46.0,"The film that features the Dawes Tomes Mousley Grubbs Fidelity Fiduciary Bank is ""O Brother, Where Art Thou?"" (2000), directed by Joel and Ethan Coen.",0.06583335359607505,0.0
+trivia_qa_204,42,0.0,24.0,"The first Tarzan novel, ""Tarzan of the Apes,"" was published in 1912.",0.16915357033737638,0.0
+trivia_qa_204,43,0.0,24.0,"The first Tarzan novel, ""Tarzan of the Apes,"" was published in 1912.",0.16915357033737638,0.0
+trivia_qa_298,42,1.0,47.0,"French fries do not originate from France, Belgium, or Switzerland. The origin of French fries is debated, but they are popularly associated with Belgium, where they are known as ""frites,"" and are considered a national snack.",0.6029903949459008,0.0
+trivia_qa_298,43,1.0,47.0,"French fries do not originate from France, Belgium, or Switzerland. The origin of French fries is debated, but they are popularly associated with Belgium, where they are known as ""frites,"" and are considered a national snack.",0.5402658136434554,0.0
+trivia_qa_219,42,1.0,20.0,"The castle that gives the Habsburg dynasty its name is in Habsburg, Switzerland.",0.6423930776385386,1.0
+trivia_qa_219,43,1.0,20.0,"The castle that gives the Habsburg dynasty its name is in Habsburg, Switzerland.",0.7026114142133335,1.0
+trivia_qa_299,42,0.0,33.0,"J. K. Rowling won the 1999 Whitbread Children's Book of the Year award for ""Harry Potter and the Philosopher's Stone.""",0.48164953203781374,1.0
+trivia_qa_299,43,0.0,33.0,"J. K. Rowling won the 1999 Whitbread Children's Book of the Year award for ""Harry Potter and the Philosopher's Stone.""",0.48164953203781374,1.0
+trivia_qa_134,42,0.0,22.0,"Mickey Braddock found fame with the surname ""Jackson"" in the pop band ""Jackson 5.""",0.057941056641513514,0.0
+trivia_qa_134,43,0.0,22.0,"Mickey Braddock found fame with the surname ""Jackson"" in the pop band ""Jackson 5.""",0.06837247277056747,0.0
+trivia_qa_275,42,1.0,33.0,"As of March 2001, the record for scoring the most league goals for Arsenal was held by Ian Wright, with 170 goals.",0.9782719264595376,1.0
+trivia_qa_275,43,1.0,33.0,"As of March 2001, the record for scoring the most league goals for Arsenal was held by Ian Wright, with 170 goals.",0.9504127098292123,1.0
+trivia_qa_474,42,1.0,11.0,Gjetost is the national cheese of Norway.,0.9946348760341239,1.0
+trivia_qa_474,43,1.0,11.0,Gjetost is the national cheese of Norway.,0.9946348760341239,1.0
+trivia_qa_126,42,0.0,28.0,"The boxer who famously said, ""If I can't beat this bum, take my name off the record books,"" was Muhammad Ali.",0.09374022683393586,0.0
+trivia_qa_126,43,0.0,29.0,"The boxer who famously said, ""If I can't beat this bum, take my name off the record books,"" was Joe Frazier.",0.027159162220533238,0.0
+trivia_qa_492,42,1.0,21.0,"In the TV show Camberwick Green, Mr. Toad lived in Colly's Mill.",0.05858726680274873,0.0
+trivia_qa_492,43,1.0,21.0,"In the TV show Camberwick Green, Mr. Toad lived in Colly's Mill.",0.06413504103069886,0.0
+trivia_qa_441,42,1.0,35.0,"The pub with the longest name in the UK is ""The Hungry Man Must Eat at Every Opportunity, but Must Not Overeat"" which contains 55 letters.",0.4361051325384631,1.0
+trivia_qa_441,43,0.0,53.0,"The pub with the longest name in the UK is the ""The Three Tuns, The White Horse, The Perch, The Bell, The Blue Boar, The Black Horse, The Greyhound and Prince of Wales"" which has 95 letters.",0.05914282990732567,0.0
+trivia_qa_73,42,0.0,23.0,"In Apache, ""Kemo Sabe"" translates to ""trusty friend"" or ""faithful friend.""",0.30468955216898824,0.0
+trivia_qa_73,43,0.0,22.0,"In Apache, ""Kemo Sabe"" translates to ""true friend"" or ""faithful friend.""",0.29227001218531784,0.0
+trivia_qa_234,42,0.0,73.0,"The fastest animal on two legs is the human sprinter, capable of reaching speeds up to about 28 miles per hour (45 kilometers per hour) in short sprints. However, if considering non-human animals, the cheetah is the fastest, reaching speeds of up to 70 miles per hour (113 kilometers per hour).",0.665372793932875,0.0
+trivia_qa_234,43,0.0,61.0,"The fastest animal on two legs is the human sprinter, capable of reaching speeds up to about 28 miles per hour (45 kilometers per hour) in short sprints. However, under normal circumstances without mechanical aids, the fastest unassisted human speed is around 28 mph.",0.6715092995022467,0.0
+trivia_qa_329,42,0.0,14.0,Prisoner: Cell Block H had 10 episodes produced.,0.4498894583660637,1.0
+trivia_qa_329,43,0.0,14.0,Prisoner: Cell Block H had 10 episodes produced.,0.44990222572617977,1.0
+trivia_qa_202,42,0.0,13.0,The orchestral conductor married to Jackie Kennedy was Leonard Bernstein.,0.05676127951455007,0.0
+trivia_qa_202,43,0.0,13.0,The orchestral conductor married to Jackie Kennedy was Leonard Bernstein.,0.04482139599806818,0.0
+trivia_qa_255,42,0.0,25.0,"The second most common gas in the Earth's atmosphere is nitrogen, making up about 78% of the air.",0.07567568557104684,0.0
+trivia_qa_255,43,0.0,25.0,"The second most common gas in the Earth's atmosphere is nitrogen, making up about 78% of the air.",0.07567568557104684,0.0
+trivia_qa_335,42,0.0,16.0,"Boris was a bear, the subject of a song by The Who.",0.1359259804589558,0.0
+trivia_qa_335,43,0.0,16.0,"Boris was a bear, the subject of a song by The Who.",0.139576725902394,0.0
+trivia_qa_376,42,1.0,20.0,The Scottish newspaper that features the Broons and Oor Wullie is The Sunday Post.,0.8699685907527048,1.0
+trivia_qa_376,43,1.0,20.0,The Scottish newspaper that features the Broons and Oor Wullie is The Sunday Post.,0.9600751665809198,1.0
+trivia_qa_380,42,0.0,22.0,Bobby Charlton holds the record for the most international caps for England with 106 appearances.,0.06551903884662193,0.0
+trivia_qa_380,43,0.0,22.0,Bobby Charlton holds the record for the most international caps for England with 106 appearances.,0.06908161803125829,0.0
+trivia_qa_367,42,1.0,35.0,"The word is ""vinasse."" However, it's more commonly known as ""vinagre"" in French, which directly translates to ""vinegar"" in English.",0.9036434372513565,1.0
+trivia_qa_367,43,1.0,9.0,"The word is ""vinegar.""",0.8367427080787708,1.0
+trivia_qa_290,42,0.0,39.0,"There is no credible evidence to support the claim that Thomas Edison was afraid of the dark. His invention of the light bulb was aimed at providing light, not related to any fear of darkness.",0.8086931766398103,0.0
+trivia_qa_290,43,0.0,39.0,"There is no credible evidence to support the claim that Thomas Edison was afraid of the dark. His invention of the light bulb was aimed at providing light, not related to any fear of darkness.",0.8328108485921134,0.0
+trivia_qa_108,42,1.0,18.0,Marc Dutroux hit the headlines over a 'house of horrors' in Belgium.,0.9939132618325763,1.0
+trivia_qa_108,43,1.0,18.0,Marc Dutroux hit the headlines over a 'house of horrors' in Belgium.,0.9939132618325763,1.0
+trivia_qa_33,42,0.0,44.0,"Eddie Murphy's first major movie role was in the 1984 film ""Coming to America."" However, he had a minor role in the 1982 film ""Beau Harlots.""",0.041959473329259915,0.0
+trivia_qa_33,43,0.0,44.0,"Eddie Murphy's first major movie role was in the 1984 film ""Coming to America."" However, he had a minor role in the 1982 film ""Beau Harlots.""",0.044167892145732926,0.0
+trivia_qa_137,42,0.0,26.0,"In Hanna-Barbera's TV cartoons based on The Addams Family, Gomez Addams was voiced by Frank Welker.",0.07674410920713456,0.0
+trivia_qa_137,43,0.0,26.0,"In Hanna-Barbera's TV cartoons based on The Addams Family, Gomez Addams was voiced by Paul Lynde.",0.10783504384734592,0.0
+trivia_qa_205,42,1.0,20.0,Motorized ambulances were first used in France in the 1830s.,0.14880417203130314,0.0
+trivia_qa_205,43,1.0,20.0,Motorized ambulances were first used in France in the 1830s.,0.14880417203130314,0.0
+trivia_qa_161,42,1.0,11.0,Mohammed Al-Fayed was born in Egypt.,0.9995600772150519,1.0
+trivia_qa_161,43,1.0,11.0,Mohammed Al-Fayed was born in Egypt.,0.9995600772150519,1.0
+trivia_qa_482,42,1.0,26.0,"This quote is from Margaret Mitchell's novel ""Gone with the Wind,"" describing Scarlett O'Hara's charm and appeal.",0.08449401372251249,0.0
+trivia_qa_482,43,1.0,26.0,"This quote is from Margaret Mitchell's novel ""Gone with the Wind,"" describing Scarlett O'Hara's charm and appeal.",0.11395211793572702,0.0
+trivia_qa_117,42,1.0,15.0,The first permanent bungee jumping site was situated in New Zealand.,0.9947694905417652,1.0
+trivia_qa_117,43,1.0,15.0,The first permanent bungee jumping site was situated in New Zealand.,0.9947694905417652,1.0
+trivia_qa_28,42,1.0,37.0,"In the Bible, the sun and moon are said to have stood still before Joshua during the Battle of Jericho, as described in the Book of Joshua, chapter 10.",0.8579844146904595,1.0
+trivia_qa_28,43,1.0,37.0,"In the Bible, the sun and moon are said to have stood still before Joshua during the Battle of Jericho, as described in the Book of Joshua, chapter 10.",0.7892055664950925,1.0
+trivia_qa_166,42,1.0,10.0,South Pacific was set during World War II.,0.9946487018064183,1.0
+trivia_qa_166,43,1.0,10.0,South Pacific was set during World War II.,0.9946487018064183,1.0
+trivia_qa_350,42,1.0,24.0,"The historical St George, the patron saint of England, is believed to have died around 303 AD.",0.9872994241071827,1.0
+trivia_qa_350,43,1.0,24.0,"The historical St George, the patron saint of England, is believed to have died around 303 AD.",0.9889641148441146,1.0
+trivia_qa_467,42,1.0,13.0,Edward VIII abdicated in 1936.,0.9949840028153367,1.0
+trivia_qa_467,43,1.0,13.0,Edward VIII abdicated in 1936.,0.9949840028153367,1.0
+trivia_qa_285,42,0.0,36.0,Benjy and Laska were dogs sent into space in 1958 as part of a French space program to study the effects of space flight on living organisms.,0.0605564272869768,0.0
+trivia_qa_285,43,0.0,42.0,Benjy and Laska were two beagles sent into space by the United States in 1958 as part of the space exploration program to test spacecraft design and capability for longer missions.,0.019374963597089446,0.0
+trivia_qa_352,42,1.0,13.0,The Vice-President for George W. Bush was Dick Cheney.,0.9943705891108786,1.0
+trivia_qa_352,43,1.0,13.0,The Vice-President for George W. Bush was Dick Cheney.,0.9943705891108786,1.0
+trivia_qa_499,42,1.0,20.0,A wireworm is the larval stage of click beetles (family Elateridae).,0.5278640949788463,1.0
+trivia_qa_499,43,1.0,20.0,A wireworm is the larval stage of click beetles (family Elateridae).,0.5278640949788463,1.0
+trivia_qa_138,42,0.0,20.0,The only female victim killed off in the opening credit sequence of Police Squad! was a prostitute.,0.085629662460912,0.0
+trivia_qa_138,43,0.0,25.0,The only female victim killed off in the opening credit sequence of Police Squad! was a woman dressed as the Lone Ranger.,0.047212519306460754,0.0
+trivia_qa_463,42,0.0,17.0,"In 2009, the Masters Tournament was won by Charlie Wi.",0.1041182389190419,0.0
+trivia_qa_463,43,0.0,18.0,"In 2009, the Masters Tournament was won by Charles Howell III.",0.10628907950572149,0.0
+trivia_qa_236,42,1.0,11.0,The study of birds is called ornithology.,0.9995523277510479,1.0
+trivia_qa_236,43,1.0,11.0,The study of birds is called ornithology.,0.9995523277510479,1.0
+trivia_qa_409,42,1.0,10.0,The Danube flows into the Black Sea.,0.994427462544805,1.0
+trivia_qa_409,43,1.0,10.0,The Danube flows into the Black Sea.,0.994427462544805,1.0
+trivia_qa_494,42,0.0,20.0,Dr. Doug Ross on the TV show E.R. was played by actor Donald Sutherland.,0.3772057177293957,0.0
+trivia_qa_494,43,0.0,21.0,Dr. Doug Ross on the TV show E.R. was played by actor Eric Stoltz.,0.34957169021322393,0.0
+trivia_qa_438,42,0.0,29.0,"The detective who first appeared on TV in 1967 and solved crimes while sitting down is Columbo, played by Peter Falk.",0.21311069484383383,0.0
+trivia_qa_438,43,0.0,29.0,"The detective who first appeared on TV in 1967 and solved crimes while sitting down is Columbo, played by Peter Falk.",0.20198676683429057,0.0
+trivia_qa_273,42,0.0,28.0,"Eva Herzagovia, a brand of cigarettes, used the slogan ""hello boys"" in its advertising to target male smokers.",0.07085007562682055,0.0
+trivia_qa_273,43,0.0,57.0,"Eva Herzagovia, a Polish singer and actress, used the slogan ""hello boys"" to promote her career and personal brand in the 1930s. This slogan was part of her efforts to gain attention and build a following, particularly among male fans.",0.0595031677524284,0.0
+trivia_qa_87,42,0.0,16.0,"Before becoming famous for mountain climbing, Edmund Hillary worked as a beekeeper.",0.4116741983175036,0.0
+trivia_qa_87,43,0.0,16.0,"Before becoming famous for mountain climbing, Edmund Hillary worked as a beekeeper.",0.21093520574476896,0.0
+trivia_qa_411,42,0.0,13.0,Wayne Rooney scored his first senior goal against Manchester United.,0.1692762857565961,0.0
+trivia_qa_411,43,0.0,13.0,Wayne Rooney scored his first senior goal against Manchester United.,0.11599580830414656,0.0
+trivia_qa_311,42,0.0,42.0,"The ITV magazine style show that ran from 1968 to 1980 and featured presenters such as Jenny Hanley, Mick Robertson, and Tommy Boyd was ""That's Life!""",0.07318520231532973,0.0
+trivia_qa_311,43,0.0,42.0,"The ITV magazine style show that ran from 1968 to 1980 and featured presenters such as Jenny Hanley, Mick Robertson, and Tommy Boyd was ""That's Life!""",0.07271684340604073,0.0
+trivia_qa_36,42,1.0,22.0,"The Pacers and Pistons could face each other in professional basketball, specifically in the NBA (National Basketball Association).",0.997972904044065,1.0
+trivia_qa_36,43,1.0,22.0,"The Pacers and Pistons could face each other in professional basketball, specifically in the NBA (National Basketball Association).",0.9975019633646525,1.0
+trivia_qa_331,42,1.0,18.0,The famous painter whose surname was Harmenzoon van Rijn is Rembrandt.,0.9895316568073366,1.0
+trivia_qa_331,43,1.0,18.0,The famous painter whose surname was Harmenzoon van Rijn is Rembrandt.,0.9859702289717986,1.0
+trivia_qa_349,42,1.0,11.0,The alcoholic ingredient of Irish coffee is Irish whiskey.,0.9942296959403704,1.0
+trivia_qa_349,43,1.0,11.0,The alcoholic ingredient of Irish coffee is Irish whiskey.,0.9942296959403704,1.0
+trivia_qa_470,42,1.0,28.0,"Lee Harvey Oswald was shot and killed by Jack Ruby on November 24, 1963, in Dallas, Texas.",0.9970509590384857,1.0
+trivia_qa_470,43,1.0,21.0,"Lee Harvey Oswald was killed by Jack Ruby on November 24, 1963.",0.9986148612807616,1.0
+trivia_qa_136,42,0.0,16.0,"The US sitcom ""I Love Lucy"" was the first exported to Britain.",0.4694977623989806,0.0
+trivia_qa_136,43,0.0,16.0,"The US sitcom ""I Love Lucy"" was the first exported to Britain.",0.4694977623989806,0.0
+trivia_qa_343,42,0.0,33.0,"The winner of the second series of Pop Idol, James Arthur, had a number one hit in 2004 with the song ""All This Time.""",0.048063394033457225,0.0
+trivia_qa_343,43,0.0,33.0,"The winner of the second series of Pop Idol, James Arthur, had a number one hit in 2004 with the song ""All This Time.""",0.02822343165565249,0.0
+trivia_qa_107,42,0.0,29.0,"Melanie Molitor is the mother of Novak Djokovic, who has been ranked world No. 1 in tennis multiple times.",0.08959880887870095,0.0
+trivia_qa_107,43,0.0,29.0,"Melanie Molitor is the mother of Novak Djokovic, who has been ranked world No. 1 in tennis multiple times.",0.08907398554636048,0.0
+trivia_qa_181,42,1.0,14.0,"The international registration letters for a vehicle from Iceland are ""IS"".",0.994235669487201,1.0
+trivia_qa_181,43,1.0,14.0,"The international registration letters for a vehicle from Iceland are ""IS"".",0.994235669487201,1.0
+trivia_qa_189,42,0.0,19.0,Florida is the state on the Gulf of Mexico that is nearest the end of the alphabet.,0.12922619230053708,0.0
+trivia_qa_189,43,0.0,19.0,Florida is the state on the Gulf of Mexico that is nearest the end of the alphabet.,0.12922619230053708,0.0
+trivia_qa_83,42,1.0,22.0,Jimi Hendrix set fire to his guitar at the Monterey Pop Festival in 1967.,0.9936137400816498,1.0
+trivia_qa_83,43,1.0,22.0,Jimi Hendrix set fire to his guitar at the Monterey Pop Festival in 1967.,0.9936137400816498,1.0
+trivia_qa_186,42,1.0,71.0,"The head of the Nazi party's security service, known as the SS, during World War II was Heinrich Himmler. However, the primary operational command of the SS and its security services was led by Reinhard Heydrich, who was referred to as the ""Reichssicherheitshauptamt"" (RSHA) chief.",0.5093110963024365,0.0
+trivia_qa_186,43,1.0,56.0,"The head of the Nazi party's security service, known as the SS, during World War II was Heinrich Himmler. However, the primary operational command of the security service was led by Reinhard Heydrich, who was deputy to Heinrich Himmler.",0.5753641282853973,0.0
+trivia_qa_325,42,1.0,33.0,"Three Scottish football league teams have names that end in ""United"": Hamilton Academical F.C., Motherwell F.C., and St Mirren F.C.",0.053120421546969235,0.0
+trivia_qa_325,43,1.0,33.0,"Three Scottish football league teams have names that end in ""United"": Hamilton Academical F.C., Motherwell F.C., and St Mirren F.C.",0.06047962600668287,0.0
+trivia_qa_232,42,0.0,17.0,"Mathematics has four fundamental operations: addition, subtraction, multiplication, and division.",0.41180968881390934,0.0
+trivia_qa_232,43,0.0,17.0,"Mathematics has four fundamental operations: addition, subtraction, multiplication, and division.",0.41430761878550926,0.0
+trivia_qa_454,42,0.0,26.0,"The third convict in the 1955 comedy movie ""We're No Angels"" was played by Zero Mostel.",0.10478712891389447,0.0
+trivia_qa_454,43,0.0,26.0,"The third convict in the 1955 comedy movie ""We're No Angels"" was played by Zero Mostel.",0.10643839122708673,0.0
+trivia_qa_447,42,0.0,60.0,"In Harry Potter and the Goblet of Fire, Harry did not have to defeat a dragon. The task involving a dragon was for Viktor Krum, who had to deal with a Ukrainian Ironbelly dragon. Harry's task was to get the Golden Egg from a dragon-guarded lake.",0.05704348801540851,0.0
+trivia_qa_447,43,0.0,59.0,"In Harry Potter and the Goblet of Fire, Harry did not have to defeat a dragon. The task involving a dragon was for Viktor Krum, who had to deal with a Ukrainian Ironbelly dragon. Harry's task was to collect a golden egg from a dragonless nest.",0.09308362142215024,0.0
+trivia_qa_51,42,0.0,24.0,Let's Do It Again was a No. 1 hit in the 70s for The Pointer Sisters.,0.26793363292079264,1.0
+trivia_qa_51,43,0.0,24.0,Let's Do It Again was a No. 1 hit in the 70s for The Pointer Sisters.,0.26796978441880565,1.0
+trivia_qa_478,42,1.0,37.0,"The 1986 Peter Weir movie based on Paul Theroux's novel, ""The Mosquito Coast,"" starred Harrison Ford, Helen Mirren, and River Phoenix.",0.9873591983218832,1.0
+trivia_qa_478,43,1.0,37.0,"The 1986 Peter Weir movie based on Paul Theroux's novel, ""The Mosquito Coast,"" starred Harrison Ford, Helen Mirren, and River Phoenix.",0.987359198321883,1.0
+trivia_qa_444,42,1.0,11.0,The Wealth of Nations was written by Adam Smith.,0.9940824413594416,1.0
+trivia_qa_444,43,1.0,11.0,The Wealth of Nations was written by Adam Smith.,0.9940824413594416,1.0
+trivia_qa_148,42,1.0,9.0,The Internet started in the United States.,0.9946314736156947,1.0
+trivia_qa_148,43,1.0,9.0,The Internet started in the United States.,0.9946314736156947,1.0
+trivia_qa_395,42,1.0,11.0,Wayne Rooney signed for Manchester United from Everton.,0.9936109640289978,1.0
+trivia_qa_395,43,1.0,11.0,Wayne Rooney signed for Manchester United from Everton.,0.9936109640289978,1.0
+trivia_qa_116,42,1.0,23.0,The world was first aware of the Chernobyl disaster after detectors were triggered at a nuclear plant in Sweden.,0.9817552782960205,1.0
+trivia_qa_116,43,1.0,23.0,The world was first aware of the Chernobyl disaster after detectors were triggered at a nuclear plant in Sweden.,0.978517025807625,1.0
+trivia_qa_338,42,1.0,10.0,Marie Curie was born in Poland.,0.9995335866851157,1.0
+trivia_qa_338,43,1.0,10.0,Marie Curie was born in Poland.,0.9995335866851157,1.0
+trivia_qa_23,42,0.0,32.0,"The 90s sci-fi series with James Belushi that was based on Bruce Wagner's comic strip of the same name is ""Refugee.""",0.073765460236161,0.0
+trivia_qa_23,43,0.0,32.0,"The 90s sci-fi series with James Belushi that was based on Bruce Wagner's comic strip of the same name is ""Refugee.""",0.07289647902120877,0.0
+trivia_qa_35,42,1.0,11.0,Kagoshima International Airport is in Japan.,0.9946813144787666,1.0
+trivia_qa_35,43,1.0,11.0,Kagoshima International Airport is in Japan.,0.9946813144787666,1.0
+trivia_qa_360,42,0.0,31.0,"Peter Simple, Jack Horner, and Ben Nevis have all won the Tour de France, one of the most famous sporting events in the world.",0.39579610664403997,1.0
+trivia_qa_360,43,0.0,31.0,"Peter Simple, Jack Horner, and Ben Nevis have all won the Tour de France, one of the most famous sporting events in the world.",0.354858853461801,1.0
+trivia_qa_98,42,1.0,21.0,"Nigel Hawthorne was Oscar nominated for portraying King George III in ""The Madness of King George.""",0.9927376748039498,1.0
+trivia_qa_98,43,1.0,21.0,"Nigel Hawthorne was Oscar nominated for playing King George III in ""The Madness of King George.""",0.9912593013549995,1.0
+trivia_qa_295,42,1.0,30.0,"The letter ""q"" is the only letter of the alphabet that does not appear in any of the names of the 50 American states.",0.9988656211061084,1.0
+trivia_qa_295,43,1.0,30.0,"The letter ""q"" is the only letter of the alphabet that does not appear in any of the names of the 50 American states.",0.9988656211061084,1.0
+trivia_qa_185,42,1.0,21.0,"In 1993, Israel's head of state was President Ezer Weizman.",0.9471687943177979,1.0
+trivia_qa_185,43,1.0,21.0,"In 1993, Israel's head of state was President Ezer Weizman.",0.9152858276853406,1.0
+trivia_qa_316,42,1.0,32.0,"The serial killer subject of the films ""A Study in Terror,"" ""Murder by Decree,"" and ""From Hell"" is Jack the Ripper.",0.9979699260474724,1.0
+trivia_qa_316,43,1.0,30.0,"The serial killer featured in ""A Study In Terror,"" ""Murder By Decree,"" and ""From Hell"" is Jack the Ripper.",0.9985806289591564,1.0
+trivia_qa_321,42,1.0,15.0,"The most common pub name in the UK is ""The Red Lion.""",0.9993196890092048,1.0
+trivia_qa_321,43,1.0,15.0,"The most common pub name in the UK is ""The Red Lion.""",0.9993196890092048,1.0
+trivia_qa_424,42,1.0,17.0,ZIP codes were introduced in the USA in the 1960s.,0.994490594294872,1.0
+trivia_qa_424,43,1.0,17.0,ZIP codes were introduced in the USA in the 1960s.,0.994490594294872,1.0
+trivia_qa_150,42,0.0,55.0,"My Life and Loves was written by Lady.getOwnPropertyNames({name: ""Helen of Chicago"", birthName: ""Eugenieрейнхардт""}) in 1926. It was originally banned in the United States due to its explicit content.",0.027583248794375306,0.0
+trivia_qa_150,43,0.0,51.0,"My Life and Loves was written by Elizabeth Baillie, though it was initially published under the pseudonym Viscountess Grant. It was indeed banned in the United States upon its original publication in 1926 due to its explicit content.",0.037035488390661,0.0
+trivia_qa_282,42,1.0,5.0,Citric acid.,0.994932781389314,1.0
+trivia_qa_282,43,1.0,5.0,Citric acid.,0.994932781389314,1.0
+trivia_qa_40,42,0.0,13.0,Otis Barton was a pioneer in exploring the deep ocean.,0.11238240647079158,0.0
+trivia_qa_40,43,0.0,13.0,Otis Barton was a pioneer in exploring the deep ocean.,0.11238240647079158,0.0
+trivia_qa_193,42,0.0,25.0,"In the 1904 Olympics, Americans won 11 of the 23 track and field titles.",0.12342811934761891,0.0
+trivia_qa_193,43,0.0,25.0,"In the 1904 Olympics, Americans won 11 of the 23 track and field titles.",0.11884450205166544,0.0
+trivia_qa_63,42,0.0,27.0,"When Martina Navratilova first won Wimbledon singles in 1978, the defending champion was Chris Evert.",0.09988898302695849,0.0
+trivia_qa_63,43,1.0,26.0,"When Martina Navratilova first won Wimbledon singles in 1978, the defending champion was Virginia Wade.",0.8701937362271581,1.0
+trivia_qa_274,42,0.0,17.0,The number 54 in Bingo is sometimes referred to as Heinz varieties.,0.1818723408388926,0.0
+trivia_qa_274,43,0.0,17.0,The number 54 in Bingo is sometimes referred to as Heinz varieties.,0.19805139673005123,0.0
+trivia_qa_235,42,1.0,6.0,Chlorophyll.,0.9950805124298322,1.0
+trivia_qa_235,43,1.0,6.0,Chlorophyll.,0.9950805124298322,1.0
+trivia_qa_373,42,0.0,56.0,"David Beck汉, the former footballer, dated Elizabeth Hurley between 2000 and 2001 and initially denied being the father of her son, Riley, born in 2002, though a DNA test later confirmed his paternity.",0.09780156879776118,0.0
+trivia_qa_373,43,0.0,54.0,"David Beck汉斯 (David Beckham) dated Elizabeth Hurley between 2000 and 2001 and initially denied being the father of her son Romeo, born in 2002, before a DNA test confirmed he was the father.",0.14362357772723094,0.0
+trivia_qa_22,42,0.0,27.0,East Germany (German Democratic Republic) was the only eastern bloc country to participate in the 1984 Los Angeles Olympics.,0.10925976635011425,0.0
+trivia_qa_22,43,0.0,27.0,East Germany (German Democratic Republic) was the only eastern bloc country to participate in the 1984 Los Angeles Olympics.,0.10925976635011425,0.0
+trivia_qa_413,42,1.0,13.0,The Sign of the Four was written by Arthur Conan Doyle.,0.9319155698415006,1.0
+trivia_qa_413,43,1.0,13.0,The Sign of the Four was written by Arthur Conan Doyle.,0.9319155698415006,1.0
+trivia_qa_135,42,0.0,78.0,"Before finding fame as a TV cop in the show ""Hill Street Blues,"" Daniel J. Kehlmann was not the individual referred to in this question. The person who fits the description given is J. Lee Thompson, who was a war veteran and served as the Director of News & Special Events for ABC before appearing as a police captain in the television series ""Ironside.""",0.020239360749297684,0.0
+trivia_qa_135,43,0.0,66.0,"The war veteran you're referring to is Robert W. ""Bob"" Stack. Before his fame as a TV cop, Stack was the Director of News & Special Events for ABC. He later gained prominence as Detective/private investigator Mike Stone on the TV series ""Perry Mason"" and his own show ""Adam-12.""",0.025177439370912505,0.0
+trivia_qa_309,42,1.0,22.0,"The term used to describe someone who can use both hands with equal ease is ""ambidextrous.""",0.9917511585718849,1.0
+trivia_qa_309,43,1.0,22.0,"The term used to describe someone who can use both hands with equal ease is ""ambidextrous.""",0.9917511585718849,1.0
+trivia_qa_176,42,1.0,29.0,Chuck Berry recorded for Chess Records in the 1950s and Stax Records in the early 1960s.,0.9828224919696426,1.0
+trivia_qa_176,43,1.0,29.0,Chuck Berry recorded for Chess Records in the 1950s and Stax Records in the early 1960s.,0.9828113792689324,1.0
+trivia_qa_433,42,0.0,18.0,The London Underground station in the BBC soap opera EastEnders is called Liverpool Street.,0.009614062968976772,0.0
+trivia_qa_433,43,0.0,19.0,The London Underground station in the BBC soap opera EastEnders is called Becontree.,0.01829218671630147,0.0
+trivia_qa_183,42,1.0,34.0,"The longest moon landing was the Apollo 17 mission, where the lunar module Eagle was on the lunar surface for 75 hours and 56 minutes.",0.9903440013467741,1.0
+trivia_qa_183,43,1.0,34.0,"The longest moon landing was the Apollo 17 mission, where the lunar module Eagle was on the lunar surface for 75 hours and 56 minutes.",0.9865749483867383,1.0
+trivia_qa_49,42,1.0,22.0,The European Recovery Program in the 1940s was more commonly known as the Marshall Plan.,0.9936052556426963,1.0
+trivia_qa_49,43,1.0,22.0,The European Recovery Program in the 1940s was more commonly known as the Marshall Plan.,0.9936052556426963,1.0
+trivia_qa_194,42,0.0,31.0,The Black Hills lie between the Cheyenne River to the east and the White River (also known as the Big Horn River) to the west.,0.07818290129998498,0.0
+trivia_qa_194,43,0.0,31.0,The Black Hills lie between the Cheyenne River to the east and the White River (also known as the Big Horn River) to the west.,0.07818290129998498,0.0
+trivia_qa_480,42,1.0,24.0,"The tv series about FBI agent Don Eppes and his mathematical genius brother Charlie is ""Numb3rs.""",0.9885443740647311,1.0
+trivia_qa_480,43,1.0,24.0,"The tv series about FBI agent Don Eppes and his mathematical genius brother Charlie is ""Numb3rs.""",0.9885947629485271,1.0
+trivia_qa_490,42,0.0,20.0,Madonna's wedding dress for her marriage to Guy Ritchie was designed by Alexander McQueen.,0.08459071310160694,0.0
+trivia_qa_490,43,0.0,20.0,Madonna's wedding dress for her marriage to Guy Ritchie was designed by Alexander McQueen.,0.05795503168655455,0.0
+trivia_qa_172,42,0.0,26.0,"The novel ""The Last of the Really Great Whangdoodles"" was written by William Manley, not an actress.",0.020535204734956524,0.0
+trivia_qa_172,43,0.0,34.0,"The novel ""The Last of the Really Great Whangdoodles"" was written by Frances Olafson, who was an actress before becoming a children's author.",0.018486264348173326,0.0
+trivia_qa_390,42,1.0,19.0,"Mammals produce milk to feed their young, which is produced by mammary glands.",0.9947047567072419,1.0
+trivia_qa_390,43,1.0,20.0,"Mammals produce milk to feed their young, which is secreted by mammary glands.",0.9823579592221634,1.0
+trivia_qa_110,42,1.0,19.0,"The Boulder Dam, now known as the Hoover Dam, is located on the Colorado River.",0.9992412769891259,1.0
+trivia_qa_110,43,1.0,19.0,"The Boulder Dam, now known as the Hoover Dam, is located on the Colorado River.",0.9992412769891259,1.0
+trivia_qa_79,42,0.0,23.0,"The Archies had a No. 1 hit with ""Downtown"" in 1969.",0.12056998301650541,0.0
+trivia_qa_79,43,0.0,23.0,"The Archies had a No. 1 hit with ""Downtown"" in 1969.",0.12057125639215648,0.0
+trivia_qa_464,42,1.0,9.0,Red Stripe lager comes from Jamaica.,0.9946858114748625,1.0
+trivia_qa_464,43,1.0,9.0,Red Stripe lager comes from Jamaica.,0.9946858114748625,1.0
+trivia_qa_174,42,0.0,42.0,"Golf balls used in Antarctica are typically white, not colored, to maximize visibility against the雪白的冰雪环境。由于环境特殊，使用白色高尔夫球是为了更好地在雪地背景下辨识。",0.4681206010443497,0.0
+trivia_qa_174,43,0.0,23.0,"Golf balls used in Antarctica are typically white, not colored, to maximize visibility against the snow and ice.",0.7187448281966451,0.0
+trivia_qa_483,42,0.0,20.0,"The horse racing jockey sometimes referred to as the ""Long Fellow"" was George Woolf.",0.20472466416417673,0.0
+trivia_qa_483,43,0.0,19.0,"The horse racing jockey sometimes referred to as the ""Long Fellow"" was Willie Turner.",0.1737426835442859,0.0
+trivia_qa_357,42,1.0,3.0,Prague,0.9954234066663106,1.0
+trivia_qa_357,43,1.0,3.0,Prague,0.9954234066663106,1.0
+trivia_qa_81,42,1.0,17.0,"To the nearest two, Jimmy Connors won 10 Grand Slam titles.",0.08531461742048325,0.0
+trivia_qa_81,43,1.0,17.0,"To the nearest two, Jimmy Connors won 10 Grand Slam titles.",0.08531461742048325,0.0
+trivia_qa_412,42,1.0,21.0,Liverpool Football Club has won the European Cup (now known as the UEFA Champions League) five times.,0.17366554558471559,0.0
+trivia_qa_412,43,1.0,21.0,Liverpool Football Club has won the European Cup (now known as the UEFA Champions League) five times.,0.17697085984883956,0.0
+trivia_qa_388,42,1.0,31.0,The other musician who died in the plane crash with Buddy Holly and the Big Bopper in February 1959 was Ritchie Valens.,0.991765618215512,1.0
+trivia_qa_388,43,1.0,31.0,The other musician who died in the plane crash with Buddy Holly and the Big Bopper in February 1959 was Ritchie Valens.,0.9909198702425512,1.0
+trivia_qa_3,42,0.0,34.0,"The 70s No 1 hit ""Kiss You All Over"" was performed by Dave Dee, Dozy, Beaky, Mick and Tich.",0.016915005609858768,0.0
+trivia_qa_3,43,0.0,24.0,"The 70s No 1 hit ""Kiss You All Over"" was performed by Nick Gilder.",0.008106900856243366,0.0
+trivia_qa_445,42,0.0,57.0,"Macbeth belonged to the House of Macbeth, which was associated with the Gaelic kings of Moray and later became linked with the Scottish royal house. However, he is not considered a part of a major established royal dynasty like the House of Stuart or the House of Bruce.",0.09491782217209369,0.0
+trivia_qa_445,43,0.0,65.0,"Macbeth belonged to the House of Douglas in later life, but historically, he was a Thane and not definitively linked to a specific royal house or dynasty. The historical Macbeth lived during the late 10th and early 11th centuries, a time before clear royal houses as in later periods.",0.32586427402780244,0.0
+trivia_qa_414,42,1.0,15.0,The author of 'The Old Curiosity Shop' was Charles Dickens.,0.9937662928089045,1.0
+trivia_qa_414,43,1.0,15.0,The author of 'The Old Curiosity Shop' was Charles Dickens.,0.9937662928089043,1.0
+trivia_qa_142,42,0.0,19.0,Michelle Smith-de Bruin was banned for two years after attempting to manipulate a drugs test.,0.6282787284070358,0.0
+trivia_qa_142,43,0.0,19.0,Michelle Smith-de Bruin was banned for two years after attempting to manipulate a drugs test.,0.6282787284070358,0.0
+trivia_qa_301,42,1.0,3.0,Chicago.,0.9962839058855845,1.0
+trivia_qa_301,43,1.0,3.0,Chicago.,0.9962839058855845,1.0
+trivia_qa_229,42,1.0,10.0,A truffle is a type of fungi.,0.9800209253992909,1.0
+trivia_qa_229,43,1.0,14.0,A truffle is a type of underground fungal fruiting body.,0.885647642283776,1.0
+trivia_qa_112,42,1.0,13.0,"The Belvedere Gallery is located in Vienna, Austria.",0.994812828462276,1.0
+trivia_qa_112,43,1.0,13.0,"The Belvedere Gallery is located in Vienna, Austria.",0.994812828462276,1.0
+trivia_qa_214,42,1.0,35.0,"The crusade led by Philip II Augustus of France and Richard I of England was the Third Crusade, which took place in the late 12th century.",0.9860413138883108,1.0
+trivia_qa_214,43,1.0,35.0,"The crusade led by Philip II Augustus of France and Richard I of England was the Third Crusade, which took place in the late 12th century.",0.9860413138883108,1.0
+trivia_qa_486,42,1.0,17.0,Bruce was the name of the mechanical shark used in the original Jaws film.,0.9935561570449262,1.0
+trivia_qa_486,43,1.0,17.0,Bruce was the name of the mechanical shark used in the original Jaws film.,0.9935561570449262,1.0
+trivia_qa_359,42,0.0,18.0,The final event in a decathlon is the 1500 meters race.,0.4246048945112879,0.0
+trivia_qa_359,43,0.0,18.0,The final event in a decathlon is the 1500 meters race.,0.4220632997133634,0.0
+trivia_qa_332,42,1.0,40.0,"In 1976, Nadia Comaneci scored seven perfect 10s and won three gold medals, one silver, and one bronze in gymnastics at the Montreal Olympics.",0.5420704563492104,1.0
+trivia_qa_332,43,1.0,40.0,"In 1976, Nadia Comaneci scored seven perfect 10s and won three gold medals, one silver, and one bronze in gymnastics at the Montreal Olympics.",0.49039913586977973,1.0
+trivia_qa_366,42,1.0,33.0,"The act that won the Eurovision Song Contest for the United Kingdom singing ""Love Shine A Light"" was Katrina and the Waves in 1997.",0.9883673585626774,1.0
+trivia_qa_366,43,1.0,33.0,"The act that won the Eurovision Song Contest for the United Kingdom singing ""Love Shine A Light"" was Katrina and the Waves in 1997.",0.9883673585626774,1.0
+trivia_qa_101,42,1.0,26.0,"Joan Crawford's career was revived with her performance in ""Whatever Happened to Baby Jane?"" (1962).",0.9947782043855192,1.0
+trivia_qa_101,43,1.0,26.0,"Joan Crawford's career was revived with her performance in ""Whatever Happened to Baby Jane?"" (1962).",0.9941636300571972,1.0
+trivia_qa_287,42,1.0,18.0,The first edition of the Encyclopedia Britannica was published in 1768.,0.9913606299723342,1.0
+trivia_qa_287,43,1.0,18.0,The first edition of the Encyclopedia Britannica was published in 1768.,0.9916994496602966,1.0
+trivia_qa_13,42,1.0,13.0,The flag of Libya is a plain rectangle of green color.,0.9949761514603623,1.0
+trivia_qa_13,43,1.0,13.0,The flag of Libya is a plain rectangle of green color.,0.9949761514603623,1.0
+trivia_qa_308,42,1.0,24.0,"The medical name for the thigh bone, which is the longest bone in the human body, is the femur.",0.9932275181446899,1.0
+trivia_qa_308,43,1.0,24.0,"The medical name for the thigh bone, which is the longest bone in the human body, is the femur.",0.9932275181446899,1.0
+trivia_qa_258,42,0.0,10.0,Radium sometimes occurs naturally in spring water.,0.1672903670805864,0.0
+trivia_qa_258,43,0.0,10.0,Radium sometimes occurs naturally in spring water.,0.16729036708058645,0.0
+trivia_qa_119,42,0.0,32.0,"In the late 1960s, Owen Finlay MacLaren pioneered the baby carrier, which has been useful for parents of small children.",0.2348064070691816,0.0
+trivia_qa_119,43,0.0,33.0,"In the late 1960s, Owen Finlay MacLaren pioneered the baby bjorn, specifically a baby carrier that allows hands-free parenting.",0.23453875527115536,0.0
+trivia_qa_111,42,0.0,21.0,"The Harvard-Yale football game was first held at Worcester, Massachusetts in 1927.",0.3034125075644537,0.0
+trivia_qa_111,43,0.0,31.0,"The Boston Basketball Classic, precursor to the NCAA Division I Men's Basketball Championship, was first held in Worcester, Massachusetts in 1927.",0.09519265169849409,0.0
+trivia_qa_47,42,1.0,20.0,"In 1990, Richard Noble broke the land speed record with Thrust2.",0.9924874679194983,1.0
+trivia_qa_47,43,1.0,20.0,"In 1990, Richard Noble broke the land speed record with Thrust2.",0.9723863809259977,1.0
+trivia_qa_15,42,0.0,25.0,The director of the CIA from 1976 to 1981 was William E. Colby.,0.11835241217079477,0.0
+trivia_qa_15,43,0.0,25.0,The director of the CIA from 1976 to 1981 was William E. Colby.,0.11555737295306828,0.0
+trivia_qa_16,42,1.0,20.0,"The musical that featured the song ""The Street Where You Live"" is ""My Fair Lady.""",0.985488497442043,1.0
+trivia_qa_16,43,1.0,20.0,"The musical that featured the song ""The Street Where You Live"" is ""My Fair Lady.""",0.985488497442043,1.0
+trivia_qa_216,42,1.0,19.0,Harold II lost his life in the Battle of Hastings in 1066.,0.9940733403634986,1.0
+trivia_qa_216,43,1.0,19.0,Harold II lost his life in the Battle of Hastings in 1066.,0.9940733403634986,1.0
+trivia_qa_302,42,1.0,9.0,Thailand was once called Siam.,0.9946736623544173,1.0
+trivia_qa_302,43,1.0,9.0,Thailand was once called Siam.,0.9946736623544173,1.0
+trivia_qa_44,42,0.0,30.0,"The Red Hot Chili Peppers were founded by Anthony Kiedis, along with Hillel Slovak, Jack Irons, and Flea.",0.07866757933713245,0.0
+trivia_qa_44,43,0.0,15.0,The Red Hot Chili Peppers were founded by Anthony Kiedis.,0.10996170583106697,0.0
+trivia_qa_279,42,0.0,52.0,"To complete a leg from 501 in darts, a person needs to throw a minimum of 3 darts, hitting a 170 (Triple 20) each time, bringing the score to 501 exactly.",0.413046101577919,0.0
+trivia_qa_279,43,0.0,52.0,"To complete a leg from 501 in darts, a person needs to throw a minimum of 3 darts, hitting a 170 (Triple 20) each time, bringing the score to 501 exactly.",0.5007226523348172,0.0
+trivia_qa_456,42,1.0,10.0,India is the largest producer of mangoes.,0.9948766159293733,1.0
+trivia_qa_456,43,1.0,10.0,India is the largest producer of mangoes.,0.9948766159293733,1.0
+trivia_qa_496,42,0.0,21.0,"Mrs. Merton on ""The Mary Tyler Moore Show"" was played by actress Eva Gabor.",0.0920487854237538,0.0
+trivia_qa_496,43,0.0,23.0,"The character Mrs. Merton on the TV show ""Three's Company"" was played by actress Iris Barry.",0.05850596741122904,0.0
+trivia_qa_346,42,0.0,13.0,The bottom stripe on the U.S. flag is white.,0.07417606058919671,0.0
+trivia_qa_346,43,0.0,13.0,The bottom stripe on the U.S. flag is white.,0.07417606058919668,0.0
+trivia_qa_52,42,0.0,13.0,"Too Short had a ""Too Legit To Quit Tour.""",0.2055712324882254,0.0
+trivia_qa_52,43,0.0,13.0,"Too Short had a ""Too Legit To Quit Tour.""",0.2055712324882254,0.0
+trivia_qa_377,42,1.0,16.0,A Christmas Carol by Charles Dickens features the character of Bob Cratchit.,0.9926679436985619,1.0
+trivia_qa_377,43,1.0,16.0,A Christmas Carol by Charles Dickens features the character of Bob Cratchit.,0.9926679436985619,1.0
+trivia_qa_71,42,1.0,25.0,"The youngest brother in the Beach Boys was Carl Wilson, born on November 28, 1945.",0.6166078910175669,1.0
+trivia_qa_71,43,1.0,24.0,"The youngest brother in the Beach Boys was Carl Wilson, born on August 7, 1945.",0.5103015509260004,1.0
+trivia_qa_114,42,0.0,25.0,"Katharine Hepburn won her second Oscar for the movie ""The African Queen"" in 1952.",0.1062637707325064,0.0
+trivia_qa_114,43,0.0,25.0,"Katharine Hepburn won her second Oscar for the movie ""The African Queen"" in 1952.",0.10626323541249308,0.0
+trivia_qa_125,42,0.0,22.0,Pete Sampras was seeded fourth when he won his first US Open in 1990.,0.1095966706967192,0.0
+trivia_qa_125,43,0.0,24.0,Pete Sampras was seeded 2nd when he won his first US Open in 1990.,0.08515487470065926,0.0
+trivia_qa_140,42,1.0,17.0,Pete Sampras beat Tim Henman in his first Wimbledon singles semifinal.,0.9441484432133559,1.0
+trivia_qa_140,43,1.0,17.0,Pete Sampras beat Tim Henman in his first Wimbledon singles semifinal.,0.9350899166301895,1.0
+trivia_qa_379,42,0.0,36.0,"The Christmas song that includes the line ""It seems so long since I could say 'sister Susie sitting on a thistle'"" is ""The Twelve Days of Christmas.""",0.06796431248455395,0.0
+trivia_qa_379,43,0.0,38.0,"The Christmas song that includes the line ""It seems so long since I could say 'sister Susie sitting on a thistle'"" is ""The 12 Days of Christmas.""",0.07026413704394491,0.0
+trivia_qa_12,42,1.0,17.0,Mount Kilimanjaro is the highest mountain in Africa and is a volcano.,0.9954702609194375,1.0
+trivia_qa_12,43,1.0,17.0,Mount Kilimanjaro is the highest mountain in Africa and is a volcano.,0.9960079752350719,1.0
+trivia_qa_57,42,0.0,15.0,"River Phoenix died during the filming of ""Ghosts of the Abyss.""",0.341801828936585,0.0
+trivia_qa_57,43,0.0,15.0,"River Phoenix died during the filming of ""Iowa in the Rain.""",0.5767380370441514,0.0
+trivia_qa_327,42,1.0,25.0,"The theme tune to ""Only Fools and Horses"" starts with the line ""Stick a penny in my ear.""",0.06594361655630812,0.0
+trivia_qa_327,43,1.0,25.0,"The theme tune to ""Only Fools and Horses"" starts with the line ""Stick a penny in my ear.""",0.06435477255590093,0.0

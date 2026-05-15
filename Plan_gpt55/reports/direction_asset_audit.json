@@ -1,0 +1,170 @@
+{
+  "metadata": {
+    "run_dir": "/zhutingqi/song/layer_level/output/run_20260403_050400",
+    "split_manifest_path": "/zhutingqi/song/ITI_for_entropy/Plan_A/artifacts/feat_plus_mlpdown_entropy_weighted/split_manifest.json",
+    "semantic_high_quantile": 0.67,
+    "semantic_high_threshold": 0.6654030680656433,
+    "gate_entropy_quantile": 0.67,
+    "gate_entropy_threshold": 0.1006811335682869,
+    "feature_sites": [
+      {
+        "location": "mlp.output",
+        "layer": 18
+      },
+      {
+        "location": "mlp.output",
+        "layer": 24
+      }
+    ],
+    "train_question_count": 139
+  },
+  "split_overlap": {
+    "mode": "all_rows",
+    "selected_count": 200,
+    "overlap": {
+      "train": 139,
+      "val": 30,
+      "test": 31
+    }
+  },
+  "sites": [
+    {
+      "site_key": "mlp.output|layer_18",
+      "location": "mlp.output",
+      "layer": 18,
+      "raw_norm": 4.702187538146973,
+      "median_step_norm": 29.88707160949707,
+      "positive_count": 46,
+      "negative_count": 93,
+      "positive_ratio": 0.33093525179856115,
+      "projection_mean": -1.1123554301347665,
+      "projection_std": 3.386194001362763,
+      "projection_q05": -7.167273998260498,
+      "projection_q50": -0.7903555631637573,
+      "projection_q95": 3.5614795684814453,
+      "positive_projection_mean": 2.0337124531683712,
+      "negative_projection_mean": -2.668475028327716,
+      "projection_separation": 4.702187481496088,
+      "projection_cohen_d": 1.9190632392266374,
+      "top_abs_projection_questions": [
+        {
+          "question_id": "trivia_qa_187",
+          "projection": -10.30255126953125,
+          "semantic_entropy_weighted": 0.0,
+          "is_positive": false
+        },
+        {
+          "question_id": "trivia_qa_35",
+          "projection": -7.956399917602539,
+          "semantic_entropy_weighted": 1.1102230246251564e-16,
+          "is_positive": false
+        },
+        {
+          "question_id": "trivia_qa_20",
+          "projection": -7.922896862030029,
+          "semantic_entropy_weighted": -2.220446049250313e-16,
+          "is_positive": false
+        },
+        {
+          "question_id": "trivia_qa_76",
+          "projection": -7.772815704345703,
+          "semantic_entropy_weighted": 1.1102230246251564e-16,
+          "is_positive": false
+        },
+        {
+          "question_id": "trivia_qa_49",
+          "projection": -7.583304405212402,
+          "semantic_entropy_weighted": 2.220446049250313e-16,
+          "is_positive": false
+        },
+        {
+          "question_id": "trivia_qa_191",
+          "projection": -7.304256916046143,
+          "semantic_entropy_weighted": 0.0,
+          "is_positive": false
+        },
+        {
+          "question_id": "trivia_qa_162",
+          "projection": -7.245819091796875,
+          "semantic_entropy_weighted": 2.220446049250313e-16,
+          "is_positive": false
+        },
+        {
+          "question_id": "trivia_qa_89",
+          "projection": -7.1585469245910645,
+          "semantic_entropy_weighted": 1.1102230246251564e-16,
+          "is_positive": false
+        }
+      ]
+    },
+    {
+      "site_key": "mlp.output|layer_24",
+      "location": "mlp.output",
+      "layer": 24,
+      "raw_norm": 23.95345115661621,
+      "median_step_norm": 102.55055236816406,
+      "positive_count": 46,
+      "negative_count": 93,
+      "positive_ratio": 0.33093525179856115,
+      "projection_mean": -19.25920191214239,
+      "projection_std": 19.065591073239382,
+      "projection_q05": -46.54659652709961,
+      "projection_q50": -22.671756744384766,
+      "projection_q95": 21.297908782958984,
+      "positive_projection_mean": -3.2327888271083003,
+      "negative_projection_mean": -27.186244943449573,
+      "projection_separation": 23.953456116341272,
+      "projection_cohen_d": 1.4619896675096238,
+      "top_abs_projection_questions": [
+        {
+          "question_id": "trivia_qa_46",
+          "projection": -61.88658905029297,
+          "semantic_entropy_weighted": 0.0,
+          "is_positive": false
+        },
+        {
+          "question_id": "trivia_qa_191",
+          "projection": -53.03506851196289,
+          "semantic_entropy_weighted": 0.0,
+          "is_positive": false
+        },
+        {
+          "question_id": "trivia_qa_89",
+          "projection": -50.82893753051758,
+          "semantic_entropy_weighted": 1.1102230246251564e-16,
+          "is_positive": false
+        },
+        {
+          "question_id": "trivia_qa_187",
+          "projection": -50.14202880859375,
+          "semantic_entropy_weighted": 0.0,
+          "is_positive": false
+        },
+        {
+          "question_id": "trivia_qa_76",
+          "projection": -49.282371520996094,
+          "semantic_entropy_weighted": 1.1102230246251564e-16,
+          "is_positive": false
+        },
+        {
+          "question_id": "trivia_qa_35",
+          "projection": -49.02296447753906,
+          "semantic_entropy_weighted": 1.1102230246251564e-16,
+          "is_positive": false
+        },
+        {
+          "question_id": "trivia_qa_108",
+          "projection": -48.35833740234375,
+          "semantic_entropy_weighted": 1.1102230246251564e-16,
+          "is_positive": false
+        },
+        {
+          "question_id": "trivia_qa_154",
+          "projection": -46.34529113769531,
+          "semantic_entropy_weighted": 0.0,
+          "is_positive": false
+        }
+      ]
+    }
+  ]
+}

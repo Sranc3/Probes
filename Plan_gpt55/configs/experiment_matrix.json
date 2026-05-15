@@ -1,0 +1,153 @@
+{
+  "project": "Plan_gpt55",
+  "purpose": "New experiment roadmap after fixed ITI diagnosis",
+  "global_principles": {
+    "do_not_claim_fallback_as_success": true,
+    "pure_heldout_first": true,
+    "semantic_entropy_is_breadth_not_primary_minimize_target": true,
+    "elapsed_ms_requires_cache_aware_validation": true
+  },
+  "shared_paths": {
+    "run_dir": "/zhutingqi/song/layer_level/output/run_20260403_050400",
+    "split_manifest": "/zhutingqi/song/ITI_for_entropy/Plan_A/artifacts/feat_plus_mlpdown_entropy_weighted/split_manifest.json",
+    "model_dir": "/zhutingqi/song/qwen_model/model",
+    "deberta_model_dir": "/zhutingqi/song/DeBERTa_model/model"
+  },
+  "success_criteria": {
+    "correctness_non_drop_rate": 1.0,
+    "exact_non_drop_rate": 1.0,
+    "answer_change_rate_min": 0.1,
+    "semantic_band_success_rate_min": 0.8,
+    "token_mean_nonpositive_rate_min": 0.67,
+    "token_max_nonpositive_rate_min": 0.5,
+    "safety_success_rate_min": 0.67,
+    "effect_abs_mean_over_std_min": 0.2
+  },
+  "experiments": [
+    {
+      "id": "phase1a_pure_heldout_fixed_iti",
+      "priority": 1,
+      "status": "planned",
+      "doc": "/zhutingqi/song/Plan_gpt55/experiments/phase1_fixed_iti_recheck.md",
+      "goal": "Recheck fixed ITI candidates on pure test split.",
+      "split": "test",
+      "seeds": [42, 43, 52, 53, 54],
+      "num_questions": "all_test",
+      "semantic_num_samples": 8,
+      "trace_max_new_tokens": 80,
+      "semantic_max_new_tokens": 96,
+      "candidates": [
+        {
+          "name": "baseline",
+          "type": "no_intervention"
+        },
+        {
+          "name": "cand008_primary",
+          "type": "fixed_iti",
+          "site_keys": ["mlp.output|layer_18", "mlp.output|layer_24"],
+          "target_mode": "increase_semantic_high",
+          "alpha_scale": 0.005,
+          "gate_entropy_quantile": 0.67
+        },
+        {
+          "name": "ind0067_safety_pareto",
+          "type": "fixed_iti",
+          "site_keys": ["mlp.output|layer_18", "mlp.output|layer_24"],
+          "target_mode": "reduce_semantic_high",
+          "alpha_scale": 0.007029674339123061,
+          "gate_entropy_quantile": 0.67,
+          "site_weights": {
+            "mlp.output|layer_18": 0.9163404703140259,
+            "mlp.output|layer_24": 1.0427833795547485
+          }
+        }
+      ],
+      "decision": "If weak answer_change_rate persists, stop fixed ITI as deployment route."
+    },
+    {
+      "id": "phase1b_gate_ablation",
+      "priority": 2,
+      "status": "planned",
+      "doc": "/zhutingqi/song/Plan_gpt55/experiments/phase1_gate_alpha_ablation.md",
+      "goal": "Test whether fixed ITI failure is caused by crude gate policy.",
+      "split": "test",
+      "seeds": [42, 43, 52],
+      "semantic_num_samples": 8,
+      "gate_variants": [
+        "always",
+        "prev_entropy_q50",
+        "prev_entropy_q67",
+        "prev_entropy_q80",
+        "trend_up",
+        "position_late"
+      ],
+      "base_candidates": ["cand008_primary", "ind0067_safety_pareto"],
+      "decision": "If any gate aligns event density with safe hesitation reduction, proceed to learned controller."
+    },
+    {
+      "id": "phase1c_alpha_sign_stress",
+      "priority": 3,
+      "status": "planned",
+      "doc": "/zhutingqi/song/Plan_gpt55/experiments/phase1_gate_alpha_ablation.md",
+      "goal": "Check whether alpha/sign/site effects are smooth and interpretable.",
+      "split": "test",
+      "seeds": [42, 43, 52],
+      "alpha_grid": [0.001, 0.0025, 0.005, 0.0075, 0.01, 0.015],
+      "target_modes": ["increase_semantic_high", "reduce_semantic_high"],
+      "site_sets": [
+        ["mlp.output|layer_18"],
+        ["mlp.output|layer_24"],
+        ["mlp.output|layer_18", "mlp.output|layer_24"]
+      ],
+      "decision": "No smooth trend means fixed direction is not a reliable control knob."
+    },
+    {
+      "id": "phase2a_decoding_reranking",
+      "priority": 4,
+      "status": "planned",
+      "doc": "/zhutingqi/song/Plan_gpt55/experiments/phase2_controller_reranking.md",
+      "goal": "Use entropy signals without hidden-state intervention.",
+      "split": "test",
+      "seeds": [42, 43, 52],
+      "num_samples_per_question": 8,
+      "methods": [
+        "single_sample_baseline",
+        "random_of_n",
+        "best_of_n_logprob",
+        "semantic_cluster_majority",
+        "low_entropy_answer",
+        "cluster_then_entropy"
+      ],
+      "decision": "If reranking beats fixed ITI, prioritize output-level control."
+    },
+    {
+      "id": "phase2b_offline_controller",
+      "priority": 5,
+      "status": "planned",
+      "doc": "/zhutingqi/song/Plan_gpt55/experiments/phase2_controller_reranking.md",
+      "goal": "Train offline classifier to predict safe intervention actions.",
+      "input_artifacts": [
+        "phase1a_pure_heldout_fixed_iti",
+        "phase1b_gate_ablation",
+        "phase1c_alpha_sign_stress"
+      ],
+      "model_family": ["logistic_regression", "small_mlp"],
+      "label_rule": "correctness_non_drop_and_hesitation_reduction_within_semantic_band",
+      "decision": "Only build online controller if offline prediction beats random and majority baselines."
+    },
+    {
+      "id": "phase3_distillation_sft",
+      "priority": 6,
+      "status": "conditional",
+      "doc": "/zhutingqi/song/Plan_gpt55/experiments/phase3_distillation_sft.md",
+      "entry_condition": "phase2a or phase2b must show stable improvement",
+      "candidate_objectives": [
+        "teacher_generated_sft",
+        "preference_distillation",
+        "confidence_weighted_sft",
+        "answer_level_reranking_distillation"
+      ],
+      "decision": "Do not train unless prior phases produce stable correctness-preserving behavior."
+    }
+  ]
+}

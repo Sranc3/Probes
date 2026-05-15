@@ -1,0 +1,97 @@
+# =============================================================================
+# Project-specific large artefacts — DO NOT COMMIT
+# =============================================================================
+
+# --- Model weights (multi-GB each, fetch from HF Hub instead) -----------------
+qwen_model/
+gpt-oss-120b/
+gpt-oss-20b/
+Llama-3.2-3B-Instruct/
+Qwen2.5-72B-Instruct/
+DeBERTa_model/
+**/checkpoints/
+**/*.safetensors
+**/*.bin
+**/*.gguf
+
+# --- Datasets (host on HF / use download script instead) ---------------------
+datasets/
+**/processed/
+
+# --- Hidden-state caches & teacher generations (~hundreds of MB to GB) ------
+option_2_teacher_free_distill/runs/qwen7b/
+option_2_teacher_free_distill/runs/qwen72b/
+option_2_teacher_free_distill/runs/llama3b/
+option_2_teacher_free_distill/runs/*.npz
+option_2_teacher_free_distill/runs/teacher_oss120b_*.jsonl
+option_2_teacher_free_distill/runs/logs/
+
+# --- Plan_gpt55 anchor pipeline runs (each ~tens of MB) ---------------------
+Plan_gpt55/cross_model_anchor/runs/
+Plan_gpt55/candidate_space_analysis/runs/
+Plan_gpt55/basin_grpo/runs/
+
+# --- Plan_opus training run logs --------------------------------------------
+Plan_opus/runs_logs/
+Plan_opus/runs/
+Plan_opus_selective/runs/
+Plan_opus_selective/output/
+
+# --- Misc historical / abandoned working dirs (ITI old route, big & not in narrative) ---
+ITI_for_entropy/
+cand008_deploy_eval_v1/
+layer_level/
+output/
+set/
+memo/
+token_entropy_calculate/
+semantic_entropy_calculate/
+
+# --- Local notes / memos (private, not paper material) ----------------------
+plan/
+memo_for_paper/
+
+# --- Big PDFs reference papers ----------------------------------------------
+*.pdf
+
+# =============================================================================
+# Python
+# =============================================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints
+
+# =============================================================================
+# Editor / OS
+# =============================================================================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# =============================================================================
+# Logs and tmp
+# =============================================================================
+
+*.log
+nohup.out
+tmp/
+.tmp/

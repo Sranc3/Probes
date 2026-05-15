@@ -1,0 +1,28 @@
+{
+  "tag": "phase2a_reranking_hotpotqa_transfer50_context1200_qwen25",
+  "description": "HotpotQA dev distractor transfer smoke: 50 context-grounded questions x 2 seeds, context truncated to 1200 chars, max_new_tokens 48.",
+  "model_dir": "/zhutingqi/song/qwen_model/model",
+  "deberta_model_dir": "/zhutingqi/song/DeBERTa_model/model",
+  "run_dir": "/zhutingqi/song/Plan_gpt55/candidate_space_analysis/runs/hotpotqa_dev_distractor_context1200_batch50",
+  "split_manifest": "/zhutingqi/song/ITI_for_entropy/Plan_A/artifacts/feat_plus_mlpdown_entropy_weighted/split_manifest.json",
+  "evaluation": {
+    "selection_mode": "all_rows",
+    "split": "test",
+    "num_questions": 50,
+    "offset": 0,
+    "seeds": [42, 43],
+    "num_samples": 8,
+    "max_new_tokens": 48,
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "system_prompt": "Answer the question briefly and factually using the provided context when it is relevant."
+  },
+  "methods": [
+    "single_sample_baseline",
+    "random_of_n",
+    "best_of_n_logprob",
+    "semantic_cluster_majority",
+    "low_token_mean_entropy",
+    "cluster_then_low_entropy"
+  ]
+}
